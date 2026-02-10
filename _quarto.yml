@@ -31,7 +31,7 @@ website:
   page-navigation: true
   
   page-footer: 
-    left: "[Matías Montero](https://matiasmontero.github.io) &copy; <script>document.write(new Date().getFullYear())</script>" 
+    left: "[Matías Montero](https://monteromati.github.io) &copy; <script>document.write(new Date().getFullYear())</script>" 
     center: "Actualizado en Quarto por Matías Montero"
     right:  
       - icon: github
@@ -60,7 +60,7 @@ website:
   twitter-card: true 
 #  card-style: summary      
   
-  site-url: "https://matiasmontero.github.io"
+  site-url: "https://monteromati.github.io"
   
   google-analytics:
     tracking-id: ""  # Please delete or replace with your own tracking ID
