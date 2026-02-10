@@ -1,0 +1,22 @@
+---
+title: "Avance sobre datos sociales 2025"
+description: "Resumen de lo más reciente en la recolección y visualización de datos sociales."
+author: "Mat"
+date: "2025-11-26"
+categories: [news]
+image: "/files/images/placeholder4.jpg"
+---
+
+## Resumen
+Esta semana comparto una actualización sobre la recolección de datos sociales que hemos venido trabajando. Publicamos nuevos scripts de limpieza, añadimos anotaciones de calidad y generamos una primera serie de visualizaciones para el equipo, lo que nos permite comunicar mejor los patrones emergentes.
+
+## Qué sigue
+- Documentar el proceso de verificación y sincronizarlo con el repositorio principal para que otros puedan reproducirlo.
+- Compartir un breve cuaderno con los resultados preliminares en la sección de `posts` del sitio.
+- Planificar un taller interno para discutir cómo integrarlo a la próxima cátedra.
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}
+
+

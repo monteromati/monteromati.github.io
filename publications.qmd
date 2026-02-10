@@ -1,0 +1,116 @@
+---
+title: "Publications"
+page-navigation: true
+toc: false
+---
+
+```{=html}
+<div id="language-switcher">
+  <button id="lang-en" onclick="switchLanguage('en')" class="lang-btn active">🇬🇧 EN</button>
+  <button id="lang-es" onclick="switchLanguage('es')" class="lang-btn">🇪🇸 ES</button>
+</div>
+
+<style>
+#language-switcher {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  display: flex;
+  gap: 8px;
+  background: white;
+  padding: 4px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.lang-btn {
+  background: white;
+  border: 2px solid #ddd;
+  padding: 8px 14px;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  font-weight: normal;
+  color: #333;
+}
+
+.lang-btn:hover {
+  background: #f5f5f5;
+  border-color: #999;
+}
+
+.lang-btn.active {
+  background: #0066cc;
+  color: white;
+  border-color: #0066cc;
+  font-weight: bold;
+}
+</style>
+
+<script>
+let currentLang = 'en';
+
+function switchLanguage(lang) {
+  currentLang = lang;
+  document.querySelectorAll('[data-lang]').forEach(el => {
+    if (el.getAttribute('data-lang') === lang) {
+      el.style.display = '';
+    } else {
+      el.style.display = 'none';
+    }
+  });
+  document.getElementById('lang-en').classList.toggle('active', lang === 'en');
+  document.getElementById('lang-es').classList.toggle('active', lang === 'es');
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  switchLanguage('en');
+});
+</script>
+```
+
+<div data-lang="en">
+
+## Journal Articles
+
+- Ortega, L., Montero, M., Romero, A., Canals, C. & Mizala, A. (2026). *Pathways to Gender Equity in Latin America and the Caribbean: A Comparative Analysis of Trends in Mathematics Gender Gaps Using PISA Data*. Studies in Educational Evaluation.
+
+- Zelada, C., Ortega, L., & Montero, M. (2025). *The Unfulfilled “Chilean Dream”? Inequalities and Institutional Segregation in the Transitions of Foreign Students to Higher Education in Chile*. Education Policy Analysis Archives, 33. https://doi.org/10.14507/epaa.33.8520
+
+- Ortega, L., Montero, M., Canals, C. & Mizala, A. (2025). *Gender Segregation in Secondary School Course Choices: Socioeconomic Gradients and the Protective Role of School Gender Culture*. American Educational Research Journal, 62(3), 499–539. https://doi.org/10.3102/00028312241308537
+
+- Ortega, L., Guzmán-Valenzuela, C., Montero, M., Palacios, D., & Ortiz Ruiz, F. (2025). *Looking beyond representation: Gender inequities in research attrition, output, leadership, and collaboration in Chilean education researchers’ career trajectories*. Journal of Diversity in Higher Education, 18(Suppl 1), S709–S723. https://doi.org/10.1037/dhe0000617
+
+- Bustos-Ibarra, A., Montenegro, C., Ciga, E., Calfual-Catalán, C., Jarpa-Azagra, M., Fernández M., Olivares-Jiménez, J. & Montero, M. (2024). *¿Es posible transformar las prácticas en las aulas de primaria? El caso de un programa para formadores de lectores*. Profesorado.
+
+- Jarpa-Azagra, M., Bustos-Ibarra, A., Olivares-Jiménez, J., Calfual-Catalán, K. & Montero, M. (2024). *To Promote Pedagogical Reflection to Improve Classroom Practices Based on Professional Teaching Writing*. Revista Mexicana de Investigación Educativa, 29(102), 657–681.
+
+- Guzmán-Valenzuela, C., Ortega, L., Montero, M. & Pérez Mejías, P. (2023). *The new knowledge production in the social sciences and in the arts and humanities in Latin America*. Higher Education, 85(3), 587–612. https://doi.org/10.1007/s10734-022-00853-5
+
+- Retamales, M., Correa, C., Montero, M., & Omonte, F. (2020). *On the intertwining of the political subject and the socio-political matrix*. Revista de Ciencias Sociales, 28(43), 34–57.
+
+</div>
+
+<div data-lang="es" style="display: none;">
+
+## Artículos en revistas
+
+- Ortega, L., Montero, M., Romero, A., Canals, C. & Mizala, A. (2026). *Pathways to Gender Equity in Latin America and the Caribbean: A Comparative Analysis of Trends in Mathematics Gender Gaps Using PISA Data*. Studies in Educational Evaluation.
+
+- Zelada, C., Ortega, L., & Montero, M. (2025). *The Unfulfilled “Chilean Dream”? Inequalities and Institutional Segregation in the Transitions of Foreign Students to Higher Education in Chile*. Education Policy Analysis Archives, 33. https://doi.org/10.14507/epaa.33.8520
+
+- Ortega, L., Montero, M., Canals, C. & Mizala, A. (2025). *Gender Segregation in Secondary School Course Choices: Socioeconomic Gradients and the Protective Role of School Gender Culture*. American Educational Research Journal, 62(3), 499–539. https://doi.org/10.3102/00028312241308537
+
+- Ortega, L., Guzmán-Valenzuela, C., Montero, M., Palacios, D., & Ortiz Ruiz, F. (2025). *Looking beyond representation: Gender inequities in research attrition, output, leadership, and collaboration in Chilean education researchers’ career trajectories*. Journal of Diversity in Higher Education, 18(Suppl 1), S709–S723. https://doi.org/10.1037/dhe0000617
+
+- Bustos-Ibarra, A., Montenegro, C., Ciga, E., Calfual-Catalán, C., Jarpa-Azagra, M., Fernández M., Olivares-Jiménez, J. & Montero, M. (2024). *¿Es posible transformar las prácticas en las aulas de primaria? El caso de un programa para formadores de lectores*. Profesorado.
+
+- Jarpa-Azagra, M., Bustos-Ibarra, A., Olivares-Jiménez, J., Calfual-Catalán, K. & Montero, M. (2024). *To Promote Pedagogical Reflection to Improve Classroom Practices Based on Professional Teaching Writing*. Revista Mexicana de Investigación Educativa, 29(102), 657–681.
+
+- Guzmán-Valenzuela, C., Ortega, L., Montero, M. & Pérez Mejías, P. (2023). *The new knowledge production in the social sciences and in the arts and humanities in Latin America*. Higher Education, 85(3), 587–612. https://doi.org/10.1007/s10734-022-00853-5
+
+- Retamales, M., Correa, C., Montero, M., & Omonte, F. (2020). *On the intertwining of the political subject and the socio-political matrix*. Revista de Ciencias Sociales, 28(43), 34–57.
+
+</div>

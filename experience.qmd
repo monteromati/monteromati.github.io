@@ -1,0 +1,185 @@
+---
+title: "Experience"
+page-navigation: true
+toc: false
+---
+
+```{=html}
+<div id="language-switcher">
+  <button id="lang-en" onclick="switchLanguage('en')" class="lang-btn active">🇬🇧 EN</button>
+  <button id="lang-es" onclick="switchLanguage('es')" class="lang-btn">🇪🇸 ES</button>
+</div>
+
+<style>
+#language-switcher {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  display: flex;
+  gap: 8px;
+  background: white;
+  padding: 4px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.lang-btn {
+  background: white;
+  border: 2px solid #ddd;
+  padding: 8px 14px;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  font-weight: normal;
+  color: #333;
+}
+
+.lang-btn:hover {
+  background: #f5f5f5;
+  border-color: #999;
+}
+
+.lang-btn.active {
+  background: #0066cc;
+  color: white;
+  border-color: #0066cc;
+  font-weight: bold;
+}
+</style>
+
+<script>
+let currentLang = 'en';
+
+function switchLanguage(lang) {
+  currentLang = lang;
+  document.querySelectorAll('[data-lang]').forEach(el => {
+    if (el.getAttribute('data-lang') === lang) {
+      el.style.display = '';
+    } else {
+      el.style.display = 'none';
+    }
+  });
+  document.getElementById('lang-en').classList.toggle('active', lang === 'en');
+  document.getElementById('lang-es').classList.toggle('active', lang === 'es');
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  switchLanguage('en');
+});
+</script>
+```
+
+<div data-lang="en">
+
+## Current Roles
+
+**DPhil Student in Education**  
+Department of Education, University of Oxford | Oxford, United Kingdom  
+- Doctoral research on inequalities in education, social networks, and students’ trajectories in academically selective and stratified systems.
+
+**Doctoral Teaching Fellow**  
+Department of Education, University of Oxford | Oct 2025 – Current  
+- Co-teaches Introduction to Quantitative Research and Intermediate Quantitative Research in the PhD and MSc in Education programmes.  
+- Supports postgraduate students in the design and implementation of quantitative research in education.
+
+## Selected Research Projects (Last 3 Years)
+
+**The British Academy Pump Priming Collaboration between UK and EU Partners Scheme N° PPHE26\100097**  
+*Making Europe a Global Magnet for International Students* | Feb 2026 – Current  
+PI: Professor Rachel Brooks (Department of Education, University of Oxford).
+
+**The British Academy Postdoctoral Fellowship N° PFSS25\250031**  
+*From Access to Inclusion: Cross-Class Dynamics in Academically Selective Institutions* | Dec 2025 – Feb 2026  
+PI: Paulina Rodríguez (Department of Education, University of Oxford).
+
+**Puente Funding Scheme Project 2025**  
+*Support and Care Networks among Older Adults: A Literature Review on Sibling Bonds* | Nov 2025 – Feb 2026  
+PI: Francisca Ortiz (Centre for Economy and Social Policy, Universidad Mayor).  
+Funding: Vice-Rectorate for Research, General Directorate of Research and Artistic Creation, Universidad Mayor.
+
+**EthOS Project**  
+Institute of Advanced Study, Durham University | Nov 2025 – Mar 2026  
+PI: Professor Catherine Montgomery.
+
+**Gender Segregation Between Knowledge Areas in Chilean Academic Secondary Education: Background, Moderators and Consequences**  
+FONDECYT Regular Grant Nº 1231930 | Apr 2023 – Oct 2024  
+Funded by the Chilean National Agency for Research and Development (ANID).  
+PI: Lorena Ortega.
+
+**Impact Evaluation of the STEM Gender Programme on Female 10th-graders and STEM Teachers**  
+UNDP-CHL-00141 | Aug 2025 – Jan 2026  
+United Nations Development Programme (UNDP) and Chile’s Ministry of Education.  
+PI: Pilar Reyes (CIAE, Universidad de Chile).
+
+**Learning Achievements from Migrant Students**  
+Nov 2025 – Jan 2026  
+Funded by the Chilean Education Quality Assurance Agency, Chilean Ministry of Education.  
+PI: Lorena Ortega (CIAE, Institute for Advanced Studies in Education, Universidad de Chile).
+
+## Visiting Position
+
+**Visiting Doctoral Student**  
+Institute of Sociology, Pontificia Universidad Católica de Chile  
+Academic Host: Dr Alejandro Espinosa Rada.  
+- Collaborated on the FONDECYT Postdoctoral Grant 3250037: *Isolation and Social Groups in a University Community*.
+
+</div>
+
+<div data-lang="es" style="display: none;">
+
+## Roles Actuales
+
+**Estudiante de Doctorado en Educación (DPhil)**  
+Department of Education, University of Oxford | Oxford, Reino Unido  
+- Investigación doctoral sobre desigualdades educativas, redes sociales y trayectorias estudiantiles en sistemas académicamente selectivos y estratificados.
+
+**Fellow de Docencia Doctoral**  
+Department of Education, University of Oxford | Oct 2025 – Actualidad  
+- Co-dicta Introduction to Quantitative Research e Intermediate Quantitative Research en los programas de PhD y MSc en Educación.  
+- Apoya a estudiantes de postgrado en el diseño e implementación de investigación cuantitativa en educación.
+
+## Proyectos de Investigación Seleccionados (Últimos 3 Años)
+
+**The British Academy Pump Priming Collaboration between UK and EU Partners Scheme N° PPHE26\100097**  
+*Making Europe a Global Magnet for International Students* | Feb 2026 – Actualidad  
+Investigadora Principal (PI): Profesora Rachel Brooks (Department of Education, University of Oxford).
+
+**The British Academy Postdoctoral Fellowship N° PFSS25\250031**  
+*From Access to Inclusion: Cross-Class Dynamics in Academically Selective Institutions* | Dic 2025 – Feb 2026  
+PI: Paulina Rodríguez (Department of Education, University of Oxford).
+
+**Proyecto Puente 2025**  
+*Support and Care Networks among Older Adults: A Literature Review on Sibling Bonds* | Nov 2025 – Feb 2026  
+PI: Francisca Ortiz (Centro de Economía y Políticas Sociales, Universidad Mayor).  
+Financiamiento: Vicerrectoría de Investigación, Dirección General de Investigación y Creación Artística, Universidad Mayor.
+
+**Proyecto EthOS**  
+Institute of Advanced Study, Durham University | Nov 2025 – Mar 2026  
+PI: Profesora Catherine Montgomery.
+
+**Segregación de Género entre Áreas de Conocimiento en la Educación Secundaria Académica Chilena: Antecedentes, Moderadores y Consecuencias**  
+Proyecto FONDECYT Regular Nº 1231930 | Abr 2023 – Oct 2024  
+Financiado por la Agencia Nacional de Investigación y Desarrollo (ANID), Chile.  
+PI: Lorena Ortega.
+
+**Evaluación de Impacto del Programa STEM Gender en Estudiantes Mujeres de 2° Medio y Docentes STEM**  
+UNDP-CHL-00141 | Ago 2025 – Ene 2026  
+Programa de las Naciones Unidas para el Desarrollo (PNUD) y Ministerio de Educación de Chile.  
+PI: Pilar Reyes (CIAE, Universidad de Chile).
+
+**Logros de Aprendizaje de Estudiantes Migrantes**  
+Nov 2025 – Ene 2026  
+Financiado por la Agencia de Calidad de la Educación, Ministerio de Educación de Chile.  
+PI: Lorena Ortega (CIAE, Instituto de Estudios Avanzados en Educación, Universidad de Chile).
+
+## Estancia de Investigación
+
+**Estudiante de Doctorado Visitante**  
+Instituto de Sociología, Pontificia Universidad Católica de Chile  
+Anfitrión académico: Dr Alejandro Espinosa Rada.  
+- Colaboración en el FONDECYT Postdoctoral 3250037: *Isolation and Social Groups in a University Community*.
+
+</div>
+

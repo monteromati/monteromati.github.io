@@ -1,0 +1,26 @@
+---
+title: "Derechas FONDECYT, Interculturales, OLES, etc."
+description: "Registro de actividades conjuntas entre programas FONDECYT, interculturalidad y cooperación regional."
+author: "Matías Deneken"
+date: "2025-11-27"
+categories: [experience-in-research]
+image: "/files/images/placeholder4.jpg"
+---
+
+## Notas rápidas de colaboración
+
+- **FONDECYT Derechas:** coordinación con becarios y alianzas con investigadores de campo, revisión de avances trimestrales.
+- **Interculturales:** sesiones con comunidades, validación de metodologías y ajustes de protocolo para respeto cultural.
+- **OLES y redes:** encuentros virtuales para compartir aprendizajes y difundir resultados en español e inglés.
+
+## Próximos pasos
+
+1. Consolidar material audiovisual y referencias para los informes internos.
+2. Registrar quién se sumó a cada iniciativa para facilitar nuevas convocatorias de fondos.
+3. Compartir estos apuntes con los equipos a través de `posts.qmd` para que queden visibles como parte del blog “Experience in Research”.
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}
+
+

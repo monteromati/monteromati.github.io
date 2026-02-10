@@ -1,0 +1,26 @@
+---
+title: "Uso de R y Pyhton"
+description: "Estimación de pobreza"
+author: "Mat"
+date: "2025-12-04"
+categories: [programming-in-social-science, tutorial]
+image: "/files/images/photos/valparaiso.jpg"
+---
+
+![](/files/images/photos/valparaiso.jpg){fig-align="center"}
+
+## Paso 1: ambiente mínimo
+
+Prepara un entorno con las librerías que usas con mayor frecuencia (por ejemplo: `tidyverse`, `quarto`, `janitor`). Guarda los paquetes en `deps.R` para que cualquier colaborador pueda instalar con `renv::restore()`.
+
+## Paso 2: datos con trazabilidad
+
+Lee los datos desde `files/data/`, limpia columnas clave y guarda versiones intermedias. Añade `glue::glue("data/cleaned-{today()}.csv")` para evitar sobrescribir resultados previos.
+
+## Paso 3: blog al final
+
+Este tutorial forma parte del blog “Programming in Social Science”: cada entrada breve ayuda a documentar procesos compartidos y a inspirar nuevos scripts para el equipo.
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

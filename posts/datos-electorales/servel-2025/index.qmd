@@ -1,0 +1,254 @@
+---
+title: "Datos Servel: Elecciones Presidenciales 2025"
+description: "Análisis de resultados electorales presidenciales 2025 a nivel nacional, regional y comunal."
+author: "Mat"
+date: "2025-12-01"
+categories: [datos-electorales, análisis]
+image: "image/jara-kast.jpg"
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+![](image/jara-kast.jpg)
+
+## Datos disponibles
+
+El dataset contiene resultados de las elecciones presidenciales 2025 del
+Servel con **2,905 registros** organizados en tres niveles de
+agregación:
+
+-   **Nacional**: Resultados totales por candidato
+-   **Regional**: Resultados desagregados por región
+-   **Comunal**: Resultados desagregados por comuna y distrito
+
+### Estructura de los datos
+
+Las variables incluyen: - `candidato`: Nombre del candidato
+presidencial - `votos`: Número absoluto de votos - `porcentaje`:
+Porcentaje de votos obtenidos - `nivel`: Nivel de agregación (nacional,
+region, comuna) - `region`: Nombre de la región (NA para nivel
+nacional) - `distrito`: Distrito electoral (NA para niveles
+superiores) - `comuna`: Nombre de la comuna (NA para niveles superiores)
+
+### Candidatos presidenciales
+
+Los datos incluyen resultados para 8 candidatos: - Franco Parisi
+Fernández - Jeannette Jara Román - Marco Antonio Enríquez-Ominami
+Gumucio - Johannes Kaiser Barents-von Hohenhagen - José Antonio Kast
+Rist - Eduardo Antonio Artes Brichetti - Evelyn Matthei Fornet - Harold
+Mayne-Nicholls Secul
+
+## Análisis disponibles
+
+En el directorio `datos/servel/` se encuentra el script `01_maps.R` que
+incluye:
+
+1.  **Limpieza y estandarización**: Normalización de nombres de comunas
+    para facilitar el cruce con datos geográficos
+2.  **Mapas de ganadores**: Visualización del candidato ganador por
+    comuna a nivel nacional
+3.  **Análisis regional**: Mapas desagregados por región
+4.  **Integración con chilemapas**: Uso del paquete `chilemapas` para
+    visualización geográfica
+
+### Resultados nacionales preliminares
+
+A nivel nacional, los resultados muestran una distribución competitiva
+entre los principales candidatos, con variaciones significativas a nivel
+regional y comunal que reflejan patrones geográficos de preferencias
+electorales.
+
+## Explorador interactivo de resultados
+
+Usa la tabla a continuación para buscar comunas y ver qué candidato ganó
+en cada una, junto con el porcentaje de votos obtenido.
+
+```{r}
+#| label: tabla-interactiva-comunas
+#| echo: false
+#| warning: false
+#| message: false
+
+library(tidyverse)
+library(DT)
+library(janitor)
+
+# Leer datos
+df_raw <- read_csv("../../../datos/servel/presidencial_2025_nac_region_distrito_comuna_.csv")
+
+# Procesar: obtener ganador por comuna
+ganadores_comunas <- df_raw |>
+  clean_names() |>
+  filter(nivel == "comuna") |>
+  drop_na(comuna, porcentaje) |>
+  group_by(comuna, region, distrito) |>
+  slice_max(order_by = porcentaje, n = 1, with_ties = FALSE) |>
+  ungroup() |>
+  select(
+    Comuna = comuna,
+    Región = region,
+    Distrito = distrito,
+    `Candidato ganador` = candidato,
+    `Porcentaje` = porcentaje,
+    `Votos` = votos
+  ) |>
+  mutate(
+    `Porcentaje` = round(`Porcentaje`, 2),
+    `Porcentaje_texto` = paste0(format(`Porcentaje`, nsmall = 2, big.mark = "."), "%"),
+    `Candidato ganador` = str_to_title(`Candidato ganador`),
+    # Extraer número del distrito para ordenar numéricamente
+    `Num_distrito` = as.numeric(str_extract(Distrito, "\\d+"))
+  ) |>
+  arrange(Num_distrito, Región, Comuna) |>
+  select(
+    Comuna,
+    Región,
+    Distrito,
+    `Candidato ganador`,
+    `Porcentaje` = Porcentaje_texto,
+    Votos,
+    Num_distrito  # Mantener para ordenamiento, se ocultará en DT
+  )
+
+# Definir colores para candidatos
+candidatos_unicos <- unique(ganadores_comunas$`Candidato ganador`)
+colores <- c("#377eb8", "#d73027", "#1b9e77", "#ffd92f", "#4daf4a", "#984ea3", "#ff7f00", "#a65628")
+colores_candidatos <- colores[1:length(candidatos_unicos)]
+names(colores_candidatos) <- candidatos_unicos
+
+# Encontrar índice de columna Num_distrito para ordenamiento inicial
+# Columnas: Comuna (0), Región (1), Distrito (2), Candidato ganador (3), Porcentaje (4), Votos (5), Num_distrito (6)
+# DT usa índices basados en 0
+
+# Crear tabla interactiva
+DT::datatable(
+  ganadores_comunas,
+  filter = "top",
+  options = list(
+    pageLength = 10,
+    order = list(list(6, "asc")),  # Ordenar por Num_distrito (columna índice 6, 0-indexed)
+    columnDefs = list(
+      list(visible = FALSE, targets = 6)  # Ocultar columna Num_distrito
+    ),
+    language = list(
+      search = "Buscar:",
+      lengthMenu = "Mostrar _MENU_ comunas",
+      info = "Mostrando _START_ a _END_ de _TOTAL_ comunas",
+      paginate = list(
+        first = "Primera",
+        last = "Última",
+        `next` = "Siguiente",
+        previous = "Anterior"
+      )
+    ),
+    scrollX = TRUE,
+    dom = "Bfrtip"
+  ),
+  rownames = FALSE,
+  caption = htmltools::tags$caption(
+    style = "caption-side: top; text-align: left;",
+    "Busca comunas por nombre, región o candidato. Haz clic en los encabezados para ordenar."
+  )
+) |>
+  DT::formatStyle(
+    "Candidato ganador",
+    backgroundColor = DT::styleEqual(
+      candidatos_unicos,
+      colores_candidatos
+    ),
+    color = "white",
+    fontWeight = "bold"
+  ) |>
+  DT::formatRound("Votos", digits = 0, mark = ".")
+```
+
+### Resumen por candidato
+
+```{r}
+#| label: resumen-candidatos
+#| echo: false
+#| warning: false
+#| message: false
+
+# Obtener votos totales a nivel nacional (el verdadero ganador)
+votos_nacionales <- df_raw |>
+  clean_names() |>
+  filter(nivel == "nacional") |>
+  select(candidato, votos, porcentaje) |>
+  mutate(
+    candidato = str_to_title(candidato),
+    porcentaje = round(porcentaje, 2)
+  ) |>
+  arrange(desc(votos))
+
+# Contar comunas ganadas por candidato
+comunas_ganadas <- ganadores_comunas |>
+  group_by(`Candidato ganador`) |>
+  summarise(
+    `Comunas ganadas` = n(),
+    .groups = "drop"
+  )
+
+# Combinar: votos nacionales + comunas ganadas
+resumen_candidatos <- votos_nacionales |>
+  left_join(comunas_ganadas, by = c("candidato" = "Candidato ganador")) |>
+  mutate(
+    `Comunas ganadas` = replace_na(`Comunas ganadas`, 0),
+    `% votos totales` = paste0(format(round(porcentaje, 2), nsmall = 2, big.mark = "."), "%"),
+    `% comunas ganadas` = paste0(format(round((`Comunas ganadas` / nrow(ganadores_comunas)) * 100, 1), nsmall = 1, big.mark = "."), "%")
+  ) |>
+  arrange(desc(votos)) |>
+  select(
+    `Candidato` = candidato,
+    `Votos totales` = votos,
+    `% votos totales`,
+    `Comunas ganadas`,
+    `% comunas ganadas`
+  )
+
+# Recrear colores para este bloque
+candidatos_resumen <- unique(resumen_candidatos$`Candidato`)
+colores_resumen <- colores[1:length(candidatos_resumen)]
+names(colores_resumen) <- candidatos_resumen
+
+DT::datatable(
+  resumen_candidatos,
+  options = list(
+    pageLength = 10,
+    language = list(
+      search = "Buscar:",
+      lengthMenu = "Mostrar _MENU_ candidatos",
+      info = "Mostrando _START_ a _END_ de _TOTAL_ candidatos"
+    ),
+    dom = "t",
+    order = list(list(1, "desc"))  # Ordenar por votos totales
+  ),
+  rownames = FALSE,
+  caption = htmltools::tags$caption(
+    style = "caption-side: top; text-align: left;",
+    "Resultados ordenados por votos totales a nivel nacional. El ganador es quien tiene más votos totales, no necesariamente quien ganó más comunas."
+  )
+) |>
+  DT::formatStyle(
+    "Candidato",
+    backgroundColor = DT::styleEqual(
+      candidatos_resumen,
+      colores_resumen
+    ),
+    color = "white",
+    fontWeight = "bold"
+  ) |>
+  DT::formatRound("Votos totales", digits = 0, mark = ".")
+```
+
+## Próximos pasos
+
+-   Análisis de patrones geográficos de votación
+-   Comparación con elecciones anteriores
+-   Visualizaciones interactivas de resultados
+-   Análisis de correlaciones con variables socioeconómicas
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

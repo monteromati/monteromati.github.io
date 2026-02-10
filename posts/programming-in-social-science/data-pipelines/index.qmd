@@ -1,0 +1,20 @@
+---
+title: "Programming in Social Science: Data Pipelines"
+description: "Cómo encadenar scripts ligeros para actualizar el blog."
+author: "Mat"
+date: "2025-11-27"
+categories: [programming-in-social-science, tutorial]
+image: "/files/images/placeholder2.JPG"
+---
+
+## Coordinación entre scripts
+Usa `targets` o `drake` para encadenar la limpieza, el análisis y la generación de reportes. Define `tar_make()` en un script que solo haga falta ejecutar cuando cambian los datos base.
+
+## Publicar en el blog
+Los artefactos resultantes se esconden dentro de `posts/programming-in-social-science/`; cuando todo esté listo, solo queda ejecutar `quarto render posts.qmd` para que la lista del blog muestre automáticamente las entradas más recientes.
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}
+
+

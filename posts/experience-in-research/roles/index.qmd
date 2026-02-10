@@ -1,0 +1,25 @@
+---
+title: "Experience in Research: Field Coordination"
+description: "Notas sobre la coordinación de campo en mis proyectos de datos sociales."
+author: "Matías Deneken"
+date: "2025-11-27"
+categories: [experience-in-research]
+image: "/files/images/placeholder4.jpg"
+---
+
+## Coordinación y operación en terreno
+
+En este espacio documentaré tareas de coordinación (equipos, cronogramas, validaciones) para que cada experiencia quede registrada dentro del blog. Puedo agregar fotos o enlaces a reportes cuando sea útil.
+
+## Cómo mantener estas notas
+
+1. Duplica esta entrada o crea otra en `posts/experience-in-research/`.
+2. Actualiza el título, la fecha y la descripción con el proyecto específico.
+3. Describe brevemente qué pasó y qué aprendiste; adjunta enlaces o archivos si es relevante.
+4. La categoría `experience-in-research` mantiene todas estas notas agrupadas dentro del menú “Research”.
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}
+
+

@@ -1,0 +1,86 @@
+project:
+  type: website
+  output-dir: docs
+
+# Meta
+description-meta: "Matías Montero — DPhil Student in Education at the University of Oxford and ESRC-funded researcher."
+author-meta: "Matías Montero"
+
+website:
+  title: "Matías Montero"
+  image: "/files/images/matias_profile.JPG"
+  description: "DPhil Student in Education | ESRC-funded researcher | Sociology of education & social network analysis"
+  navbar:
+    background: light
+    left:
+      - text: Publications
+        href: publications.qmd
+      - text: Conferences
+        href: conferences.qmd
+      - text: Teaching
+        href: teaching.qmd
+      - text: Experience
+        href: experience.qmd
+    right: 
+      - text: CV
+        href: files/Montero_CV.pdf   # Place your PDF CV at this path
+      - icon: github
+        href: https://github.com/monteromati
+        target: _blank
+  
+  page-navigation: true
+  
+  page-footer: 
+    left: "[Matías Montero](https://matiasmontero.github.io) &copy; <script>document.write(new Date().getFullYear())</script>" 
+    center: "Actualizado en Quarto por Matías Montero"
+    right:  
+      - icon: github
+        href: https://github.com/monteromati
+        target: _blank
+      - text: "{{< fa brands bluesky >}}" 
+        href: https://bsky.app
+        target: _blank
+      - icon: rss
+        href: posts.xml
+        target: _blank  
+  
+  search:
+    location: navbar
+    type: textbox
+  
+  reader-mode: true
+
+  draft-mode: unlinked
+  
+  repo-url: https://github.com/monteromati
+#  repo-actions: [edit, issue, source]
+  
+  open-graph: true
+  
+  twitter-card: true 
+#  card-style: summary      
+  
+  site-url: "https://matiasmontero.github.io"
+  
+  google-analytics:
+    tracking-id: ""  # Please delete or replace with your own tracking ID
+    anonymize-ip: true 
+
+bibliography: references.bib  # Add references.bib to the root folder to enable the bibliography function
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    footnotes-hover: true
+    code-copy: true
+    code-link: true
+    code-overflow: wrap
+    fig-align: center
+    link-external-icon: false
+    link-external-newwindow: true
+    email-obfuscation: javascript
+    link-external-filter: '^(?:http:|https:)\/\/drganghe\.github\.io\/custom'
+    include-in-header: "files/includes/_academic.qmd"
+

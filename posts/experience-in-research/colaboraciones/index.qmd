@@ -1,0 +1,24 @@
+---
+title: "Alianzas e instrumentos de colaboración"
+description: "Documentar cómo se organizan mesas, cartas y relaciones con otras instituciones."
+author: "Matías Deneken"
+date: "2025-11-27"
+categories: [experience-in-research]
+image: "/files/images/placeholder1.jpg"
+---
+
+## Mesa de trabajo y acuerdos
+
+Se registran aquí los acuerdos operativos con equipos externos, mesadas de trabajo y protocolos que facilitan la colaboración sostenida en proyectos de datos sociales.
+
+## Documentación rápida
+
+- Carta de intención compartida con aliados académicos.
+- Protocolos de entrevistas y consentimiento digital.
+- Bitácoras de reuniones semanales y chequeos de avance.
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}
+
+

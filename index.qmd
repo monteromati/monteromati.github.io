@@ -1,0 +1,62 @@
+---
+title: "Matías Montero"
+description-meta: "Soy Estudiante de Doctorado en Educación en la Universidad de Oxford y becario del ESRC del Reino Unido. Profundamente sociólogo de la educación y encantado por el análisis de redes."
+image: "files/images/matias_profile.JPG"
+page-navigation: false
+toc: false
+page-layout: full
+
+about:
+  id: hero-heading
+  template: trestles
+  image-width: 90%
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/monteromati
+      target: _blank
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/matiasmonteros/
+      target: _blank
+    - text: "{{< ai orcid >}} ORCID"
+      href: https://orcid.org/0000-0003-1610-2477
+      target: _blank
+    - text: "{{< ai google-scholar >}} Google Scholar"
+      href: https://scholar.google.com/citations?user=Bsr3stIAAAAJ&hl=es
+      target: _blank
+---
+
+:::{#hero-heading}
+
+<div data-lang="en">
+## Introduction
+
+Matías Montero is a sociologist of education and **DPhil Student in Education** at the **University of Oxford**, funded by the **Economic and Social Research Council (ESRC)**. His work focuses on how higher education systems, schools, and classrooms reproduce or challenge social inequalities over time.
+
+His main interests lie at the intersection of **sociology of education**, **social network analysis**, and the study of educational trajectories. He is particularly interested in how social ties and institutional arrangements shape students' opportunities to learn, belong, and succeed.
+
+### Current Work
+
+Matías is currently developing his doctoral research focuses on networks of gender disparities across the career trajectories of education researchers in Latin America, exploring institutional and individual effects on the persistence and formation of co-authorship publication networks.
+
+For a detailed overview of his **experience**, **teaching**, and **publications**, please visit the corresponding sections in the navigation bar.
+
+</div>
+
+<div data-lang="es" style="display: none;">
+## Introducción
+
+Matías Montero es sociólogo de la educación y **Estudiante de Doctorado en Educación (DPhil)** en la **Universidad de Oxford**, financiado por el **Economic and Social Research Council (ESRC)** del Reino Unido. Su trabajo se centra en cómo los sistemas de educación superior, las escuelas y las aulas reproducen o desafían las desigualdades sociales a lo largo del tiempo.
+
+Sus principales intereses se sitúan en la intersección entre la **sociología de la educación**, el **análisis de redes sociales** y el estudio de trayectorias educativas. Le interesa especialmente cómo los lazos sociales y los arreglos institucionales moldean las oportunidades de aprender, pertenecer y tener éxito de estudiantes y comunidades educativas.
+
+### Trabajo Actual
+
+Matías está desarrollando actualmente su investigación doctoral centrada en las redes de disparidades de género en las trayectorias profesionales de los investigadores en educación en América Latina, explorando los efectos institucionales e individuales en la persistencia y formación de redes de publicación en coautoría.
+
+Para una visión más detallada de su **experiencia**, **docencia** y **publicaciones**, puedes visitar las secciones correspondientes en la barra de navegación.
+
+</div>
+
+:::

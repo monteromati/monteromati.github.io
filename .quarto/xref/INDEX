@@ -1,0 +1,62 @@
+{
+  "conferences.qmd": {
+    "conferences.html": "f70b6bd2"
+  },
+  "experience.qmd": {
+    "experience.html": "e01608c9"
+  },
+  "index.qmd": {
+    "index.html": "89383de5"
+  },
+  "publications.qmd": {
+    "publications.html": "4f9a282d"
+  },
+  "teaching.qmd": {
+    "teaching.html": "21875c00"
+  },
+  "posts/avance-socia/index.qmd": {
+    "index.html": "0a762894"
+  },
+  "posts/datos-electorales/servel-2025/index.qmd": {
+    "index.html": "c07de4ea"
+  },
+  "posts/experience-in-research/colaboraciones/index.qmd": {
+    "index.html": "bedaaa6f"
+  },
+  "posts/experience-in-research/fondecyt/index.qmd": {
+    "index.html": "cc75822e"
+  },
+  "posts/experience-in-research/roles/index.qmd": {
+    "index.html": "3d21fb92"
+  },
+  "posts/programming-in-social-science/data-pipelines/index.qmd": {
+    "index.html": "e988f865"
+  },
+  "posts/programming-in-social-science/quickstart/index.qmd": {
+    "index.html": "33726636"
+  },
+  "posts/programming-in-social-science/tutorial_tidyverse_pandas/index.qmd": {
+    "index.html": "29a38916"
+  },
+  "404.qmd": {
+    "404.html": "4630b762"
+  },
+  "advising.qmd": {
+    "advising.html": "bd5065f9"
+  },
+  "contact.qmd": {
+    "contact.html": "20c1afd5"
+  },
+  "people.qmd": {
+    "people.html": "1aadb7b2"
+  },
+  "photos.qmd": {
+    "photos.html": "cb4f97ea"
+  },
+  "posts.qmd": {
+    "posts.html": "ba06de69"
+  },
+  "projects.qmd": {
+    "projects.html": "280d7537"
+  }
+}

@@ -1,0 +1,20 @@
+---
+title: "Advising"
+description: "Personalized guidance for teams combining social research with data science."
+---
+
+## Offerings
+
+
+## How we work together
+
+
+
+## Contact
+
+- **Email:** `matias.montero@education.ox.ac.uk`
+- **LinkedIn:** [https://www.linkedin.com/in/matiasmonteros/](https://www.linkedin.com/in/matiasmonteros/)
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}
+

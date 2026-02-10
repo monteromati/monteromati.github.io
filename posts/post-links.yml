@@ -1,0 +1,8 @@
+    - path: https://matdknu.github.io
+      image: "/files/images/my-face.JPG"
+      title: "Portal de Matías Deneken"
+      author: "Matías Deneken"
+      description: "Notas, tutoriales y proyectos en ciencia de datos sociales."
+      date: "2025-11-27"
+      categories: [news]
+
