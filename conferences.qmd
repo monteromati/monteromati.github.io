@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 ## Selected Conference Presentations
 
-This section will be updated soon with a curated list of conference presentations and invited talks.
+- **June 2026** — *Who Gets Picked? A Longitudinal Network Analysis of Gender and Institutional Prestige in Education Research Funding*. CISS Seminar, CIAE, Instituto de Estudios Avanzados en Educación, Universidad de Chile. [View slides](files/slides/ciss-seminar-2026/index.html){target="_blank"}
 
 </div>
 
@@ -83,7 +83,7 @@ This section will be updated soon with a curated list of conference presentation
 
 ## Presentaciones en Congresos Seleccionadas
 
-Esta sección será actualizada pronto con una lista curada de presentaciones en congresos y charlas invitadas.
+- **Junio 2026** — *¿Quién es elegido? Un análisis longitudinal en red de género y prestigio institucional en financiamiento de investigación en educación*. Seminario CISS, CIAE, Instituto de Estudios Avanzados en Educación, Universidad de Chile. [Ver diapositivas](files/slides/ciss-seminar-2026/index.html){target="_blank"}
 
 </div>
 

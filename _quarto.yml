@@ -1,6 +1,10 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - files/slides/**
+  render:
+    - "!files/slides/**"
 
 # Meta
 description-meta: "Matías Montero — DPhil Student in Education at the University of Oxford and ESRC-funded researcher."
