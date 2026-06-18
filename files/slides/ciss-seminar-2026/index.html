@@ -10,7 +10,7 @@
   <meta name="generator" content="quarto-1.8.25">
 
   <meta name="author" content="Matías Montero">
-  <meta name="dcterms.date" content="2026-06-11">
+  <meta name="dcterms.date" content="2026-06-18">
   <title>Who Gets Picked? A Longitudinal Network Analysis of Gender and Institutional Prestige in Education Research Funding</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -130,10 +130,18 @@
       margin-bottom: 0.25em !important;
     }
     .reveal .slides section.ndtv-slide .ndtv-legend {
-      font-size: 0.48em;
-      line-height: 1.35;
+      font-size: 0.72em;
+      line-height: 1.4;
       margin: 0.2em 0 0.35em 0;
       color: #555;
+    }
+    .reveal .slides section.ndtv-slide .ndtv-legend .legend-female {
+      color: #440154;
+      font-weight: bold;
+    }
+    .reveal .slides section.ndtv-slide .ndtv-legend .legend-male {
+      color: #21918c;
+      font-weight: bold;
     }
     .reveal .slides section.ndtv-slide .ndtv-slide-frame {
       width: 100%;
@@ -163,10 +171,10 @@
     }
     .reveal .saom-table-1a,
     .reveal .saom-table-1c {
-      font-size: 0.68em;
+      font-size: 0.90em;
     }
     .reveal .saom-table-1b {
-      font-size: 0.62em;
+      font-size: 0.84em;
     }
     .reveal .saom-table-title {
       text-align: left;
@@ -203,6 +211,7 @@
       padding-bottom: 0.08em;
     }
     .reveal .saom-table .saom-est,
+    .reveal .saom-table .saom-ri,
     .reveal .saom-table .saom-se,
     .reveal .saom-table .saom-p {
       text-align: center;
@@ -223,6 +232,38 @@
       color: #555;
       text-align: left;
       line-height: 1.25;
+    }
+    .reveal .fondecyt-table {
+      font-size: 0.85em;
+      width: 100%;
+      border-collapse: collapse;
+      margin: 0.35em 0 0.15em 0;
+    }
+    .reveal .fondecyt-table th,
+    .reveal .fondecyt-table td {
+      border: 1px solid #d3d3d3;
+      padding: 0.35em 0.45em;
+      vertical-align: top;
+      text-align: left;
+    }
+    .reveal .fondecyt-table thead th {
+      background: #f5f8f9;
+      border-bottom: 2px solid #548893;
+      font-weight: bold;
+    }
+    .reveal .fondecyt-note {
+      font-size: 0.88em;
+      line-height: 1.35;
+      margin-top: 0.35em;
+      color: #555;
+      text-align: left;
+    }
+    .reveal .slides section.fondecyt-slide .fondecyt-intro {
+      margin: 0 0 0.45em 0;
+      line-height: 1.35;
+    }
+    .reveal .slides section.fondecyt-slide .fondecyt-intro p {
+      margin: 0.15em 0 0 0;
     }
   </style>
 </head>
@@ -250,37 +291,98 @@ Matías Montero <a href="https://orcid.org/0000-0003-1610-2477" class="quarto-ti
     </div>
 </div>
 
-  <p class="date">June 11, 2026</p>
+  <p class="date">June 18, 2026</p>
 </section>
 <section id="gendered-prestige-in-funded-collaboration-in-education-research" class="slide level2">
 <h2><span style="color:#548893;"><strong>Gendered Prestige in Funded Collaboration in Education Research</strong></span></h2>
 <ul>
-<li class="fragment"><p><strong>From participation to relational inequality</strong><br>
-Women are strongly represented in education research, yet high participation does not necessarily produce equal academic practices.</p></li>
-<li class="fragment"><p><strong>Prestige, credibility, and cumulative advantage</strong><br>
-Funded collaboration can be understood as a mechanism through which academic visibility, institutional reputation, and future opportunities accumulate.</p></li>
-<li class="fragment"><p><strong>Why network analysis matters</strong><br>
-It is not only <em>who receives funding</em>, but <em>how researchers become connected</em>. Collaboration ties may reproduce inequality through gender homophily, institutional similarity, metropolitan concentration, and closure around already recognised academic environments.</p></li>
+<li class="fragment"><strong>From participation to relational inequality</strong>
+<ul>
+<li class="fragment">Women are strongly represented in education research, yet high participation does not necessarily produce equal academic practices (Abramo et al., 2021; Silander et al., 2013; Hanasono et al., 2019).</li>
+</ul></li>
+<li class="fragment"><strong>Prestige, credibility, and cumulative advantage</strong>
+<ul>
+<li class="fragment">Funded collaboration can be understood as a mechanism through which academic visibility, institutional reputation, and future opportunities accumulate.</li>
+</ul></li>
+<li class="fragment"><strong>Why network analysis matters</strong>
+<ul>
+<li class="fragment">It is not only <em>who receives funding</em>, but <em>how researchers become connected</em>.</li>
+<li class="fragment">Collaboration ties may reproduce inequality through gender homophily, institutional similarity, metropolitan concentration, and closure around already recognised academic environments.</li>
+</ul></li>
 </ul>
 </section>
 <section id="research-gap-and-contribution" class="slide level2">
 <h2><span style="color:#548893;"><strong>Research Gap and Contribution</strong></span></h2>
 <ul>
-<li class="fragment"><p><strong>Research gap</strong><br>
-Studies of gender inequality in higher education often focus on individual productivity, grant success, or career outcomes. Less is known about how the structure of funded collaboration networks shapes unequal access to prestige and resources.</p></li>
-<li class="fragment"><p><strong>Empirical focus</strong><br>
-We examine Chilean FONDECYT education research networks using stochastic actor-oriented models (SAOMs) estimated on 744 researchers across 9 waves from 2017 to 2025.</p></li>
-<li class="fragment"><p><strong>Network mechanisms examined</strong><br>
-We estimate whether collaboration is shaped by gender homophily, reciprocity, popularity, accreditation (prestige) similarity, same university sector (private vs public), metropolitan-region effects, and prior interdisciplinary collaboration.</p></li>
-<li class="fragment"><p><strong>Contribution</strong><br>
-We contribute to understand how gendered and institutional inequalities are reproduced through selective closure, proximity, and cumulative advantage within science funding.</p></li>
+<li class="fragment"><strong>Research gap</strong>
+<ul>
+<li class="fragment">Studies of gender inequality in higher education often focus on individual productivity, grant success, or career outcomes (e.g., Huang et al., 2020; Nielsen, 2016).</li>
+<li class="fragment">Less is known about how the structure of funded collaboration networks shapes unequal access to prestige and resources.</li>
+</ul></li>
+<li class="fragment"><strong>Empirical focus</strong>
+<ul>
+<li class="fragment">We examine Chilean FONDECYT education research networks using stochastic actor-oriented models (SAOMs) estimated on 744 researchers across 9 waves from 2017 to 2025.</li>
+</ul></li>
+<li class="fragment"><strong>Contribution</strong>
+<ul>
+<li class="fragment">We contribute to understand how gendered and institutional inequalities are reproduced through selective closure, proximity, and cumulative advantage within science funding.</li>
+</ul></li>
 </ul>
 </section>
-<section id="methods" class="slide level2">
-<h2><span style="color:#548893;"><strong>Methods</strong></span></h2>
+<section id="what-is-fondecyt" class="slide level2 fondecyt-slide">
+<h2><span style="color:#548893;"><strong>What is FONDECYT?</strong></span></h2>
+<div class="fondecyt-intro">
+<p><strong>Chile’s main competitive research funding scheme</strong></p>
+<p>FONDECYT is ANID’s principal instrument for basic and scientific–technological research across all fields. Projects are organised around a <em>Principal Investigator</em> (PI).</p>
+</div>
+<table class="fondecyt-table caption-top">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th">Scheme</th>
+<th data-quarto-table-cell-role="th">Career stage / focus</th>
+<th data-quarto-table-cell-role="th">Max. annual funding (USD)</th>
+<th data-quarto-table-cell-role="th">Duration</th>
+<th data-quarto-table-cell-role="th">Research staff</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Postdoctoral</strong></td>
+<td>Early post-PhD insertion under an institutional sponsor</td>
+<td>~35,900</td>
+<td>2–3 years</td>
+<td>No formal co-investigator team</td>
+</tr>
+<tr class="even">
+<td><strong>Initiation</strong></td>
+<td>First independent grant; early-career consolidation</td>
+<td>~33,300</td>
+<td>2–3 years</td>
+<td>Support staff; no formal co-investigators</td>
+</tr>
+<tr class="odd">
+<td><strong>Regular</strong></td>
+<td>Established / mid- to senior-career researchers</td>
+<td>~63,300</td>
+<td>2–4 years</td>
+<td>May include co-investigators and a fuller research team</td>
+</tr>
+</tbody>
+</table>
+
+<p class="fondecyt-note"><em>Note.</em> Only FONDECYT Regular allows the PI to nominate co-investigators formally. This analysis focuses on Regular education networks where team composition is explicitly modelled as PI → co-investigator nominations.</p>
+</section>
+<section id="research-hypotheses" class="slide level2">
+<h2><span style="color:#548893;"><strong>Research Hypotheses</strong></span></h2>
 <ul>
-<li class="fragment"><strong>Stochastic Actor-Oriented Models (SAOM):</strong> to analyse the evolution of longitudinal co-authorship networks.</li>
-<li class="fragment"><strong>ANID:</strong> Data from Chile’s National Research and Development Agency (ANID), which provides open access data on researchers, research projects, institutions, and related information.</li>
+<li class="fragment"><p><strong>H1 (Gender homophily)</strong><br>
+Research teams exhibit gender homophily: researchers are more likely to nominate co-investigators of the same gender than would be expected under random tie formation.</p></li>
+<li class="fragment"><p><strong>H2 (Gender and outbound nominations)</strong><br>
+Female researchers send fewer collaboration nominations (outgoing ties) than their male counterparts.</p></li>
+<li class="fragment"><p><strong>H3 (Gender and inbound nominations)</strong><br>
+Female researchers receive fewer collaboration nominations (incoming ties) than their male counterparts.</p></li>
+<li class="fragment"><p><strong>H4 (Gender * Institutional prestige)</strong><br>
+The gender gap in outbound nomination activity depends on the accreditation years of the researcher’s university. In more highly accredited institutions, the gender gap in tie-sending widens.</p></li>
 </ul>
 </section>
 <section id="research-design" class="slide level2">
@@ -292,21 +394,74 @@ The analysis uses data on FONDECYT research teams that were awarded funding. Thi
 The network is modelled as a directed graph. Principal investigators who were awarded a grant are treated as nominating co-investigators, while co-investigators are treated as nominated actors within the research team.</p></li>
 <li class="fragment"><p><strong>Temporal definition of ties</strong><br>
 Collaboration ties are retained for the full duration of each funded project, according to the number of years specified in the grant.</p></li>
-<li class="fragment"><p><strong>Data preparation</strong><br>
-Researcher and institution names were disambiguated to identify unique individuals across projects and waves. Data were also prepared to represent adjacency matrices for network modelling.</p></li>
 <li class="fragment"><p><strong>Analytical sample</strong><br>
 The final longitudinal network includes <strong>744 researchers</strong> observed across <strong>9 waves</strong> from 2017 to 2025.</p></li>
+<li class="fragment"><p><strong>Analytical strategy</strong><br>
+Stochastic Actor-Oriented Models (SAOM): to analyse the evolution of longitudinal research project networks.</p></li>
 </ul>
+</section>
+<section id="data" class="slide level2">
+<h2><span style="color:#548893;"><strong>Data</strong></span></h2>
+<ul>
+<li class="fragment"><p><strong>Source (a): ANID funding registry (1982–2025)</strong><br>
+Historical record of awarded research instruments from the Agencia Nacional de Investigación y Desarrollo. Because team rosters are available only from 2016 onward, the analytical sample is restricted to projects awarded <strong>2016–2025</strong>.</p></li>
+<li class="fragment"><p><strong>Source (b): Team rosters of awarded projects</strong><br>
+We analyse the <strong>FONDECYT Regular</strong> network in education discipline-based evaluation panels: <em>Educación Inicial</em>, <em>Educación Escolar</em>, and <em>Educación Superior</em>. We also construct dyadic covariates from other FONDECYT discipline-based evaluation panels in the social sciences and humanities (sociology, psychology, economics, anthropology, law and political science, architecture/urbanism/geography/arts, philosophy, history, and linguistics).</p></li>
+<li class="fragment"><p><strong>Source (c): Institutional characteristics</strong><br>
+Private-university status, accreditation years, and regional/metropolitan classification were drawn from the Chilean Ministry of Education’s open-data enrolment registry for higher education.</p></li>
+</ul>
+</section>
+<section id="data-cont." class="slide level2">
+<h2><span style="color:#548893;"><strong>Data (cont.)</strong></span></h2>
+<ul>
+<li class="fragment"><p><strong>Discipline-based evaluation panel harmonisation</strong><br>
+From 2025, panel labels became more granular (e.g., education policy, leadership and management, subject-specific pedagogy). These were recoded into a smaller set of longitudinally comparable disciplinary categories.</p></li>
+<li class="fragment"><p><strong>Researcher identification and disambiguation</strong><br>
+Longitudinal validity requires that the same individual maps to the same identifier across projects and years. Researcher disambiguation was conducted upstream and inherited unchanged in adjacency-matrix construction.</p></li>
+<li class="fragment"><p><strong>Adjacency matrices</strong><br>
+Data were also prepared to represent adjacency matrices for longitudinal network modelling.</p></li>
+</ul>
+</section>
+<section id="variables" class="slide level2">
+<h2><span style="color:#548893;"><strong>Variables</strong></span></h2>
+<ul>
+<li class="fragment"><p><strong>Female</strong><br>
+Binary indicator of sex assigned at birth from administrative records (0 = male; 1 = female).</p></li>
+<li class="fragment"><p><strong>Accreditation years</strong><br>
+Number of years for which the university holds accreditation from the National Commission for Quality Assurance, certifying quality across research, teaching, institutional management, internal quality assurance, and community engagement.</p></li>
+<li class="fragment"><p><strong>Private university</strong><br>
+Dummy indicator: 1 = private institution; 0 = public institution. Constructed annually from Ministry of Education higher education enrolment data.</p></li>
+<li class="fragment"><p><strong>Region</strong><br>
+Binary indicator (1 = primarily regional, 0 = primarily metropolitan). Constructed annually from Ministry of Education undergraduate enrolment microdata, based on CNA classification.</p></li>
+</ul>
+</section>
+<section id="variables-cont." class="slide level2">
+<h2><span style="color:#548893;"><strong>Variables (cont.)</strong></span></h2>
+<ul>
+<li class="fragment"><p><strong>Co-appearance in other disciplines</strong><br>
+Dyadic covariate: the dyad co-occurs in another FONDECYT network at a prior time point, in a non-education discipline-based evaluation panel.</p></li>
+<li class="fragment"><p><strong>Collaboration in other disciplines</strong><br>
+Dyadic covariate: the dyad previously co-appeared on an awarded FONDECYT project in a non-education discipline-based evaluation panel.</p></li>
+<li class="fragment"><p><strong>Co-affiliated with same institution</strong><br>
+Dyadic covariate: both researchers are affiliated with the same institution.</p></li>
+</ul>
+</section>
+<section id="how-pi-nominations-work-in-the-network" class="slide level2 ndtv-slide">
+<h2><span style="color:#548893;"><strong>How PI Nominations Work in the Network</strong></span></h2>
+<div class="ndtv-legend">
+<p><span class="legend-female">Purple = female</span>; <span class="legend-male">dark teal = male</span>. Node size = indegree (nominations received).</p>
+</div>
+<div class="ndtv-slide-frame"><iframe src="presentation_files/ndtv/conceptual_network.html" title="Conceptual FONDECYT nomination network"></iframe></div>
 </section>
 <section>
 <section id="results" class="title-slide slide level1 center">
 <h1><span style="color:#548893;"><strong>Results</strong></span></h1>
 
 </section>
-<section id="dynamic-fondecyt-team-network-in-education-20172026" class="slide level2 ndtv-slide">
-<h2><span style="color:#548893;"><strong>Dynamic FONDECYT Team Network in Education (2017–2026)</strong></span></h2>
+<section id="dynamic-fondecyt-team-network-in-education-20172025" class="slide level2 ndtv-slide">
+<h2><span style="color:#548893;"><strong>Dynamic FONDECYT Team Network in Education (2017–2025)</strong></span></h2>
 <div class="ndtv-legend">
-<p>Directed PI → team nominations (2017–2026). Colour: purple = female, yellow = male. Size: outdegree.</p>
+<p>Colour: <span class="legend-female">purple = female</span>; <span class="legend-male">dark teal = male</span>. Size: indegree (nominations received).</p>
 </div>
 <div class="ndtv-slide-frame"><iframe src="presentation_files/ndtv/fondecyt_animation.html" title="FONDECYT dynamic network animation"></iframe></div>
 </section></section>
@@ -324,6 +479,7 @@ The final longitudinal network includes <strong>744 researchers</strong> observe
 <th data-quarto-table-cell-role="th">Parameter</th>
 <th data-quarto-table-cell-role="th">Network configuration graphic</th>
 <th data-quarto-table-cell-role="th">Estimate</th>
+<th data-quarto-table-cell-role="th">Relative importance (RI)</th>
 <th data-quarto-table-cell-role="th">SE</th>
 <th data-quarto-table-cell-role="th"><em>p</em>-value</th>
 </tr>
@@ -333,6 +489,7 @@ The final longitudinal network includes <strong>744 researchers</strong> observe
 <td class="saom-param">Outdegree (density)</td>
 <td class="saom-graphic"><img data-src="images/saom-effects/density.svg" class="saom-effect-icon"></td>
 <td class="saom-est">-5.791***</td>
+<td class="saom-ri">0.31</td>
 <td class="saom-se">0.706</td>
 <td class="saom-p">&lt; .001</td>
 </tr>
@@ -340,6 +497,7 @@ The final longitudinal network includes <strong>744 researchers</strong> observe
 <td class="saom-param">Reciprocity</td>
 <td class="saom-graphic"><img data-src="images/saom-effects/reciprocity.svg" class="saom-effect-icon"></td>
 <td class="saom-est">4.659***</td>
+<td class="saom-ri">0.03</td>
 <td class="saom-se">0.239</td>
 <td class="saom-p">&lt; .001</td>
 </tr>
@@ -347,6 +505,7 @@ The final longitudinal network includes <strong>744 researchers</strong> observe
 <td class="saom-param">Transitive ties</td>
 <td class="saom-graphic"><img data-src="images/saom-effects/transitivity.svg" class="saom-effect-icon"></td>
 <td class="saom-est">13.034**</td>
+<td class="saom-ri">0.006</td>
 <td class="saom-se">4.891</td>
 <td class="saom-p">0.008</td>
 </tr>
@@ -354,6 +513,7 @@ The final longitudinal network includes <strong>744 researchers</strong> observe
 <td class="saom-param">Shared popularity</td>
 <td class="saom-graphic"><img data-src="images/saom-effects/shared_popularity.svg" class="saom-effect-icon saom-effect-icon-wide"></td>
 <td class="saom-est">10.897*</td>
+<td class="saom-ri">0.0005</td>
 <td class="saom-se">4.983</td>
 <td class="saom-p">0.029</td>
 </tr>
@@ -361,6 +521,7 @@ The final longitudinal network includes <strong>744 researchers</strong> observe
 <td class="saom-param">Network isolate</td>
 <td class="saom-graphic"><img data-src="images/saom-effects/isolate.svg" class="saom-effect-icon"></td>
 <td class="saom-est">2.143***</td>
+<td class="saom-ri">0.15</td>
 <td class="saom-se">0.651</td>
 <td class="saom-p">&lt; .001</td>
 </tr>
@@ -377,6 +538,7 @@ The final longitudinal network includes <strong>744 researchers</strong> observe
 <th data-quarto-table-cell-role="th">Parameter</th>
 <th data-quarto-table-cell-role="th">Network configuration graphic</th>
 <th data-quarto-table-cell-role="th">Estimate</th>
+<th data-quarto-table-cell-role="th">Relative importance (RI)</th>
 <th data-quarto-table-cell-role="th">SE</th>
 <th data-quarto-table-cell-role="th"><em>p</em>-value</th>
 </tr>
@@ -386,20 +548,23 @@ The final longitudinal network includes <strong>744 researchers</strong> observe
 <td class="saom-param">Same gender</td>
 <td class="saom-graphic"><img data-src="images/saom-effects/same_gender.svg" class="saom-effect-icon"></td>
 <td class="saom-est">0.319***</td>
+<td class="saom-ri">0.04</td>
 <td class="saom-se">0.085</td>
 <td class="saom-p">&lt; .001</td>
 </tr>
 <tr class="even">
-<td class="saom-param">Gender (ego)</td>
+<td class="saom-param">Female (ego)</td>
 <td class="saom-graphic"><img data-src="images/saom-effects/gender_ego.svg" class="saom-effect-icon"></td>
 <td class="saom-est">-1.033**</td>
+<td class="saom-ri">0.06</td>
 <td class="saom-se">0.337</td>
 <td class="saom-p">0.002</td>
 </tr>
 <tr class="odd">
-<td class="saom-param">Gender (alter)</td>
+<td class="saom-param">Female (alter)</td>
 <td class="saom-graphic"><img data-src="images/saom-effects/gender_alter.svg" class="saom-effect-icon"></td>
 <td class="saom-est">-0.058</td>
+<td class="saom-ri">0.008</td>
 <td class="saom-se">0.085</td>
 <td class="saom-p">0.495</td>
 </tr>
@@ -407,6 +572,7 @@ The final longitudinal network includes <strong>744 researchers</strong> observe
 <td class="saom-param">Accreditation years similarity</td>
 <td class="saom-graphic"><img data-src="images/saom-effects/similarity.svg" class="saom-effect-icon"></td>
 <td class="saom-est">2.076***</td>
+<td class="saom-ri">0.08</td>
 <td class="saom-se">0.217</td>
 <td class="saom-p">&lt; .001</td>
 </tr>
@@ -414,6 +580,7 @@ The final longitudinal network includes <strong>744 researchers</strong> observe
 <td class="saom-param">Same private university</td>
 <td class="saom-graphic"><img data-src="images/saom-effects/same_covariate.svg" class="saom-effect-icon"></td>
 <td class="saom-est">0.932***</td>
+<td class="saom-ri">0.12</td>
 <td class="saom-se">0.101</td>
 <td class="saom-p">&lt; .001</td>
 </tr>
@@ -421,6 +588,7 @@ The final longitudinal network includes <strong>744 researchers</strong> observe
 <td class="saom-param">Same region</td>
 <td class="saom-graphic"><img data-src="images/saom-effects/same_covariate.svg" class="saom-effect-icon"></td>
 <td class="saom-est">1.048***</td>
+<td class="saom-ri">0.13</td>
 <td class="saom-se">0.103</td>
 <td class="saom-p">&lt; .001</td>
 </tr>
@@ -437,6 +605,7 @@ The final longitudinal network includes <strong>744 researchers</strong> observe
 <th data-quarto-table-cell-role="th">Parameter</th>
 <th data-quarto-table-cell-role="th">Network configuration graphic</th>
 <th data-quarto-table-cell-role="th">Estimate</th>
+<th data-quarto-table-cell-role="th">Relative importance (RI)</th>
 <th data-quarto-table-cell-role="th">SE</th>
 <th data-quarto-table-cell-role="th"><em>p</em>-value</th>
 </tr>
@@ -446,6 +615,7 @@ The final longitudinal network includes <strong>744 researchers</strong> observe
 <td class="saom-param">Co-appearance in other disciplines</td>
 <td class="saom-graphic"><img data-src="images/saom-effects/dyadic_covariate.svg" class="saom-effect-icon"></td>
 <td class="saom-est">-0.151</td>
+<td class="saom-ri">0.00006</td>
 <td class="saom-se">1.716</td>
 <td class="saom-p">0.930</td>
 </tr>
@@ -453,6 +623,7 @@ The final longitudinal network includes <strong>744 researchers</strong> observe
 <td class="saom-param">Collaboration in other disciplines</td>
 <td class="saom-graphic"><img data-src="images/saom-effects/dyadic_covariate.svg" class="saom-effect-icon"></td>
 <td class="saom-est">4.963***</td>
+<td class="saom-ri">0.003</td>
 <td class="saom-se">0.879</td>
 <td class="saom-p">&lt; .001</td>
 </tr>
@@ -460,33 +631,51 @@ The final longitudinal network includes <strong>744 researchers</strong> observe
 <td class="saom-param">Co-affiliated with same institution</td>
 <td class="saom-graphic"><img data-src="images/saom-effects/same_institution.svg" class="saom-effect-icon"></td>
 <td class="saom-est">-1.867***</td>
+<td class="saom-ri">0.05</td>
 <td class="saom-se">0.331</td>
 <td class="saom-p">&lt; .001</td>
 </tr>
 </tbody>
 </table>
-<p class="saom-table-note">Note. <em>n</em> = 744 researchers; 9 waves (2017–2025). Directed FONDECYT Regular Education network (PI → team member). Rate parameters omitted. <sup>*</sup><em>p</em> &lt; .05; <sup>**</sup><em>p</em> &lt; .01; <sup>***</sup><em>p</em> &lt; .001 (two-tailed Wald test).</p></div>
+<p class="saom-table-note">Note. Rate parameters omitted.</p><p class="saom-table-note"><sup>*</sup><em>p</em> &lt; .05; <sup>**</sup><em>p</em> &lt; .01; <sup>***</sup><em>p</em> &lt; .001 (two-tailed Wald test).</p></div>
 </section>
 <section id="limitations" class="slide level2">
 <h2><span style="color:#548893;"><strong>Limitations</strong></span></h2>
 <ul>
-<li class="fragment"><p><strong>Current limitations</strong><br>
-Gender conceived as a binary variable. The analysis also focuses only on awarded grants, rather than the full population of submitted proposals, including both successful and unsuccessful applications.</p></li>
-<li class="fragment"><p><strong>Modelling eligibility and career trajectories</strong><br>
-Current model specification assumes that all researchers appearing in the data are nominable throughout the 2017 to 2025 period. This simplifies more complex career dynamics, such as doctoral entry, research drop out, death, international migration, or withdrawal from the FONDECYT research circuit.</p></li>
-<li class="fragment"><p><strong>Funding rules to incorporate</strong><br>
-Future models will incorporate specific FONDECYT eligibility rules. For example, researchers holding FONDECYT Postdoctoral or FONDECYT Initiation grants should not be treated as able to nominate co-investigators, although they may still be nominated by others.</p></li>
+<li class="fragment"><strong>Current limitations</strong>
+<ul>
+<li class="fragment">Gender conceived as a binary variable.</li>
+<li class="fragment">The analysis also focuses only on awarded grants, rather than the full population of submitted proposals, including both successful and unsuccessful applications.</li>
+</ul></li>
+<li class="fragment"><strong>Modelling eligibility and career trajectories</strong>
+<ul>
+<li class="fragment">Current model specification assumes that all researchers appearing in the data are nominable throughout the 2017 to 2025 period.</li>
+<li class="fragment">This simplifies more complex career dynamics, such as doctoral entry, research drop out, death, international migration, or withdrawal from the FONDECYT research circuit.</li>
+</ul></li>
+<li class="fragment"><strong>Funding rules to incorporate</strong>
+<ul>
+<li class="fragment">Future models will incorporate specific FONDECYT eligibility rules.</li>
+<li class="fragment">For example, researchers holding FONDECYT Postdoctoral or FONDECYT Initiation grants should not be treated as able to nominate co-investigators, although they may still be nominated by others.</li>
+</ul></li>
 </ul>
 </section>
 <section id="next-steps" class="slide level2">
 <h2><span style="color:#548893;"><strong>Next Steps</strong></span></h2>
 <ul>
-<li class="fragment"><p><strong>Career stage measurement</strong><br>
-A proxy for career stage will be developed using bibliometric data. Academic age will be calculated from the first year in which a researcher appears with a publication in databases such as Scopus.</p></li>
-<li class="fragment"><p><strong>Further model extensions</strong><br>
-Future analyses will explore interaction effects involving researcher gender, allowing the study to assess whether network mechanisms such as reciprocity, homophily, closure, or institutional proximity operate differently for women and men.</p></li>
-<li class="fragment"><p><strong>Other competing theories</strong><br>
-Future studies should examine whether collaboration is actually driven by the substantive topic or methodologies that could be more attractive for certain (gendered) research teams.</p></li>
+<li class="fragment"><strong>Career stage measurement</strong>
+<ul>
+<li class="fragment">A proxy for career stage will be developed using bibliometric data.</li>
+<li class="fragment">Academic age will be calculated from the first year in which a researcher appears with a publication in databases such as Scopus.</li>
+</ul></li>
+<li class="fragment"><strong>Further model extensions</strong>
+<ul>
+<li class="fragment">Future analyses will explore interaction effects involving researcher gender.</li>
+<li class="fragment">This will allow the study to assess whether network mechanisms such as reciprocity, homophily, closure, or institutional proximity operate differently for women and men.</li>
+</ul></li>
+<li class="fragment"><strong>Other competing theories</strong>
+<ul>
+<li class="fragment">Future studies should examine whether collaboration is actually driven by the substantive topic or methodologies that could be more attractive for certain (gendered) research teams.</li>
+</ul></li>
 </ul>
 </section>
 <section id="implications" class="slide level2">
@@ -506,6 +695,93 @@ Funding agencies could use network analysis to assess whether grants reproduce c
 📧 matias.montero@education.ox.ac.uk</p>
 <p>Support from the Economic and Social Research Council (ESRC) [grant number ES/Y001761/1] through the Grand Union Doctoral Training Partnership (GUDTP) and UK Research and Innovation (UKRI) is gratefully acknowledged.</p>
 <p><img data-src="ukri-esrc-square-logo.png" width="120" height="100"></p>
+</section>
+<section id="extracurricular-school-networks-with-diego" class="slide level2">
+<h2><span style="color:#548893;"><strong>Extracurricular School Networks</strong></span> <em>(with Diego)</em></h2>
+<ul>
+<li class="fragment"><strong>Research internship: longitudinal school network data</strong>
+<ul>
+<li class="fragment">Prepared and analysed longitudinal network data through a reproducible workflow that transformed originally dispersed records into relationship matrices and student attribute panels ready for modelling.</li>
+<li class="fragment">Cleaned and harmonised networks across distinct extracurricular groups.</li>
+<li class="fragment">Documented conceptual criteria on participation, absence, and response.</li>
+</ul></li>
+<li class="fragment"><strong>First longitudinal estimates</strong>
+<ul>
+<li class="fragment">Bayesian network models in RSiena.</li>
+<li class="fragment">Identified stability challenges and progressively refined the analytical workflow.</li>
+</ul></li>
+<li class="fragment"><strong>Next steps</strong>
+<ul>
+<li class="fragment">Advance toward multiplex network models.</li>
+<li class="fragment">Extend the approach to multi-group specifications.</li>
+</ul></li>
+</ul>
+</section>
+<section id="extracurricular-network-data-by-group" class="slide level2 fondecyt-slide">
+<h2><span style="color:#548893;"><strong>Extracurricular Network Data by Group</strong></span></h2>
+<table class="fondecyt-table caption-top">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th">Activity</th>
+<th data-quarto-table-cell-role="th">Nodes</th>
+<th data-quarto-table-cell-role="th">Networks (types)</th>
+<th data-quarto-table-cell-role="th">Total matrices*</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Gymnastics</td>
+<td>35</td>
+<td>12</td>
+<td>24</td>
+</tr>
+<tr class="even">
+<td>5th grade youth group</td>
+<td>23</td>
+<td>12</td>
+<td>24</td>
+</tr>
+<tr class="odd">
+<td>6th grade youth group</td>
+<td>22</td>
+<td>12</td>
+<td>24</td>
+</tr>
+<tr class="even">
+<td>7th–8th grade youth group</td>
+<td>28</td>
+<td>12</td>
+<td>24</td>
+</tr>
+<tr class="odd">
+<td>Orchestra</td>
+<td>20</td>
+<td>12</td>
+<td>24</td>
+</tr>
+<tr class="even">
+<td>Scout</td>
+<td>27</td>
+<td>12</td>
+<td>24</td>
+</tr>
+<tr class="odd">
+<td>Gifted and talented group A</td>
+<td>21</td>
+<td>12</td>
+<td>24</td>
+</tr>
+<tr class="even">
+<td>Gifted and talented group B</td>
+<td>17</td>
+<td>12</td>
+<td>24</td>
+</tr>
+</tbody>
+</table>
+
+<p class="fondecyt-note">*Each activity includes <strong>12 network types</strong> measured at <strong>two time points</strong> (t1 and t2), yielding 24 adjacency matrices per group (12 × 2).</p>
+<p class="fondecyt-note"><strong>Note on network types:</strong> The 12 networks are the same across all extracurricular groups. Examples include <em>friends, popular, least liked, fights, most liked, not popular, kind, funny, cool, cooperative, be like,</em> and <em>best friends</em>.</p>
 
 </section></section>
     </div>

@@ -484,6 +484,12 @@ Greg Michalec, Skye Bender-deMoll, Martina Morris (2014) 'ndtv-d3: an HTML5 netw
         })
 
         sliderDiv.call(n3.slider);
+        if (n3.options.timeYearStart !== undefined) {
+          var yearStart = n3.options.timeYearStart;
+          n3.slider.tickFormat(function(d) {
+            return yearStart + Math.round(d - n3.minTime);
+          });
+        }
       }
       console.timeEnd('loadData');
       if (n3.options.animateOnLoad) {
