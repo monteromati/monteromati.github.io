@@ -1,0 +1,415 @@
+[
+  {
+    "objectID": "posts/programming-in-social-science/tutorial_tidyverse_pandas/index.html#paso-1-ambiente-mínimo",
+    "href": "posts/programming-in-social-science/tutorial_tidyverse_pandas/index.html#paso-1-ambiente-mínimo",
+    "title": "Uso de R y Pyhton",
+    "section": "Paso 1: ambiente mínimo",
+    "text": "Paso 1: ambiente mínimo\nPrepara un entorno con las librerías que usas con mayor frecuencia (por ejemplo: tidyverse, quarto, janitor). Guarda los paquetes en deps.R para que cualquier colaborador pueda instalar con renv::restore()."
+  },
+  {
+    "objectID": "posts/programming-in-social-science/tutorial_tidyverse_pandas/index.html#paso-2-datos-con-trazabilidad",
+    "href": "posts/programming-in-social-science/tutorial_tidyverse_pandas/index.html#paso-2-datos-con-trazabilidad",
+    "title": "Uso de R y Pyhton",
+    "section": "Paso 2: datos con trazabilidad",
+    "text": "Paso 2: datos con trazabilidad\nLee los datos desde files/data/, limpia columnas clave y guarda versiones intermedias. Añade glue::glue(\"data/cleaned-{today()}.csv\") para evitar sobrescribir resultados previos."
+  },
+  {
+    "objectID": "posts/programming-in-social-science/tutorial_tidyverse_pandas/index.html#paso-3-blog-al-final",
+    "href": "posts/programming-in-social-science/tutorial_tidyverse_pandas/index.html#paso-3-blog-al-final",
+    "title": "Uso de R y Pyhton",
+    "section": "Paso 3: blog al final",
+    "text": "Paso 3: blog al final\nEste tutorial forma parte del blog “Programming in Social Science”: cada entrada breve ayuda a documentar procesos compartidos y a inspirar nuevos scripts para el equipo."
+  },
+  {
+    "objectID": "posts/programming-in-social-science/data-pipelines/index.html",
+    "href": "posts/programming-in-social-science/data-pipelines/index.html",
+    "title": "Programming in Social Science: Data Pipelines",
+    "section": "",
+    "text": "Usa targets o drake para encadenar la limpieza, el análisis y la generación de reportes. Define tar_make() en un script que solo haga falta ejecutar cuando cambian los datos base."
+  },
+  {
+    "objectID": "posts/programming-in-social-science/data-pipelines/index.html#coordinación-entre-scripts",
+    "href": "posts/programming-in-social-science/data-pipelines/index.html#coordinación-entre-scripts",
+    "title": "Programming in Social Science: Data Pipelines",
+    "section": "",
+    "text": "Usa targets o drake para encadenar la limpieza, el análisis y la generación de reportes. Define tar_make() en un script que solo haga falta ejecutar cuando cambian los datos base."
+  },
+  {
+    "objectID": "posts/programming-in-social-science/data-pipelines/index.html#publicar-en-el-blog",
+    "href": "posts/programming-in-social-science/data-pipelines/index.html#publicar-en-el-blog",
+    "title": "Programming in Social Science: Data Pipelines",
+    "section": "Publicar en el blog",
+    "text": "Publicar en el blog\nLos artefactos resultantes se esconden dentro de posts/programming-in-social-science/; cuando todo esté listo, solo queda ejecutar quarto render posts.qmd para que la lista del blog muestre automáticamente las entradas más recientes."
+  },
+  {
+    "objectID": "posts/experience-in-research/fondecyt/index.html",
+    "href": "posts/experience-in-research/fondecyt/index.html",
+    "title": "Derechas FONDECYT, Interculturales, OLES, etc.",
+    "section": "",
+    "text": "FONDECYT Derechas: coordinación con becarios y alianzas con investigadores de campo, revisión de avances trimestrales.\nInterculturales: sesiones con comunidades, validación de metodologías y ajustes de protocolo para respeto cultural.\nOLES y redes: encuentros virtuales para compartir aprendizajes y difundir resultados en español e inglés."
+  },
+  {
+    "objectID": "posts/experience-in-research/fondecyt/index.html#notas-rápidas-de-colaboración",
+    "href": "posts/experience-in-research/fondecyt/index.html#notas-rápidas-de-colaboración",
+    "title": "Derechas FONDECYT, Interculturales, OLES, etc.",
+    "section": "",
+    "text": "FONDECYT Derechas: coordinación con becarios y alianzas con investigadores de campo, revisión de avances trimestrales.\nInterculturales: sesiones con comunidades, validación de metodologías y ajustes de protocolo para respeto cultural.\nOLES y redes: encuentros virtuales para compartir aprendizajes y difundir resultados en español e inglés."
+  },
+  {
+    "objectID": "posts/experience-in-research/fondecyt/index.html#próximos-pasos",
+    "href": "posts/experience-in-research/fondecyt/index.html#próximos-pasos",
+    "title": "Derechas FONDECYT, Interculturales, OLES, etc.",
+    "section": "Próximos pasos",
+    "text": "Próximos pasos\n\nConsolidar material audiovisual y referencias para los informes internos.\nRegistrar quién se sumó a cada iniciativa para facilitar nuevas convocatorias de fondos.\nCompartir estos apuntes con los equipos a través de posts.qmd para que queden visibles como parte del blog “Experience in Research”."
+  },
+  {
+    "objectID": "posts/datos-electorales/servel-2025/index.html#datos-disponibles",
+    "href": "posts/datos-electorales/servel-2025/index.html#datos-disponibles",
+    "title": "Datos Servel: Elecciones Presidenciales 2025",
+    "section": "Datos disponibles",
+    "text": "Datos disponibles\nEl dataset contiene resultados de las elecciones presidenciales 2025 del Servel con 2,905 registros organizados en tres niveles de agregación:\n\n\nNacional: Resultados totales por candidato\n\nRegional: Resultados desagregados por región\n\nComunal: Resultados desagregados por comuna y distrito\n\nEstructura de los datos\nLas variables incluyen: - candidato: Nombre del candidato presidencial - votos: Número absoluto de votos - porcentaje: Porcentaje de votos obtenidos - nivel: Nivel de agregación (nacional, region, comuna) - region: Nombre de la región (NA para nivel nacional) - distrito: Distrito electoral (NA para niveles superiores) - comuna: Nombre de la comuna (NA para niveles superiores)\nCandidatos presidenciales\nLos datos incluyen resultados para 8 candidatos: - Franco Parisi Fernández - Jeannette Jara Román - Marco Antonio Enríquez-Ominami Gumucio - Johannes Kaiser Barents-von Hohenhagen - José Antonio Kast Rist - Eduardo Antonio Artes Brichetti - Evelyn Matthei Fornet - Harold Mayne-Nicholls Secul"
+  },
+  {
+    "objectID": "posts/datos-electorales/servel-2025/index.html#análisis-disponibles",
+    "href": "posts/datos-electorales/servel-2025/index.html#análisis-disponibles",
+    "title": "Datos Servel: Elecciones Presidenciales 2025",
+    "section": "Análisis disponibles",
+    "text": "Análisis disponibles\nEn el directorio datos/servel/ se encuentra el script 01_maps.R que incluye:\n\n\nLimpieza y estandarización: Normalización de nombres de comunas para facilitar el cruce con datos geográficos\n\nMapas de ganadores: Visualización del candidato ganador por comuna a nivel nacional\n\nAnálisis regional: Mapas desagregados por región\n\nIntegración con chilemapas: Uso del paquete chilemapas para visualización geográfica\n\nResultados nacionales preliminares\nA nivel nacional, los resultados muestran una distribución competitiva entre los principales candidatos, con variaciones significativas a nivel regional y comunal que reflejan patrones geográficos de preferencias electorales."
+  },
+  {
+    "objectID": "posts/datos-electorales/servel-2025/index.html#explorador-interactivo-de-resultados",
+    "href": "posts/datos-electorales/servel-2025/index.html#explorador-interactivo-de-resultados",
+    "title": "Datos Servel: Elecciones Presidenciales 2025",
+    "section": "Explorador interactivo de resultados",
+    "text": "Explorador interactivo de resultados\nUsa la tabla a continuación para buscar comunas y ver qué candidato ganó en cada una, junto con el porcentaje de votos obtenido.\n\n\n\n\n\n\nResumen por candidato"
+  },
+  {
+    "objectID": "posts/datos-electorales/servel-2025/index.html#próximos-pasos",
+    "href": "posts/datos-electorales/servel-2025/index.html#próximos-pasos",
+    "title": "Datos Servel: Elecciones Presidenciales 2025",
+    "section": "Próximos pasos",
+    "text": "Próximos pasos\n\nAnálisis de patrones geográficos de votación\nComparación con elecciones anteriores\nVisualizaciones interactivas de resultados\nAnálisis de correlaciones con variables socioeconómicas"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "🇬🇧 EN\n  🇪🇸 ES"
+  },
+  {
+    "objectID": "teaching.html#doctoral-teaching-fellow",
+    "href": "teaching.html#doctoral-teaching-fellow",
+    "title": "Teaching",
+    "section": "Doctoral Teaching Fellow",
+    "text": "Doctoral Teaching Fellow\nDepartment of Education, University of Oxford – Oxford, United Kingdom | Oct 2025 – Current\n- Introduction to Quantitative Research (PhD & MSc in Education).\n- Intermediate Quantitative Research (PhD & MSc in Education).\nLecturer: Professor Lars-Erik Malmberg."
+  },
+  {
+    "objectID": "teaching.html#teaching-assistant",
+    "href": "teaching.html#teaching-assistant",
+    "title": "Teaching",
+    "section": "Teaching Assistant",
+    "text": "Teaching Assistant\nUniversidad de Chile – Santiago, Chile | Aug 2024 – Nov 2024\n- Quantitative Research Methodology in Education (PhD in Education). Lecturer: Lorena Ortega.\n- Quantitative Methodology II (MSc in Educational Research, Institute of Education). Lecturers: Patricio Rodríguez and Lorena Ortega.\nUniversidad Diego Portales – Santiago, Chile | Mar 2021 – Jun 2023\n- Basic Statistics (MSc Social Research Methods). Lecturer: Macarena Orchard.\n- Advanced Statistical Techniques (Oct 2021 – Dec 2021, MSc Social Research Methods). Lecturer: Professor Mónica Gerber.\nUniversidad de Chile – Santiago, Chile | Mar 2021 – Jun 2021\n- Sociology of Education (BSc Sociology, Department of Sociology). Lecturer: Lorena Ortega."
+  },
+  {
+    "objectID": "teaching.html#fellow-de-docencia-doctoral",
+    "href": "teaching.html#fellow-de-docencia-doctoral",
+    "title": "Teaching",
+    "section": "Fellow de Docencia Doctoral",
+    "text": "Fellow de Docencia Doctoral\nDepartment of Education, University of Oxford – Oxford, Reino Unido | Oct 2025 – Actualidad\n- Introduction to Quantitative Research (curso de PhD y MSc en Educación).\n- Intermediate Quantitative Research (curso de PhD y MSc en Educación).\nDocente responsable: Profesor Lars-Erik Malmberg."
+  },
+  {
+    "objectID": "teaching.html#asistente-de-docencia",
+    "href": "teaching.html#asistente-de-docencia",
+    "title": "Teaching",
+    "section": "Asistente de Docencia",
+    "text": "Asistente de Docencia\nUniversidad de Chile – Santiago, Chile | Ago 2024 – Nov 2024\n- Metodología de Investigación Cuantitativa en Educación (Doctorado en Educación). Docente: Lorena Ortega.\n- Metodología Cuantitativa II (Magíster en Investigación Educativa, Instituto de Educación). Docentes: Patricio Rodríguez y Lorena Ortega.\nUniversidad Diego Portales – Santiago, Chile | Mar 2021 – Jun 2023\n- Estadística Básica (Magíster en Métodos de Investigación Social). Docente: Macarena Orchard.\n- Técnicas Estadísticas Avanzadas (Oct 2021 – Dic 2021, Magíster en Métodos de Investigación Social). Docente: Profesora Mónica Gerber.\nUniversidad de Chile – Santiago, Chile | Mar 2021 – Jun 2021\n- Sociología de la Educación (Licenciatura en Sociología, Departamento de Sociología). Docente: Lorena Ortega."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Order By\n      Default\n      \n      \n      \n        Title\n      \n      \n        Team\n      \n      \n        Funder\n      \n      \n        Description\n      \n      \n        Start\n      \n      \n        End\n      \n      \n        Funding\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n \n\n\n\nTitle\n\n\n\nTeam\n\n\n\nFunder\n\n\n\nDescription\n\n\n\nFunding\n\n\n\nStart\n\n\n\nEnd\n\n\n\n\n\n\n\n\n\n\n\nExploring \n\n\nAcademic Website\n\n\nFunder\n\n\nThe goal of this project is to investigate .\n\n\n$0\n\n\n2024\n\n\n2025\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "photos.html",
+    "href": "photos.html",
+    "title": "Photos",
+    "section": "",
+    "text": "Compartimos aquí capturas representativas de talleres, reuniones de análisis y visualizaciones. Haz click en cualquier imagen para verla en mayor tamaño dentro de la ventana modal, donde también aparece una breve nota descriptiva."
+  },
+  {
+    "objectID": "photos.html#galería-de-fotos",
+    "href": "photos.html#galería-de-fotos",
+    "title": "Photos",
+    "section": "",
+    "text": "Compartimos aquí capturas representativas de talleres, reuniones de análisis y visualizaciones. Haz click en cualquier imagen para verla en mayor tamaño dentro de la ventana modal, donde también aparece una breve nota descriptiva."
+  },
+  {
+    "objectID": "photos.html#cómo-agregar-nuevas-fotos",
+    "href": "photos.html#cómo-agregar-nuevas-fotos",
+    "title": "Photos",
+    "section": "Cómo agregar nuevas fotos",
+    "text": "Cómo agregar nuevas fotos\n\nCopia tus imágenes a files/images/photos/ y nómbralas de forma descriptiva.\nDuplica uno de los bloques :::: anteriores y actualiza la ruta del archivo. Agrega data-photo y data-caption (máximo 50 palabras) con la descripción breve.\nHaz git add y commit, o sube los archivos si usas la interfaz web.\nCada vez que actualices el repositorio, las fotos estarán disponibles en esta galería sin tocar nada más.\n\n\n\n\n&lt;div class=\"modal-content bg-dark border-0\"&gt;\n  &lt;div class=\"modal-body text-center p-0 position-relative\"&gt;\n    &lt;img id=\"photoModalImg\" class=\"img-fluid rounded\" src=\"\" alt=\"Foto ampliada\" /&gt;\n    &lt;div id=\"photoModalCaption\" class=\"photo-modal-caption text-white small\"&gt;&lt;/div&gt;\n  &lt;/div&gt;\n  &lt;div class=\"modal-footer border-0 justify-content-center\"&gt;\n    &lt;button type=\"button\" class=\"btn btn-outline-light\" data-bs-dismiss=\"modal\"&gt;Close&lt;/button&gt;\n  &lt;/div&gt;\n&lt;/div&gt;"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Matías Montero",
+    "section": "",
+    "text": "GitHub\n  \n  \n    \n     LinkedIn\n  \n  \n      ORCID\n  \n  \n      Google Scholar\n  \n\n  \n  \n\n\nMatías Montero is a sociologist of education and DPhil Student in Education at the University of Oxford, funded by the Economic and Social Research Council (ESRC). His work focuses on how higher education systems, schools, and classrooms reproduce or challenge social inequalities over time.\nHis main interests lie at the intersection of sociology of education, social network analysis, and the study of educational trajectories. He is particularly interested in how social ties and institutional arrangements shape students’ opportunities to learn, belong, and succeed.\n\n\nMatías is currently developing his doctoral research focuses on networks of gender disparities across the career trajectories of education researchers in Latin America, exploring institutional and individual effects on the persistence and formation of co-authorship publication networks.\nFor a detailed overview of his experience, teaching, and publications, please visit the corresponding sections in the navigation bar.\n\n\n\n\nMatías Montero es sociólogo de la educación y Estudiante de Doctorado en Educación (DPhil) en la Universidad de Oxford, financiado por el Economic and Social Research Council (ESRC) del Reino Unido. Su trabajo se centra en cómo los sistemas de educación superior, las escuelas y las aulas reproducen o desafían las desigualdades sociales a lo largo del tiempo.\nSus principales intereses se sitúan en la intersección entre la sociología de la educación, el análisis de redes sociales y el estudio de trayectorias educativas. Le interesa especialmente cómo los lazos sociales y los arreglos institucionales moldean las oportunidades de aprender, pertenecer y tener éxito de estudiantes y comunidades educativas.\n\n\nMatías está desarrollando actualmente su investigación doctoral centrada en las redes de disparidades de género en las trayectorias profesionales de los investigadores en educación en América Latina, explorando los efectos institucionales e individuales en la persistencia y formación de redes de publicación en coautoría.\nPara una visión más detallada de su experiencia, docencia y publicaciones, puedes visitar las secciones correspondientes en la barra de navegación."
+  },
+  {
+    "objectID": "index.html#introduction",
+    "href": "index.html#introduction",
+    "title": "Matías Montero",
+    "section": "",
+    "text": "Matías Montero is a sociologist of education and DPhil Student in Education at the University of Oxford, funded by the Economic and Social Research Council (ESRC). His work focuses on how higher education systems, schools, and classrooms reproduce or challenge social inequalities over time.\nHis main interests lie at the intersection of sociology of education, social network analysis, and the study of educational trajectories. He is particularly interested in how social ties and institutional arrangements shape students’ opportunities to learn, belong, and succeed.\n\n\nMatías is currently developing his doctoral research focuses on networks of gender disparities across the career trajectories of education researchers in Latin America, exploring institutional and individual effects on the persistence and formation of co-authorship publication networks.\nFor a detailed overview of his experience, teaching, and publications, please visit the corresponding sections in the navigation bar."
+  },
+  {
+    "objectID": "index.html#introducción",
+    "href": "index.html#introducción",
+    "title": "Matías Montero",
+    "section": "",
+    "text": "Matías Montero es sociólogo de la educación y Estudiante de Doctorado en Educación (DPhil) en la Universidad de Oxford, financiado por el Economic and Social Research Council (ESRC) del Reino Unido. Su trabajo se centra en cómo los sistemas de educación superior, las escuelas y las aulas reproducen o desafían las desigualdades sociales a lo largo del tiempo.\nSus principales intereses se sitúan en la intersección entre la sociología de la educación, el análisis de redes sociales y el estudio de trayectorias educativas. Le interesa especialmente cómo los lazos sociales y los arreglos institucionales moldean las oportunidades de aprender, pertenecer y tener éxito de estudiantes y comunidades educativas.\n\n\nMatías está desarrollando actualmente su investigación doctoral centrada en las redes de disparidades de género en las trayectorias profesionales de los investigadores en educación en América Latina, explorando los efectos institucionales e individuales en la persistencia y formación de redes de publicación en coautoría.\nPara una visión más detallada de su experiencia, docencia y publicaciones, puedes visitar las secciones correspondientes en la barra de navegación."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "E-mail: m.deneken[at].cl"
+  },
+  {
+    "objectID": "advising.html#how-we-work-together",
+    "href": "advising.html#how-we-work-together",
+    "title": "Advising",
+    "section": "How we work together",
+    "text": "How we work together"
+  },
+  {
+    "objectID": "advising.html#contact",
+    "href": "advising.html#contact",
+    "title": "Advising",
+    "section": "Contact",
+    "text": "Contact\n\nEmail: m.deneken@uc.cl\nLinkedIn: https://linkedin.com/deneken\nBsky: https://bsky.app"
+  },
+  {
+    "objectID": "conferences.html",
+    "href": "conferences.html",
+    "title": "Conferences",
+    "section": "",
+    "text": "🇬🇧 EN\n  🇪🇸 ES"
+  },
+  {
+    "objectID": "conferences.html#selected-conference-presentations",
+    "href": "conferences.html#selected-conference-presentations",
+    "title": "Conferences",
+    "section": "Selected Conference Presentations",
+    "text": "Selected Conference Presentations\nThis section will be updated soon with a curated list of conference presentations and invited talks."
+  },
+  {
+    "objectID": "conferences.html#presentaciones-en-congresos-seleccionadas",
+    "href": "conferences.html#presentaciones-en-congresos-seleccionadas",
+    "title": "Conferences",
+    "section": "Presentaciones en Congresos Seleccionadas",
+    "text": "Presentaciones en Congresos Seleccionadas\nEsta sección será actualizada pronto con una lista curada de presentaciones en congresos y charlas invitadas."
+  },
+  {
+    "objectID": "experience.html",
+    "href": "experience.html",
+    "title": "Experience",
+    "section": "",
+    "text": "🇬🇧 EN\n  🇪🇸 ES"
+  },
+  {
+    "objectID": "experience.html#current-roles",
+    "href": "experience.html#current-roles",
+    "title": "Experience",
+    "section": "Current Roles",
+    "text": "Current Roles\nDPhil Student in Education\nDepartment of Education, University of Oxford | Oxford, United Kingdom\n- Doctoral research on inequalities in education, social networks, and students’ trajectories in academically selective and stratified systems.\nDoctoral Teaching Fellow\nDepartment of Education, University of Oxford | Oct 2025 – Current\n- Co-teaches Introduction to Quantitative Research and Intermediate Quantitative Research in the PhD and MSc in Education programmes.\n- Supports postgraduate students in the design and implementation of quantitative research in education."
+  },
+  {
+    "objectID": "experience.html#selected-research-projects-last-3-years",
+    "href": "experience.html#selected-research-projects-last-3-years",
+    "title": "Experience",
+    "section": "Selected Research Projects (Last 3 Years)",
+    "text": "Selected Research Projects (Last 3 Years)\nThe British Academy Pump Priming Collaboration between UK and EU Partners Scheme N° PPHE26\\100097\nMaking Europe a Global Magnet for International Students | Feb 2026 – Current\nPI: Professor Rachel Brooks (Department of Education, University of Oxford).\nThe British Academy Postdoctoral Fellowship N° PFSS25\\250031\nFrom Access to Inclusion: Cross-Class Dynamics in Academically Selective Institutions | Dec 2025 – Feb 2026\nPI: Paulina Rodríguez (Department of Education, University of Oxford).\nPuente Funding Scheme Project 2025\nSupport and Care Networks among Older Adults: A Literature Review on Sibling Bonds | Nov 2025 – Feb 2026\nPI: Francisca Ortiz (Centre for Economy and Social Policy, Universidad Mayor).\nFunding: Vice-Rectorate for Research, General Directorate of Research and Artistic Creation, Universidad Mayor.\nEthOS Project\nInstitute of Advanced Study, Durham University | Nov 2025 – Mar 2026\nPI: Professor Catherine Montgomery.\nGender Segregation Between Knowledge Areas in Chilean Academic Secondary Education: Background, Moderators and Consequences\nFONDECYT Regular Grant Nº 1231930 | Apr 2023 – Oct 2024\nFunded by the Chilean National Agency for Research and Development (ANID).\nPI: Lorena Ortega.\nImpact Evaluation of the STEM Gender Programme on Female 10th-graders and STEM Teachers\nUNDP-CHL-00141 | Aug 2025 – Jan 2026\nUnited Nations Development Programme (UNDP) and Chile’s Ministry of Education.\nPI: Pilar Reyes (CIAE, Universidad de Chile).\nLearning Achievements from Migrant Students\nNov 2025 – Jan 2026\nFunded by the Chilean Education Quality Assurance Agency, Chilean Ministry of Education.\nPI: Lorena Ortega (CIAE, Institute for Advanced Studies in Education, Universidad de Chile)."
+  },
+  {
+    "objectID": "experience.html#visiting-position",
+    "href": "experience.html#visiting-position",
+    "title": "Experience",
+    "section": "Visiting Position",
+    "text": "Visiting Position\nVisiting Doctoral Student\nInstitute of Sociology, Pontificia Universidad Católica de Chile\nAcademic Host: Dr Alejandro Espinosa Rada.\n- Collaborated on the FONDECYT Postdoctoral Grant 3250037: Isolation and Social Groups in a University Community."
+  },
+  {
+    "objectID": "experience.html#roles-actuales",
+    "href": "experience.html#roles-actuales",
+    "title": "Experience",
+    "section": "Roles Actuales",
+    "text": "Roles Actuales\nEstudiante de Doctorado en Educación (DPhil)\nDepartment of Education, University of Oxford | Oxford, Reino Unido\n- Investigación doctoral sobre desigualdades educativas, redes sociales y trayectorias estudiantiles en sistemas académicamente selectivos y estratificados.\nFellow de Docencia Doctoral\nDepartment of Education, University of Oxford | Oct 2025 – Actualidad\n- Co-dicta Introduction to Quantitative Research e Intermediate Quantitative Research en los programas de PhD y MSc en Educación.\n- Apoya a estudiantes de postgrado en el diseño e implementación de investigación cuantitativa en educación."
+  },
+  {
+    "objectID": "experience.html#proyectos-de-investigación-seleccionados-últimos-3-años",
+    "href": "experience.html#proyectos-de-investigación-seleccionados-últimos-3-años",
+    "title": "Experience",
+    "section": "Proyectos de Investigación Seleccionados (Últimos 3 Años)",
+    "text": "Proyectos de Investigación Seleccionados (Últimos 3 Años)\nThe British Academy Pump Priming Collaboration between UK and EU Partners Scheme N° PPHE26\\100097\nMaking Europe a Global Magnet for International Students | Feb 2026 – Actualidad\nInvestigadora Principal (PI): Profesora Rachel Brooks (Department of Education, University of Oxford).\nThe British Academy Postdoctoral Fellowship N° PFSS25\\250031\nFrom Access to Inclusion: Cross-Class Dynamics in Academically Selective Institutions | Dic 2025 – Feb 2026\nPI: Paulina Rodríguez (Department of Education, University of Oxford).\nProyecto Puente 2025\nSupport and Care Networks among Older Adults: A Literature Review on Sibling Bonds | Nov 2025 – Feb 2026\nPI: Francisca Ortiz (Centro de Economía y Políticas Sociales, Universidad Mayor).\nFinanciamiento: Vicerrectoría de Investigación, Dirección General de Investigación y Creación Artística, Universidad Mayor.\nProyecto EthOS\nInstitute of Advanced Study, Durham University | Nov 2025 – Mar 2026\nPI: Profesora Catherine Montgomery.\nSegregación de Género entre Áreas de Conocimiento en la Educación Secundaria Académica Chilena: Antecedentes, Moderadores y Consecuencias\nProyecto FONDECYT Regular Nº 1231930 | Abr 2023 – Oct 2024\nFinanciado por la Agencia Nacional de Investigación y Desarrollo (ANID), Chile.\nPI: Lorena Ortega.\nEvaluación de Impacto del Programa STEM Gender en Estudiantes Mujeres de 2° Medio y Docentes STEM\nUNDP-CHL-00141 | Ago 2025 – Ene 2026\nPrograma de las Naciones Unidas para el Desarrollo (PNUD) y Ministerio de Educación de Chile.\nPI: Pilar Reyes (CIAE, Universidad de Chile).\nLogros de Aprendizaje de Estudiantes Migrantes\nNov 2025 – Ene 2026\nFinanciado por la Agencia de Calidad de la Educación, Ministerio de Educación de Chile.\nPI: Lorena Ortega (CIAE, Instituto de Estudios Avanzados en Educación, Universidad de Chile)."
+  },
+  {
+    "objectID": "experience.html#estancia-de-investigación",
+    "href": "experience.html#estancia-de-investigación",
+    "title": "Experience",
+    "section": "Estancia de Investigación",
+    "text": "Estancia de Investigación\nEstudiante de Doctorado Visitante\nInstituto de Sociología, Pontificia Universidad Católica de Chile\nAnfitrión académico: Dr Alejandro Espinosa Rada.\n- Colaboración en el FONDECYT Postdoctoral 3250037: Isolation and Social Groups in a University Community."
+  },
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "People",
+    "section": "",
+    "text": "PhD Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nMasters Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nUndergraduate Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nPI\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "people.html#team",
+    "href": "people.html#team",
+    "title": "People",
+    "section": "",
+    "text": "PhD Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nMasters Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nUndergraduate Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nPI\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "people.html#alumni",
+    "href": "people.html#alumni",
+    "title": "People",
+    "section": "Alumni",
+    "text": "Alumni\n\n\n   \n    \n    \n      Order By\n      Default\n      \n      \n      \n        Name\n      \n      \n        Role\n      \n      \n        Started\n      \n      \n        Ended\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n \n\n\n\nName\n\n\n\nRole\n\n\n\nStarted\n\n\n\nEnded\n\n\n\n\n\n\n\n\n\n\n\nAlumni A\n\n\nPhD Alumni\n\n\n2024\n\n\n2025\n\n\n\n\n\n\n\n\n\nAlumni B\n\n\nMasters Alumni\n\n\n2024\n\n\n2025\n\n\n\n\n\n\n\n\n\nAlumni C\n\n\nUndergraduate Alumni\n\n\n2024\n\n\n2025\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "What’s New & Updated",
+    "section": "",
+    "text": "This catalog collects opinion columns, short reports, and tutorial notes from Matías Deneken’s work in social data science. Use the filters to view News, Tutorials, Experience in Research, or other tags and explore the most recent reflections and resources."
+  },
+  {
+    "objectID": "posts.html#opinion-columns",
+    "href": "posts.html#opinion-columns",
+    "title": "What’s New & Updated",
+    "section": "",
+    "text": "This catalog collects opinion columns, short reports, and tutorial notes from Matías Deneken’s work in social data science. Use the filters to view News, Tutorials, Experience in Research, or other tags and explore the most recent reflections and resources."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "🇬🇧 EN\n  🇪🇸 ES"
+  },
+  {
+    "objectID": "publications.html#journal-articles",
+    "href": "publications.html#journal-articles",
+    "title": "Publications",
+    "section": "Journal Articles",
+    "text": "Journal Articles\n\nOrtega, L., Montero, M., Romero, A., Canals, C. & Mizala, A. (2026). Pathways to Gender Equity in Latin America and the Caribbean: A Comparative Analysis of Trends in Mathematics Gender Gaps Using PISA Data. Studies in Educational Evaluation.\nZelada, C., Ortega, L., & Montero, M. (2025). The Unfulfilled “Chilean Dream”? Inequalities and Institutional Segregation in the Transitions of Foreign Students to Higher Education in Chile. Education Policy Analysis Archives, 33. https://doi.org/10.14507/epaa.33.8520\nOrtega, L., Montero, M., Canals, C. & Mizala, A. (2025). Gender Segregation in Secondary School Course Choices: Socioeconomic Gradients and the Protective Role of School Gender Culture. American Educational Research Journal, 62(3), 499–539. https://doi.org/10.3102/00028312241308537\nOrtega, L., Guzmán-Valenzuela, C., Montero, M., Palacios, D., & Ortiz Ruiz, F. (2025). Looking beyond representation: Gender inequities in research attrition, output, leadership, and collaboration in Chilean education researchers’ career trajectories. Journal of Diversity in Higher Education, 18(Suppl 1), S709–S723. https://doi.org/10.1037/dhe0000617\nBustos-Ibarra, A., Montenegro, C., Ciga, E., Calfual-Catalán, C., Jarpa-Azagra, M., Fernández M., Olivares-Jiménez, J. & Montero, M. (2024). ¿Es posible transformar las prácticas en las aulas de primaria? El caso de un programa para formadores de lectores. Profesorado.\nJarpa-Azagra, M., Bustos-Ibarra, A., Olivares-Jiménez, J., Calfual-Catalán, K. & Montero, M. (2024). To Promote Pedagogical Reflection to Improve Classroom Practices Based on Professional Teaching Writing. Revista Mexicana de Investigación Educativa, 29(102), 657–681.\nGuzmán-Valenzuela, C., Ortega, L., Montero, M. & Pérez Mejías, P. (2023). The new knowledge production in the social sciences and in the arts and humanities in Latin America. Higher Education, 85(3), 587–612. https://doi.org/10.1007/s10734-022-00853-5\nRetamales, M., Correa, C., Montero, M., & Omonte, F. (2020). On the intertwining of the political subject and the socio-political matrix. Revista de Ciencias Sociales, 28(43), 34–57."
+  },
+  {
+    "objectID": "publications.html#artículos-en-revistas",
+    "href": "publications.html#artículos-en-revistas",
+    "title": "Publications",
+    "section": "Artículos en revistas",
+    "text": "Artículos en revistas\n\nOrtega, L., Montero, M., Romero, A., Canals, C. & Mizala, A. (2026). Pathways to Gender Equity in Latin America and the Caribbean: A Comparative Analysis of Trends in Mathematics Gender Gaps Using PISA Data. Studies in Educational Evaluation.\nZelada, C., Ortega, L., & Montero, M. (2025). The Unfulfilled “Chilean Dream”? Inequalities and Institutional Segregation in the Transitions of Foreign Students to Higher Education in Chile. Education Policy Analysis Archives, 33. https://doi.org/10.14507/epaa.33.8520\nOrtega, L., Montero, M., Canals, C. & Mizala, A. (2025). Gender Segregation in Secondary School Course Choices: Socioeconomic Gradients and the Protective Role of School Gender Culture. American Educational Research Journal, 62(3), 499–539. https://doi.org/10.3102/00028312241308537\nOrtega, L., Guzmán-Valenzuela, C., Montero, M., Palacios, D., & Ortiz Ruiz, F. (2025). Looking beyond representation: Gender inequities in research attrition, output, leadership, and collaboration in Chilean education researchers’ career trajectories. Journal of Diversity in Higher Education, 18(Suppl 1), S709–S723. https://doi.org/10.1037/dhe0000617\nBustos-Ibarra, A., Montenegro, C., Ciga, E., Calfual-Catalán, C., Jarpa-Azagra, M., Fernández M., Olivares-Jiménez, J. & Montero, M. (2024). ¿Es posible transformar las prácticas en las aulas de primaria? El caso de un programa para formadores de lectores. Profesorado.\nJarpa-Azagra, M., Bustos-Ibarra, A., Olivares-Jiménez, J., Calfual-Catalán, K. & Montero, M. (2024). To Promote Pedagogical Reflection to Improve Classroom Practices Based on Professional Teaching Writing. Revista Mexicana de Investigación Educativa, 29(102), 657–681.\nGuzmán-Valenzuela, C., Ortega, L., Montero, M. & Pérez Mejías, P. (2023). The new knowledge production in the social sciences and in the arts and humanities in Latin America. Higher Education, 85(3), 587–612. https://doi.org/10.1007/s10734-022-00853-5\nRetamales, M., Correa, C., Montero, M., & Omonte, F. (2020). On the intertwining of the political subject and the socio-political matrix. Revista de Ciencias Sociales, 28(43), 34–57."
+  },
+  {
+    "objectID": "posts/avance-socia/index.html",
+    "href": "posts/avance-socia/index.html",
+    "title": "Avance sobre datos sociales 2025",
+    "section": "",
+    "text": "Esta semana comparto una actualización sobre la recolección de datos sociales que hemos venido trabajando. Publicamos nuevos scripts de limpieza, añadimos anotaciones de calidad y generamos una primera serie de visualizaciones para el equipo, lo que nos permite comunicar mejor los patrones emergentes."
+  },
+  {
+    "objectID": "posts/avance-socia/index.html#resumen",
+    "href": "posts/avance-socia/index.html#resumen",
+    "title": "Avance sobre datos sociales 2025",
+    "section": "",
+    "text": "Esta semana comparto una actualización sobre la recolección de datos sociales que hemos venido trabajando. Publicamos nuevos scripts de limpieza, añadimos anotaciones de calidad y generamos una primera serie de visualizaciones para el equipo, lo que nos permite comunicar mejor los patrones emergentes."
+  },
+  {
+    "objectID": "posts/avance-socia/index.html#qué-sigue",
+    "href": "posts/avance-socia/index.html#qué-sigue",
+    "title": "Avance sobre datos sociales 2025",
+    "section": "Qué sigue",
+    "text": "Qué sigue\n\nDocumentar el proceso de verificación y sincronizarlo con el repositorio principal para que otros puedan reproducirlo.\nCompartir un breve cuaderno con los resultados preliminares en la sección de posts del sitio.\nPlanificar un taller interno para discutir cómo integrarlo a la próxima cátedra."
+  },
+  {
+    "objectID": "posts/experience-in-research/colaboraciones/index.html",
+    "href": "posts/experience-in-research/colaboraciones/index.html",
+    "title": "Alianzas e instrumentos de colaboración",
+    "section": "",
+    "text": "Se registran aquí los acuerdos operativos con equipos externos, mesadas de trabajo y protocolos que facilitan la colaboración sostenida en proyectos de datos sociales."
+  },
+  {
+    "objectID": "posts/experience-in-research/colaboraciones/index.html#mesa-de-trabajo-y-acuerdos",
+    "href": "posts/experience-in-research/colaboraciones/index.html#mesa-de-trabajo-y-acuerdos",
+    "title": "Alianzas e instrumentos de colaboración",
+    "section": "",
+    "text": "Se registran aquí los acuerdos operativos con equipos externos, mesadas de trabajo y protocolos que facilitan la colaboración sostenida en proyectos de datos sociales."
+  },
+  {
+    "objectID": "posts/experience-in-research/colaboraciones/index.html#documentación-rápida",
+    "href": "posts/experience-in-research/colaboraciones/index.html#documentación-rápida",
+    "title": "Alianzas e instrumentos de colaboración",
+    "section": "Documentación rápida",
+    "text": "Documentación rápida\n\nCarta de intención compartida con aliados académicos.\nProtocolos de entrevistas y consentimiento digital.\nBitácoras de reuniones semanales y chequeos de avance."
+  },
+  {
+    "objectID": "posts/experience-in-research/roles/index.html",
+    "href": "posts/experience-in-research/roles/index.html",
+    "title": "Experience in Research: Field Coordination",
+    "section": "",
+    "text": "En este espacio documentaré tareas de coordinación (equipos, cronogramas, validaciones) para que cada experiencia quede registrada dentro del blog. Puedo agregar fotos o enlaces a reportes cuando sea útil."
+  },
+  {
+    "objectID": "posts/experience-in-research/roles/index.html#coordinación-y-operación-en-terreno",
+    "href": "posts/experience-in-research/roles/index.html#coordinación-y-operación-en-terreno",
+    "title": "Experience in Research: Field Coordination",
+    "section": "",
+    "text": "En este espacio documentaré tareas de coordinación (equipos, cronogramas, validaciones) para que cada experiencia quede registrada dentro del blog. Puedo agregar fotos o enlaces a reportes cuando sea útil."
+  },
+  {
+    "objectID": "posts/experience-in-research/roles/index.html#cómo-mantener-estas-notas",
+    "href": "posts/experience-in-research/roles/index.html#cómo-mantener-estas-notas",
+    "title": "Experience in Research: Field Coordination",
+    "section": "Cómo mantener estas notas",
+    "text": "Cómo mantener estas notas\n\nDuplica esta entrada o crea otra en posts/experience-in-research/.\nActualiza el título, la fecha y la descripción con el proyecto específico.\nDescribe brevemente qué pasó y qué aprendiste; adjunta enlaces o archivos si es relevante.\nLa categoría experience-in-research mantiene todas estas notas agrupadas dentro del menú “Research”."
+  },
+  {
+    "objectID": "posts/programming-in-social-science/quickstart/index.html",
+    "href": "posts/programming-in-social-science/quickstart/index.html",
+    "title": "Programming in Social Science: Quickstart",
+    "section": "",
+    "text": "Prepara un entorno con las librerías que usas con mayor frecuencia (por ejemplo: tidyverse, quarto, janitor). Guarda los paquetes en deps.R para que cualquier colaborador pueda instalar con renv::restore()."
+  },
+  {
+    "objectID": "posts/programming-in-social-science/quickstart/index.html#paso-1-ambiente-mínimo",
+    "href": "posts/programming-in-social-science/quickstart/index.html#paso-1-ambiente-mínimo",
+    "title": "Programming in Social Science: Quickstart",
+    "section": "",
+    "text": "Prepara un entorno con las librerías que usas con mayor frecuencia (por ejemplo: tidyverse, quarto, janitor). Guarda los paquetes en deps.R para que cualquier colaborador pueda instalar con renv::restore()."
+  },
+  {
+    "objectID": "posts/programming-in-social-science/quickstart/index.html#paso-2-datos-con-trazabilidad",
+    "href": "posts/programming-in-social-science/quickstart/index.html#paso-2-datos-con-trazabilidad",
+    "title": "Programming in Social Science: Quickstart",
+    "section": "Paso 2: datos con trazabilidad",
+    "text": "Paso 2: datos con trazabilidad\nLee los datos desde files/data/, limpia columnas clave y guarda versiones intermedias. Añade glue::glue(\"data/cleaned-{today()}.csv\") para evitar sobrescribir resultados previos."
+  },
+  {
+    "objectID": "posts/programming-in-social-science/quickstart/index.html#paso-3-blog-al-final",
+    "href": "posts/programming-in-social-science/quickstart/index.html#paso-3-blog-al-final",
+    "title": "Programming in Social Science: Quickstart",
+    "section": "Paso 3: blog al final",
+    "text": "Paso 3: blog al final\nEste tutorial forma parte del blog “Programming in Social Science”: cada entrada breve ayuda a documentar procesos compartidos y a inspirar nuevos scripts para el equipo."
+  }
+]
