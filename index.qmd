@@ -1,62 +1,144 @@
 ---
 title: "Matías Montero"
-description-meta: "Soy Estudiante de Doctorado en Educación en la Universidad de Oxford y becario del ESRC del Reino Unido. Profundamente sociólogo de la educación y encantado por el análisis de redes."
-image: "files/images/matias_profile.JPG"
+pagetitle: "Matías Montero | Education researcher"
+description-meta: "DPhil researcher in education at the University of Oxford studying inequality, social networks, and educational trajectories."
+image: "files/images/matias_profile.jpg"
 page-navigation: false
 toc: false
 page-layout: full
-
-about:
-  id: hero-heading
-  template: trestles
-  image-width: 90%
-  links:
-    - icon: github
-      text: GitHub
-      href: https://github.com/monteromati
-      target: _blank
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/matiasmonteros/
-      target: _blank
-    - text: "{{< ai orcid >}} ORCID"
-      href: https://orcid.org/0000-0003-1610-2477
-      target: _blank
-    - text: "{{< ai google-scholar >}} Google Scholar"
-      href: https://scholar.google.com/citations?user=Bsr3stIAAAAJ&hl=es
-      target: _blank
+title-block-banner: false
 ---
 
-:::{#hero-heading}
+```{=html}
+<style>.quarto-title-block { display: none; }</style>
+```
 
-<div data-lang="en">
-## Introduction
+::: {.hero-shell}
+::: {.hero-copy}
+<p class="eyebrow">SOCIOLOGY OF EDUCATION · SOCIAL NETWORK ANALYSIS</p>
 
-Matías Montero is a sociologist of education and **DPhil Student in Education** at the **University of Oxford**, funded by the **Economic and Social Research Council (ESRC)**. His work focuses on how higher education systems, schools, and classrooms reproduce or challenge social inequalities over time.
+# How relationships and institutions shape educational opportunity
 
-His main interests lie at the intersection of **sociology of education**, **social network analysis**, and the study of educational trajectories. He is particularly interested in how social ties and institutional arrangements shape students' opportunities to learn, belong, and succeed.
+I am a **DPhil researcher in Education at the University of Oxford**, funded by the UK's Economic and Social Research Council. My work examines how gender, institutional prestige, and social ties shape academic careers and educational trajectories.
 
-### Current Work
+::: {.hero-actions}
+[Explore my research](projects.qmd){.btn .btn-primary .btn-lg}
+[Download CV](files/Montero_CV.pdf){.btn .btn-outline-primary .btn-lg target="_blank"}
+:::
 
-Matías is currently developing his doctoral research focuses on networks of gender disparities across the career trajectories of education researchers in Latin America, exploring institutional and individual effects on the persistence and formation of co-authorship publication networks.
+::: {.research-tags}
+<span>Educational inequality</span><span>Social networks</span><span>Gender</span><span>Quantitative methods</span>
+:::
+:::
 
-For a detailed overview of his **experience**, **teaching**, and **publications**, please visit the corresponding sections in the navigation bar.
+::: {.hero-portrait}
+![](files/images/matias_profile.jpg){fig-alt="Portrait of Matías Montero"}
 
-</div>
+::: {.portrait-note}
+**Matías Montero**<br>
+DPhil in Education · University of Oxford<br>
+ESRC Grand Union DTP Scholar
+:::
+:::
+:::
 
-<div data-lang="es" style="display: none;">
-## Introducción
+::: {.section-intro}
+<p class="eyebrow">RESEARCH AGENDA</p>
 
-Matías Montero es sociólogo de la educación y **Estudiante de Doctorado en Educación (DPhil)** en la **Universidad de Oxford**, financiado por el **Economic and Social Research Council (ESRC)** del Reino Unido. Su trabajo se centra en cómo los sistemas de educación superior, las escuelas y las aulas reproducen o desafían las desigualdades sociales a lo largo del tiempo.
+## Connecting structures, relationships, and outcomes
 
-Sus principales intereses se sitúan en la intersección entre la **sociología de la educación**, el **análisis de redes sociales** y el estudio de trayectorias educativas. Le interesa especialmente cómo los lazos sociales y los arreglos institucionales moldean las oportunidades de aprender, pertenecer y tener éxito de estudiantes y comunidades educativas.
+My research moves across higher education, schools, and classrooms, using longitudinal and relational methods to understand when institutions reproduce inequality - and when they create room for change.
+:::
 
-### Trabajo Actual
+::: {.research-grid}
+::: {.research-card}
+<span class="card-number">01</span>
 
-Matías está desarrollando actualmente su investigación doctoral centrada en las redes de disparidades de género en las trayectorias profesionales de los investigadores en educación en América Latina, explorando los efectos institucionales e individuales en la persistencia y formación de redes de publicación en coautoría.
+### Academic careers
 
-Para una visión más detallada de su **experiencia**, **docencia** y **publicaciones**, puedes visitar las secciones correspondientes en la barra de navegación.
+How gender and institutional prestige influence collaboration, research funding, leadership, and attrition across education researchers' careers.
+:::
 
-</div>
+::: {.research-card}
+<span class="card-number">02</span>
 
+### Educational transitions
+
+How stratified systems shape course choices, higher-education access, and the trajectories of migrant and international students.
+:::
+
+::: {.research-card}
+<span class="card-number">03</span>
+
+### Relational methods
+
+How social network analysis and quantitative research can reveal the mechanisms linking opportunity structures to educational outcomes.
+:::
+:::
+
+::: {.home-band}
+::: {.home-band-copy}
+<p class="eyebrow light">CURRENT DOCTORAL WORK</p>
+
+## Networks and gender disparities across academic careers
+
+My DPhil investigates the formation and persistence of gender disparities in Latin American education research. I model co-authorship and funding networks over time to examine how individual careers and institutional contexts interact.
+
+[View research projects →](projects.qmd){.band-link}
+:::
+
+::: {.home-band-facts}
+<div><strong>Oxford</strong><span>Department of Education</span></div>
+<div><strong>Longitudinal</strong><span>Network perspective</span></div>
+<div><strong>Latin America</strong><span>Regional focus</span></div>
+:::
+:::
+
+::: {.home-columns}
+::: {.home-latest}
+<p class="eyebrow">LATEST</p>
+
+## Recent activity
+
+::: {.mini-timeline}
+::: {.mini-event}
+<span class="mini-date">JUN 2026</span>
+
+Presented new longitudinal network research on gender and institutional prestige at the CISS Seminar, Universidad de Chile.
+:::
+
+::: {.mini-event}
+<span class="mini-date">APR-JUN 2026</span>
+
+Visiting Doctoral Researcher at Universidad Mayor's Society and Health Research Centre.
+:::
+
+::: {.mini-event}
+<span class="mini-date">MAR 2026</span>
+
+Published a comparative PISA study of pathways to gender equity in mathematics in *Studies in Educational Evaluation*.
+:::
+:::
+
+[See the full timeline →](news.qmd)
+:::
+
+::: {.home-output}
+<p class="eyebrow">FEATURED OUTPUT</p>
+
+## Gender segregation in secondary-school course choices
+
+This *American Educational Research Journal* article examines socioeconomic gradients and the protective role of school gender culture in Chile.
+
+**Ortega, Montero, Canals & Mizala (2025)**<br>
+[Read the article](https://doi.org/10.3102/00028312241308537){.btn .btn-sm .btn-outline-primary}
+:::
+:::
+
+::: {.contact-strip}
+<p class="eyebrow">CONNECT</p>
+
+## Interested in education, networks, or quantitative methods?
+
+[Email me](mailto:matias.montero@education.ox.ac.uk) · [ORCID](https://orcid.org/0000-0003-1610-2477) · [Google Scholar](https://scholar.google.com/citations?user=Bsr3stIAAAAJ&hl=en) · [GitHub](https://github.com/monteromati)
 :::

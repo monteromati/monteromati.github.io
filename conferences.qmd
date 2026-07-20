@@ -1,91 +1,49 @@
 ---
-title: "Conferences"
+title: "Talks"
+subtitle: "Conference presentations, seminars, and invited teaching"
+description-meta: "Selected talks and presentations by Matías Montero."
 page-navigation: true
 toc: false
+title-block-banner: false
 ---
 
-```{=html}
-<div id="language-switcher">
-  <button id="lang-en" onclick="switchLanguage('en')" class="lang-btn active">🇬🇧 EN</button>
-  <button id="lang-es" onclick="switchLanguage('es')" class="lang-btn">🇪🇸 ES</button>
-</div>
+::: {.page-lede}
+Selected occasions where I have shared work on research funding, academic careers, quantitative methods, and education.
+:::
 
-<style>
-#language-switcher {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  z-index: 1000;
-  display: flex;
-  gap: 8px;
-  background: white;
-  padding: 4px;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
+::: {.talk-list}
+::: {.talk-item .talk-featured}
+<span class="talk-date">June 2026</span><span class="talk-kind">Research seminar</span>
 
-.lang-btn {
-  background: white;
-  border: 2px solid #ddd;
-  padding: 8px 14px;
-  cursor: pointer;
-  border-radius: 6px;
-  font-size: 14px;
-  transition: all 0.3s ease;
-  font-weight: normal;
-  color: #333;
-}
+## Who Gets Picked?
 
-.lang-btn:hover {
-  background: #f5f5f5;
-  border-color: #999;
-}
+**A Longitudinal Network Analysis of Gender and Institutional Prestige in Education Research Funding**
 
-.lang-btn.active {
-  background: #0066cc;
-  color: white;
-  border-color: #0066cc;
-  font-weight: bold;
-}
-</style>
+CISS Seminar · Centre for Advanced Research in Education (CIAE), Institute for Advanced Studies in Education, Universidad de Chile.
 
-<script>
-let currentLang = 'en';
+[View presentation slides](files/slides/ciss-seminar-2026/index.html){.btn .btn-primary target="_blank"}
+:::
 
-function switchLanguage(lang) {
-  currentLang = lang;
-  document.querySelectorAll('[data-lang]').forEach(el => {
-    if (el.getAttribute('data-lang') === lang) {
-      el.style.display = '';
-    } else {
-      el.style.display = 'none';
-    }
-  });
-  document.getElementById('lang-en').classList.toggle('active', lang === 'en');
-  document.getElementById('lang-es').classList.toggle('active', lang === 'es');
-}
+::: {.talk-item}
+<span class="talk-date">March 2026</span><span class="talk-kind">Guest lecture</span>
 
-document.addEventListener('DOMContentLoaded', function() {
-  switchLanguage('en');
-});
-</script>
-```
+## Independent research projects
 
-<div data-lang="en">
+Guest lecture for the MA module *Independent Project (MCM999)*, School of Communication & Creativity, City St George's, University of London.
+:::
 
-## Selected Conference Presentations
+::: {.talk-item}
+<span class="talk-date">April 2019</span><span class="talk-kind">Academic poster</span>
 
-- **June 2026** — *Who Gets Picked? A Longitudinal Network Analysis of Gender and Institutional Prestige in Education Research Funding*. CISS Seminar, CIAE, Instituto de Estudios Avanzados en Educación, Universidad de Chile. [View slides](files/slides/ciss-seminar-2026/index.html){target="_blank"}
+## Assessing the Student's t-test assumptions frequently noted in statistics textbooks
 
-</div>
+Presented at the 1st National Research Techniques and Methods Meeting of the Chilean Association of Methodology, Measurement and Assessment (ACMME). Recipient of the William Gosset Award for best undergraduate academic poster.
+:::
+:::
 
-<div data-lang="es" style="display: none;">
+::: {.cta-panel}
+## Speaking interests
 
-## Presentaciones en Congresos Seleccionadas
-
-- **Junio 2026** — *¿Quién es elegido? Un análisis longitudinal en red de género y prestigio institucional en financiamiento de investigación en educación*. Seminario CISS, CIAE, Instituto de Estudios Avanzados en Educación, Universidad de Chile. [Ver diapositivas](files/slides/ciss-seminar-2026/index.html){target="_blank"}
-
-</div>
-
-
+I welcome opportunities to discuss social network analysis, gender inequalities in academic careers, educational transitions, and quantitative research design. [Get in touch](mailto:matias.montero@education.ox.ac.uk).
+:::
 

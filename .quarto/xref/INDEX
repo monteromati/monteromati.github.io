@@ -58,5 +58,35 @@
   },
   "projects.qmd": {
     "projects.html": "280d7537"
+  },
+  "files/slides/ciss-seminar-2026/presentation_files/libs/d3-0/CONTRIBUTING.md": {
+    "CONTRIBUTING.html": "ada620ac"
+  },
+  "files/slides/ciss-seminar-2026/presentation_files/libs/d3.slider.js-0/d3/CONTRIBUTING.md": {
+    "CONTRIBUTING.html": "f15c1f59"
+  },
+  "files/slides/ciss-seminar-2026/presentation_files/libs/ndtv-d3-0.2-14/lib/d3/CONTRIBUTING.md": {
+    "CONTRIBUTING.html": "31d8dae3"
+  },
+  "files/slides/ciss-seminar-2026/presentation_files/ndtv/fondecyt_animation_files/d3-0/CONTRIBUTING.md": {
+    "CONTRIBUTING.html": "9f175759"
+  },
+  "files/slides/ciss-seminar-2026/presentation_files/ndtv/fondecyt_animation_files/d3.slider.js-0/d3/CONTRIBUTING.md": {
+    "CONTRIBUTING.html": "904f23b6"
+  },
+  "files/slides/ciss-seminar-2026/presentation_files/ndtv/fondecyt_animation_files/ndtv-d3-0.2-14/lib/d3/CONTRIBUTING.md": {
+    "CONTRIBUTING.html": "801fd9d5"
+  },
+  "files/slides/ciss-seminar-2026/presentation_files/ndtv/presentation_files/ndtv/fondecyt_animation_files/d3-0/CONTRIBUTING.md": {
+    "CONTRIBUTING.html": "e6c4a478"
+  },
+  "files/slides/ciss-seminar-2026/presentation_files/ndtv/presentation_files/ndtv/fondecyt_animation_files/d3.slider.js-0/d3/CONTRIBUTING.md": {
+    "CONTRIBUTING.html": "5ccadc89"
+  },
+  "files/slides/ciss-seminar-2026/presentation_files/ndtv/presentation_files/ndtv/fondecyt_animation_files/ndtv-d3-0.2-14/lib/d3/CONTRIBUTING.md": {
+    "CONTRIBUTING.html": "c225054a"
+  },
+  "news.qmd": {
+    "news.html": "8815113a"
   }
 }

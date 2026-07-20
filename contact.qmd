@@ -1,13 +1,13 @@
 ---
 title: "Contact"
-description-meta: "Reach out to me with questions and comments"
+description-meta: "Contact Matías Montero at the University of Oxford"
 title-block-banner: false
 ---
 
-<center>
+I welcome conversations about sociology of education, social network analysis, quantitative methods, and potential research collaborations.
 
+**Email:** [matias.montero@education.ox.ac.uk](mailto:matias.montero@education.ox.ac.uk)<br>
+**Institution:** Department of Education, University of Oxford<br>
+**College:** Wolfson College, Oxford
 
-E-mail: m.deneken[at].cl
-
-
-</center>
+[ORCID](https://orcid.org/0000-0003-1610-2477) · [Google Scholar](https://scholar.google.com/citations?user=Bsr3stIAAAAJ&hl=en) · [LinkedIn](https://www.linkedin.com/in/matiasmonteros/) · [GitHub](https://github.com/monteromati)

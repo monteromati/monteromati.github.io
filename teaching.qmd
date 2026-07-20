@@ -1,122 +1,89 @@
 ---
 title: "Teaching"
+subtitle: "Quantitative methods, research design, and sociology of education"
+description-meta: "Teaching experience of Matías Montero across Oxford and Chile."
 page-navigation: true
 toc: false
+title-block-banner: false
 ---
 
-```{=html}
-<div id="language-switcher">
-  <button id="lang-en" onclick="switchLanguage('en')" class="lang-btn active">🇬🇧 EN</button>
-  <button id="lang-es" onclick="switchLanguage('es')" class="lang-btn">🇪🇸 ES</button>
-</div>
+::: {.page-lede}
+My teaching spans postgraduate and undergraduate courses in quantitative methods, statistics, research design, and sociology of education. I focus on helping students connect methodological choices to meaningful substantive questions.
+:::
+## Current and recent teaching
 
-<style>
-#language-switcher {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  z-index: 1000;
-  display: flex;
-  gap: 8px;
-  background: white;
-  padding: 4px;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
+::: {.teaching-list}
+::: {.teaching-item}
+<span class="teaching-date">2025-present</span>
 
-.lang-btn {
-  background: white;
-  border: 2px solid #ddd;
-  padding: 8px 14px;
-  cursor: pointer;
-  border-radius: 6px;
-  font-size: 14px;
-  transition: all 0.3s ease;
-  font-weight: normal;
-  color: #333;
-}
+### Doctoral Teaching Fellow
 
-.lang-btn:hover {
-  background: #f5f5f5;
-  border-color: #999;
-}
+**Department of Education, University of Oxford**
 
-.lang-btn.active {
-  background: #0066cc;
-  color: white;
-  border-color: #0066cc;
-  font-weight: bold;
-}
-</style>
+- *Introduction to Quantitative Research* - MSc and doctoral students
+- *Intermediate Quantitative Research* - MSc and doctoral students
+- Course lead: Lars-Erik Malmberg
+:::
 
-<script>
-let currentLang = 'en';
+::: {.teaching-item}
+<span class="teaching-date">March 2026</span>
 
-function switchLanguage(lang) {
-  currentLang = lang;
-  document.querySelectorAll('[data-lang]').forEach(el => {
-    if (el.getAttribute('data-lang') === lang) {
-      el.style.display = '';
-    } else {
-      el.style.display = 'none';
-    }
-  });
-  document.getElementById('lang-en').classList.toggle('active', lang === 'en');
-  document.getElementById('lang-es').classList.toggle('active', lang === 'es');
-}
+### Guest Lecturer
 
-document.addEventListener('DOMContentLoaded', function() {
-  switchLanguage('en');
-});
-</script>
-```
+**City St George's, University of London**
 
-<div data-lang="en">
+- *Independent Project (MCM999)* - MA module, School of Communication & Creativity
+:::
 
-### Recent Teaching Positions (Last 5 Years)
+::: {.teaching-item}
+<span class="teaching-date">2024</span>
 
-## Doctoral Teaching Fellow
+### Teaching Assistant
 
-**Department of Education, University of Oxford** – Oxford, United Kingdom | Oct 2025 – Current  
-- Introduction to Quantitative Research (PhD & MSc in Education).  
-- Intermediate Quantitative Research (PhD & MSc in Education).  
-Lecturer: Professor Lars-Erik Malmberg.
+**Universidad de Chile**
 
-## Teaching Assistant
+- *Quantitative Research Methodology in Education* - PhD in Education
+- *Quantitative Methodology II* - MSc in Educational Research
+:::
 
-**Universidad de Chile** – Santiago, Chile | Aug 2024 – Nov 2024  
-- Quantitative Research Methodology in Education (PhD in Education). Lecturer: Lorena Ortega.  
-- Quantitative Methodology II (MSc in Educational Research, Institute of Education). Lecturers: Patricio Rodríguez and Lorena Ortega.
+::: {.teaching-item}
+<span class="teaching-date">2021-2023</span>
 
-**Universidad Diego Portales** – Santiago, Chile | Mar 2021 – Jun 2023  
-- Basic Statistics (MSc Social Research Methods). Lecturer: Macarena Orchard.  
-- Advanced Statistical Techniques (Oct 2021 – Dec 2021, MSc Social Research Methods). Lecturer: Professor Mónica Gerber.
+### Teaching Assistant
 
-**Universidad de Chile** – Santiago, Chile | Mar 2021 – Jun 2021  
-- Sociology of Education (BSc Sociology, Department of Sociology). Lecturer: Lorena Ortega.
+**Universidad Diego Portales**
 
-</div>
+- *Basic Statistics* - MSc in Social Research Methods
+- *Advanced Statistical Techniques* - MSc in Social Research Methods
+:::
 
-<div data-lang="es" style="display: none;">
+::: {.teaching-item}
+<span class="teaching-date">2021</span>
 
-## Fellow de Docencia Doctoral
+### Teaching Assistant
 
-**Department of Education, University of Oxford** – Oxford, Reino Unido | Oct 2025 – Actualidad  
-- Introduction to Quantitative Research (curso de PhD y MSc en Educación).  
-- Intermediate Quantitative Research (curso de PhD y MSc en Educación).  
-Docente responsable: Profesor Lars-Erik Malmberg.
+**Universidad de Chile, Pontificia Universidad Católica de Chile, and Universidad Alberto Hurtado**
 
-## Asistente de Docencia
+- *Sociology of Education*, *Social Research Methods*, *Statistics I*, and *Mixed Methods Applied to Social Sciences*
+:::
+:::
 
-**Universidad de Chile** – Santiago, Chile | Ago 2024 – Nov 2024  
-- Metodología de Investigación Cuantitativa en Educación (Doctorado en Educación). Docente: Lorena Ortega.  
-- Metodología Cuantitativa II (Magíster en Investigación Educativa, Instituto de Educación). Docentes: Patricio Rodríguez y Lorena Ortega.
+## Earlier teaching
 
-**Universidad Diego Portales** – Santiago, Chile | Mar 2021 – Jun 2023  
-- Estadística Básica (Magíster en Métodos de Investigación Social). Docente: Macarena Orchard.  
-- Técnicas Estadísticas Avanzadas (Oct 2021 – Dic 2021, Magíster en Métodos de Investigación Social). Docente: Profesora Mónica Gerber.
+Between 2017 and 2021, I supported undergraduate courses in psychological measurement, multivariate statistics, quantitative research strategies, descriptive and correlational statistics, and the social and political history of Chile and Latin America.
 
-**Universidad de Chile** – Santiago, Chile | Mar 2021 – Jun 2021  
-- Sociología de la Educación (Licenciatura en Sociología, Departamento de Sociología). Docente: Lorena Ortega.
+::: {.teaching-philosophy}
+::: {.teaching-philosophy-copy}
+<p class="eyebrow light">APPROACH</p>
 
-</div>
+## Methods are most useful when students can see the question behind them
+
+I teach quantitative work as a sequence of research decisions: defining a question, understanding the data-generating process, choosing a defensible model, and communicating uncertainty with clarity.
+:::
+
+::: {.teaching-principles}
+<div><strong>Concept first</strong><span>Build intuition before formalism.</span></div>
+<div><strong>Applied practice</strong><span>Learn by working through real research problems.</span></div>
+<div><strong>Transparent choices</strong><span>Make assumptions and trade-offs visible.</span></div>
+:::
+:::

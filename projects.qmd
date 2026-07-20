@@ -1,35 +1,153 @@
 ---
-title: "Projects"
-subtitle: "Funded projects"
+title: "Research"
+subtitle: "Projects across educational inequality, academic careers, and social networks"
+description-meta: "Research projects by Matías Montero in education, inequality, gender, and social network analysis."
 page-layout: full
-listing: 
-- id: projects
-  sort: "started desc"
-  type: table
-  fields: [image, title, author, subtitle, description, funding, started, ended]
-  grid-item-align: left
-  grid-columns: 3
-  image-height: 30px
-  field-display-names: 
-      title: "Title"
-      author: "Team"
-      subtitle: "Funder"
-      started: "Start"
-      ended: "End"
-      funding: "Funding"
-#  categories: true
-#  sort-ui: true
-#  filter-ui: true
-  contents: 
-#    - projects/ 
-    - projects.yml 
+toc: false
+title-block-banner: false
 ---
 
-
-:::{#projects}
+::: {.page-lede}
+I work on collaborative projects that connect substantive questions about inequality with longitudinal, quantitative, and relational methods. The portfolio below highlights current and recent work from my CV.
 :::
 
+## Current research
 
-<!--Include social share buttons-->
+::: {.project-grid}
+::: {.project-card .project-featured}
+<span class="project-status">DPhil research · 2024-present</span>
 
-{{< include /files/includes/_socialshare.qmd >}}
+### Networks and gender disparities across academic careers
+
+My doctoral research examines how co-authorship and research-funding networks shape gendered career trajectories among education researchers in Latin America. It brings together research-on-research, organisational context, and longitudinal network modelling.
+
+**Role:** Doctoral researcher<br>
+**Institution:** University of Oxford<br>
+**Supervisors:** Alis Oancea and Lars-Erik Malmberg
+
+<span class="method-tag">longitudinal networks</span> <span class="method-tag">gender</span> <span class="method-tag">higher education</span>
+:::
+
+::: {.project-card}
+<span class="project-status active">2025-present</span>
+
+### Choosing schools with a click
+
+Studies how parents and guardians appropriate information about Chile's School Admission System and how digital information shapes school choice.
+
+**Grant:** FONDECYT Regular 1250492<br>
+**Role:** Research Assistant · CIAE, Universidad de Chile
+:::
+
+::: {.project-card}
+<span class="project-status active">2023-present</span>
+
+### Gender segregation across knowledge areas
+
+Investigates the background, moderators, and consequences of gender segregation in Chilean academic secondary education.
+
+**Grant:** FONDECYT Regular 1231930<br>
+**PI:** Lorena Ortega<br>
+**Role:** Research Assistant · CIAE, Universidad de Chile
+:::
+:::
+
+## Recent collaborations
+
+::: {.project-grid}
+::: {.project-card}
+<span class="project-status">2026</span>
+
+### Making Europe a global magnet for international students
+
+British Academy Pump Priming collaboration between UK and EU partners, led by Rachel Brooks at the University of Oxford.
+
+**Grant:** PPHE26\100097<br>
+**Role:** Research Assistant
+:::
+
+::: {.project-card}
+<span class="project-status">2026</span>
+
+### Relational opportunity structures in adolescence
+
+Examines how extracurricular activity contexts shape social status and peer-network dynamics.
+
+**Role:** Visiting Doctoral Researcher<br>
+**Host:** Diego Palacios · Society and Health Research Centre, Universidad Mayor
+:::
+
+::: {.project-card}
+<span class="project-status">2025-2026</span>
+
+### From access to inclusion
+
+Research on cross-class dynamics in academically selective institutions, supported by a British Academy Postdoctoral Fellowship.
+
+**Grant:** PFSS25\250031<br>
+**PI:** Paulina Rodríguez · University of Oxford<br>
+**Role:** Research Assistant
+:::
+
+::: {.project-card}
+<span class="project-status">2025-2026</span>
+
+### STEM Gender Programme impact evaluation
+
+Impact evaluation with female 10th-grade students and STEM teachers for UNDP and Chile's Ministry of Education.
+
+**Grant:** UNDP-CHL-00141<br>
+**PI:** Pilar Reyes · CIAE, Universidad de Chile<br>
+**Role:** Research Assistant
+:::
+
+::: {.project-card}
+<span class="project-status">2025-2026</span>
+
+### Learning achievements of migrant students
+
+Research for Chile's Education Quality Assurance Agency on cultural, policy, and educational-practice factors that support migrant students' learning.
+
+**PI:** Lorena Ortega · CIAE, Universidad de Chile<br>
+**Role:** Research Assistant
+:::
+
+::: {.project-card}
+<span class="project-status">2025-2026</span>
+
+### Support and care networks among older adults
+
+A literature review focused on sibling bonds, funded through Universidad Mayor's Puente Funding Scheme.
+
+**PI:** Francisca Ortiz · Universidad Mayor<br>
+**Role:** Research Assistant
+:::
+
+::: {.project-card}
+<span class="project-status">2025-2026</span>
+
+### The EthOS Project
+
+A collaboration hosted by Durham University's Institute of Advanced Study.
+
+**PI:** Catherine Montgomery<br>
+**Role:** Research Assistant
+:::
+
+::: {.project-card}
+<span class="project-status">2025</span>
+
+### Isolation and social groups in a university community
+
+Research on group formation and isolation in higher education using social-network approaches.
+
+**Grant:** FONDECYT Postdoctoral 3250037<br>
+**Role:** Visiting Doctoral Researcher<br>
+**Host:** Alejandro Espinosa Rada · Pontificia Universidad Católica de Chile
+:::
+:::
+::: {.cta-panel}
+## Earlier projects
+
+My earlier work includes gender gaps in mathematics, knowledge production in Latin American universities, teacher-student interaction networks, reader education, and social participation. The complete record is available in my [CV](files/Montero_CV.pdf){target="_blank"}.
+:::

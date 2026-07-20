@@ -1,5 +1,5 @@
 ---
-title: "What’s New & Updated"
+title: "Writing & Resources"
 subtitle: "Opinion columns, reports, and tutorials"
 description-meta: "Catalog of opinion columns, reports, tutorials, and reflections on research."
 listing: 
@@ -23,7 +23,7 @@ title-block-banner: false
 
 ## Opinion columns
 
-This catalog collects opinion columns, short reports, and tutorial notes from Matías Deneken’s work in social data science. Use the filters to view `News`, `Tutorials`, `Experience in Research`, or other tags and explore the most recent reflections and resources.
+This archive collects opinion columns, short reports, tutorials, and notes from Matías Montero's work in educational research and social data science.
 
 ::::{#posts}
 :::: 
