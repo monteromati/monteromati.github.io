@@ -26,6 +26,8 @@ Presented *Who Gets Picked? A Longitudinal Network Analysis of Gender and Instit
 ### Visiting Doctoral Researcher at Universidad Mayor
 
 Joined the Society and Health Research Centre to collaborate with Diego Palacios on relational opportunity structures, extracurricular contexts, and peer-network dynamics in adolescence.
+
+[Watch the network here](files/networks/popular_networks_combined_interactive.html){target="_blank"}
 :::
 
 ::: {.news-item}
@@ -84,4 +86,3 @@ Collaborated with Alejandro Espinosa Rada on the FONDECYT project *Isolation and
 Received doctoral funding from the Economic and Social Research Council through the Grand Union Doctoral Training Partnership.
 :::
 :::
-

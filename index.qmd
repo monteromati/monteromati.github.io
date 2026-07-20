@@ -2,7 +2,7 @@
 title: "Matías Montero"
 pagetitle: "Matías Montero | Education researcher"
 description-meta: "DPhil researcher in education at the University of Oxford studying inequality, social networks, and educational trajectories."
-image: "files/images/matias_profile.jpg"
+image: "files/images/matias-montero-profile.jpg"
 page-navigation: false
 toc: false
 page-layout: full
@@ -32,7 +32,7 @@ I am a **DPhil researcher in Education at the University of Oxford**, funded by 
 :::
 
 ::: {.hero-portrait}
-![](files/images/matias_profile.jpg){fig-alt="Portrait of Matías Montero"}
+![](files/images/matias-montero-profile.jpg){fig-alt="Portrait of Matías Montero"}
 
 ::: {.portrait-note}
 **Matías Montero**<br>

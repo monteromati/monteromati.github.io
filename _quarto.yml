@@ -3,6 +3,8 @@ project:
   output-dir: docs
   resources:
     - files/slides/**
+    - files/networks/**
+    - network-background.js
   render:
     - index.qmd
     - news.qmd
@@ -18,9 +20,9 @@ author-meta: "Matías Montero"
 
 website:
   title: "Matías Montero"
-  image: "/files/images/matias_profile.jpg"
+  image: "/files/images/matias-montero-profile.jpg"
   description: "Sociology of education, social network analysis, and educational inequalities"
-  favicon: files/images/matias_profile.jpg
+  favicon: files/images/matias-montero-profile.jpg
   navbar:
     background: light
     pinned: true
@@ -86,3 +88,4 @@ format:
     link-external-newwindow: true
     email-obfuscation: javascript
     include-in-header: "files/includes/_academic.qmd"
+    include-after-body: "files/includes/network-background.html"

@@ -34,6 +34,7 @@ h2 { line-height: 1.18; }
 h3 { line-height: 1.25; }
 a { color: #176d70; text-underline-offset: 0.18em; }
 a:hover { color: var(--accent); }
+a.anchorjs-link.external::after { content: none; }
 
 .navbar {
   border-bottom: 1px solid rgba(22, 50, 79, 0.10);
@@ -58,6 +59,42 @@ a:hover { color: var(--accent); }
   margin: 0 0 0.9rem;
 }
 .eyebrow.light { color: #99d4cf; }
+
+.network-background-host {
+  isolation: isolate;
+  position: relative;
+}
+
+.network-background-host > :not(.network-background-canvas) {
+  position: relative;
+  z-index: 1;
+}
+
+.network-background-canvas {
+  display: block;
+  height: min(116vh, 1120px);
+  left: 50%;
+  min-height: 700px;
+  opacity: 0.92;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  transform: translateX(-50%);
+  width: 100vw;
+  z-index: 0;
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.96) 0%,
+    rgba(0, 0, 0, 0.72) 58%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.96) 0%,
+    rgba(0, 0, 0, 0.72) 58%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
 
 .hero-shell {
   display: grid;
@@ -216,6 +253,7 @@ footer.footer a { color: #b6dcda; }
   .hero-actions { display: grid; grid-template-columns: minmax(0, 1fr); width: 100%; }
   .hero-actions .btn { box-sizing: border-box; display: block; max-width: 100%; width: 100%; }
   .eyebrow { line-height: 1.5; }
+  .network-background-canvas { opacity: 0.68; }
   .research-grid, .project-grid, .home-columns, .home-band, .teaching-philosophy { grid-template-columns: 1fr; }
   .project-featured { grid-column: auto; }
   .home-band, .teaching-philosophy { margin-top: 4rem; margin-bottom: 4rem; }
@@ -231,4 +269,5 @@ footer.footer a { color: #b6dcda; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .research-card, .project-card { transition: none; }
+  .network-background-canvas { opacity: 0.72; }
 }
