@@ -8,7 +8,7 @@ title-block-banner: false
 ---
 
 ::: {.page-lede}
-My publications examine educational inequality across academic careers, secondary-school choices, migration, classroom practice, and knowledge production. My name is **bolded** in each citation.
+My publications examine educational inequality across academic careers, gender & education, education pathways, and knowledge production in higher education.
 :::
 
 ::: {.output-summary}

@@ -19,7 +19,7 @@ Selected occasions where I have shared work on research funding, academic career
 
 **A Longitudinal Network Analysis of Gender and Institutional Prestige in Education Research Funding**
 
-CISS Seminar · Centre for Advanced Research in Education (CIAE), Institute for Advanced Studies in Education, Universidad de Chile.
+Society and Health Research Centre Seminars, Universidad Mayor, Chile.
 
 [View presentation slides](files/slides/ciss-seminar-2026/index.html){.btn .btn-primary target="_blank"}
 :::
@@ -46,4 +46,3 @@ Presented at the 1st National Research Techniques and Methods Meeting of the Chi
 
 I welcome opportunities to discuss social network analysis, gender inequalities in academic careers, educational transitions, and quantitative research design. [Get in touch](mailto:matias.montero@education.ox.ac.uk).
 :::
-
