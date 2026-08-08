@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 48" width="96" height="48">
+  <defs>
+    <marker id="arrowhead-inpop" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <polygon points="0 0, 6 3, 0 6" fill="#333"/>
+    </marker>
+  </defs>
+  <circle cx="72" cy="24" r="8" fill="#cfe8dc" stroke="#333" stroke-width="1.2"/>
+  <circle cx="18" cy="8" r="5" fill="#cfe8dc" stroke="#333" stroke-width="1.2"/>
+  <circle cx="18" cy="24" r="5" fill="#cfe8dc" stroke="#333" stroke-width="1.2"/>
+  <circle cx="18" cy="40" r="5" fill="#cfe8dc" stroke="#333" stroke-width="1.2"/>
+  <line x1="24" y1="10" x2="63" y2="20" stroke="#333" stroke-width="1.1" marker-end="url(#arrowhead-inpop)"/>
+  <line x1="24" y1="24" x2="62" y2="24" stroke="#333" stroke-width="1.1" marker-end="url(#arrowhead-inpop)"/>
+  <line x1="24" y1="38" x2="63" y2="28" stroke="#333" stroke-width="1.1" marker-end="url(#arrowhead-inpop)"/>
+</svg>
