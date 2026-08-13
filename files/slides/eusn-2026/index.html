@@ -259,6 +259,105 @@
       color: #555;
       text-align: left;
     }
+    .reveal .slides section.yearly-slide {
+      padding-top: 0.1em !important;
+    }
+    .reveal .slides section.yearly-slide h2 {
+      margin-bottom: 0.25em !important;
+    }
+    .reveal .yearly-table-wrap {
+      width: 100%;
+      margin-top: 0.15em;
+    }
+    .reveal .yearly-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.78em;
+      margin: 0.15em 0 0.1em 0;
+    }
+    .reveal .yearly-table th,
+    .reveal .yearly-table td {
+      border: 1px solid #d3d3d3;
+      padding: 0.22em 0.28em;
+      text-align: center;
+      vertical-align: middle;
+    }
+    .reveal .yearly-table thead th {
+      background: #f5f8f9;
+      border-bottom: 2px solid #548893;
+      font-weight: bold;
+      line-height: 1.2;
+    }
+    .reveal .yearly-table .yearly-year {
+      font-weight: bold;
+      color: #548893;
+    }
+    .reveal .yearly-table-note {
+      font-size: 0.62em;
+      line-height: 1.25;
+      margin-top: 0.3em;
+      color: #555;
+      text-align: left;
+    }
+    .reveal .slides section.backup-slide {
+      padding-top: 0.08em !important;
+    }
+    .reveal .slides section.backup-slide h2 {
+      margin-bottom: 0.28em !important;
+      font-size: 1.12em !important;
+    }
+    .reveal .backup-lead {
+      font-size: 0.82em;
+      line-height: 1.35;
+      margin: 0 0 0.4em 0;
+      color: #333;
+    }
+    .reveal .backup-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.78em;
+      margin: 0.1em 0 0.25em 0;
+    }
+    .reveal .backup-table th,
+    .reveal .backup-table td {
+      border: 1px solid #d3d3d3;
+      padding: 0.28em 0.4em;
+      vertical-align: top;
+      text-align: left;
+    }
+    .reveal .backup-table thead th {
+      background: #f5f8f9;
+      border-bottom: 2px solid #548893;
+      font-weight: bold;
+    }
+    .reveal .backup-code {
+      font-weight: bold;
+      color: #548893;
+      text-align: center;
+      width: 2.4em;
+    }
+    .reveal .backup-col h3 {
+      color: #548893;
+      font-size: 0.88em;
+      margin: 0 0 0.25em 0;
+    }
+    .reveal .backup-col ul {
+      font-size: 0.78em;
+      line-height: 1.35;
+      margin: 0;
+      padding-left: 1.15em;
+    }
+    .reveal .backup-col li {
+      margin-bottom: 0.28em;
+    }
+    .reveal .slides section.backup-slide ul {
+      font-size: 0.82em;
+      line-height: 1.35;
+      margin: 0.15em 0 0.35em 0;
+    }
+    .reveal .slides section.backup-slide li {
+      margin-bottom: 0.12em;
+    }
     .reveal .slides section.fondecyt-slide .fondecyt-intro {
       margin: 0 0 0.45em 0;
       line-height: 1.35;
@@ -268,6 +367,58 @@
     }
     .reveal .title-slide .quarto-title-author-affiliation {
       font-size: 0.95em;
+    }
+    .reveal .slides section.team-slide {
+      padding-top: 0.85em !important;
+    }
+    .reveal .slides section.team-slide h2 {
+      margin-bottom: 0.7em !important;
+      text-align: center;
+    }
+    .reveal .team-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 12em));
+      justify-content: center;
+      gap: 1.35em;
+      align-items: start;
+      max-width: 54em;
+      margin: 0.35em auto 0 auto;
+    }
+    .reveal .team-card {
+      text-align: center;
+    }
+    .reveal .team-card img {
+      width: 7.2em;
+      height: 7.2em;
+      object-fit: cover;
+      object-position: center 18%;
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto 0.5em auto;
+      filter: grayscale(100%);
+    }
+    .reveal .team-name {
+      font-weight: bold;
+      color: #548893;
+      font-size: 0.78em;
+      line-height: 1.2;
+      margin: 0 0 0.25em 0;
+    }
+    .reveal .team-role,
+    .reveal .team-affil,
+    .reveal .team-country {
+      font-size: 0.62em;
+      line-height: 1.25;
+      color: #444;
+      margin: 0;
+    }
+    .reveal .team-affil {
+      color: #666;
+      margin-top: 0.15em;
+    }
+    .reveal .team-country {
+      color: #666;
+      margin-top: 0.08em;
     }
   </style>
 </head>
@@ -294,35 +445,90 @@ Matías Montero <a href="https://orcid.org/0000-0003-1610-2477" class="quarto-ti
 
   <p class="date">August 13, 2026</p>
 </section>
-<section id="gendered-positioning-in-education-research-teams" class="slide level2">
-<h2><span style="color:#548893;"><strong>Gendered Positioning in Education Research Teams</strong></span></h2>
+<section id="research-team" class="slide level2 team-slide">
+<h2><span style="color:#548893;"><strong>Research Team</strong></span></h2>
+<div class="team-grid">
+  <div class="team-card">
+    <img src="images/team/matias-montero.png" alt="Matías Montero">
+    <p class="team-name">Matías Montero</p>
+    <p class="team-role">PhD Student</p>
+    <p class="team-affil">Department of Education,<br>University of Oxford</p>
+    <p class="team-country">United Kingdom</p>
+  </div>
+  <div class="team-card">
+    <img src="images/team/alis-oancea.png" alt="Alis Oancea">
+    <p class="team-name">Alis Oancea</p>
+    <p class="team-role">Professor of Philosophy of Education and Research Policy</p>
+    <p class="team-affil">Department of Education,<br>University of Oxford</p>
+    <p class="team-country">United Kingdom</p>
+  </div>
+  <div class="team-card">
+    <img src="images/team/lars-erik-malmberg.png" alt="Lars-Erik Malmberg">
+    <p class="team-name">Lars-Erik Malmberg</p>
+    <p class="team-role">Professor of Quantitative Methods in Education</p>
+    <p class="team-affil">Department of Education,<br>University of Oxford</p>
+    <p class="team-country">United Kingdom</p>
+  </div>
+  <div class="team-card">
+    <img src="images/team/diego-palacios.png" alt="Diego Palacios">
+    <p class="team-name">Diego Palacios</p>
+    <p class="team-role">Associate Professor</p>
+    <p class="team-affil">Society and Health Research Centre,<br>Universidad Mayor</p>
+    <p class="team-country">Chile</p>
+  </div>
+</div>
+</section>
+<section id="gender-and-team-formation" class="slide level2">
+<h2><span style="color:#548893;"><strong>Gender and Team Formation</strong></span></h2>
 <ul>
-<li class="fragment"><strong>From participation to relational inequality</strong>
+<li class="fragment"><strong>From participation to directed nomination</strong>
 <ul>
-<li class="fragment">Women are strongly represented in education research, but numerical participation does not necessarily imply equivalent academic practices (Abramo et al., 2021; Silander et al., 2013; Hanasono et al., 2019).</li>
+<li class="fragment">Women’s representation in feminised fields does not imply egalitarian practices in academia (Abramo et al., 2021; Silander et al., 2013; Hanasono et al., 2019).</li>
+<li class="fragment">This study focus on research team formation as a hierarchical scientific collaboration: PIs bring together a team of COIs; in educational research.</li>
 </ul></li>
-<li class="fragment"><strong>Research teams as directed and hierarchical relations</strong>
+<li class="fragment"><strong>Female PIs as more active team-builders</strong>
 <ul>
-<li class="fragment">Research team formation is a hierarchical process rather than a relationship between formally equivalent actors: PIs often convene colleagues to form a research team for a project</li>
+<li class="fragment">Women receive fewer grants, which limits their opportunities to become PIs (Bukstein &amp; Gandelman, 2019; Witteman et al., 2019).</li>
+<li class="fragment"><span style="color:#548893;"><strong>H1</strong></span>: Yet women who do become PIs may assemble more inclusive teams, as female researchers tend to have more collaborators (Bozeman &amp; Gaughan, 2011).</li>
 </ul></li>
-<li class="fragment"><strong>Gender as a relational mechanism</strong>
+<li class="fragment"><strong>Lower selection as COI</strong>
 <ul>
-<li class="fragment">Gender may shape team formation through three distinct mechanisms: who initiates nominations as PI (ego), who is incorporated as COI (alter), and whether ties are more likely between researchers of the same gender (homophily).</li>
+<li class="fragment">In a PI-controlled nomination process, <span style="color:#548893;"><strong>H2</strong></span>: we expect women to be less often selected as COIs.</li>
 </ul></li>
 </ul>
 </section>
-<section id="institutional-positioning-in-education-research-teams" class="slide level2">
-<h2><span style="color:#548893;"><strong>Institutional Positioning in Education Research Teams</strong></span></h2>
+<section id="gender-homophily-in-team-selection" class="slide level2">
+<h2><span style="color:#548893;"><strong>Gender Homophily in Team Selection</strong></span></h2>
 <ul>
-<li class="fragment"><strong>Institutional similarity as structured opportunity</strong>
+<li class="fragment"><strong>Same-gender nomination</strong>
 <ul>
-<li class="fragment">Similarity in institutional prestige, sector, or territorial profile may reflect active selection.</li>
-<li class="fragment">But it may also arise from shared social foci, such as academic circuits and organisations that structure opportunities for contact (Feld, 1981; McPherson et al., 2001).</li>
+<li class="fragment">Coauthorship patterns show gender homophily (Espinosa et al., 2022; Kwiek &amp; Roszka, 2021; Ortega et al., 2024).</li>
+<li class="fragment">This pattern persists across male-dominated, gender-neutral, and female-dominated fields, though its strength varies with field composition (Torre et al., 2025).</li>
+<li class="fragment">Homophily also appears in citation practices (Potthoff &amp; Zimmermann, 2017) and in reviewer/editor assignments (Schick et al., 2022).</li>
+<li class="fragment"><span style="color:#548893;"><strong>H3</strong></span>: We therefore expect PIs to be more likely to select COIs of the same gender in funded education teams.</li>
 </ul></li>
-<li class="fragment"><strong>Gendered returns to institutional position</strong>
+</ul>
+</section>
+<section id="institutional-assortativity" class="slide level2">
+<h2><span style="color:#548893;"><strong>Institutional Assortativity</strong></span></h2>
 <ul>
-<li class="fragment">Institutional prestige provides unequal resources and structure boundaries within the scientific field.</li>
-<li class="fragment">We examine whether this institutional effects is associated with different relational returns for women and men.</li>
+<li class="fragment"><strong>Prestige matching in team ties</strong>
+<ul>
+<li class="fragment">Direct evidence on research-<em>project</em> team formation is limited, but collaboration and hiring patterns suggest that ties concentrate among actors of similar academic prestige (Lee et al., 2026; Zhang et al., 2022).</li>
+<li class="fragment">Prestigious institutions occupy central positions in academic networks; institutional hierarchies channel contact, recognition, and recruitment along status lines.</li>
+<li class="fragment">Institutional similarity may also reflect shared social foci—circuits, and organisations that structure opportunity, rather than preference alone (Feld, 1981; McPherson et al., 2001).</li>
+<li class="fragment"><span style="color:#548893;"><strong>H4</strong></span>: We therefore expect research-team ties to be more likely between researchers affiliated with institutions of similar prestige.</li>
+</ul></li>
+</ul>
+</section>
+<section id="gendered-constraints-on-access-across-prestige-strata" class="slide level2">
+<h2><span style="color:#548893;"><strong>Gendered Constraints on Access Across Prestige Strata</strong></span></h2>
+<ul>
+<li class="fragment"><strong>Stronger prestige matching among female PIs</strong>
+<ul>
+<li class="fragment">Cross-prestige collaboration may depend on sponsorship, visibility, elite-network membership, and informal professional ties, resources to which women may have more restricted access (Murray et al., 2025; Kandiko et al., 2017).</li>
+<li class="fragment">Male PIs may therefore recruit from a broader range of prestige strata, while female PIs face a more restricted set of accessible COIs.</li>
+<li class="fragment"><span style="color:#548893;"><strong>H5</strong></span>: Prestige matching may thus reflect gendered opportunity structures: institutional prestige similarity should be more strongly associated with PI-COI tie formation among female than male PIs.</li>
 </ul></li>
 </ul>
 </section>
@@ -331,7 +537,7 @@ Matías Montero <a href="https://orcid.org/0000-0003-1610-2477" class="quarto-ti
 <ul>
 <li class="fragment"><strong>What remains unexplored?</strong>
 <ul>
-<li class="fragment">Research on gender inequality in science has primarily examined productivity, grant success, and career outcomes, offering less insight into how gender inequality is relationally organised (Huang et al., 2020; Nielsen, 2016).</li>
+<li class="fragment">Research on gender inequality in science has primarily examined productivity, grant success, and career outcomes (Huang et al., 2020; Nielsen, 2016), offering less insight into how gender inequality is relationally organised.</li>
 <li class="fragment">Institutional effects leave open whether women and men obtain the same <em>relational returns</em> when forming research team networks as PIs.</li>
 </ul></li>
 <li class="fragment"><strong>Empirical focus</strong>
@@ -387,25 +593,6 @@ Matías Montero <a href="https://orcid.org/0000-0003-1610-2477" class="quarto-ti
 
 <p class="fondecyt-note"><em>Note.</em> Only FONDECYT Regular allows the PI to nominate co-investigators formally. This analysis focuses on Regular education networks where team composition is explicitly modelled as PI → co-investigator nominations.</p>
 </section>
-<section id="research-hypotheses" class="slide level2">
-<h2><span style="color:#548893;"><strong>Research Hypotheses</strong></span></h2>
-<ul>
-<li class="fragment"><p><strong>Gender and team formation</strong></p>
-<ul>
-<li class="fragment">Hypothesis 1: Female researchers show higher team-formation activity as PIs than male researchers.</li>
-<li class="fragment">Hypothesis 2: Female researchers are less likely than male researchers to be selected as coinvestigators (COIs).</li>
-<li class="fragment">Hypothesis 3: PIs are more likely to select COIs of the same gender.</li>
-</ul></li>
-<li class="fragment"><p><strong>Institutional assortativity</strong></p>
-<ul>
-<li class="fragment">Hypothesis 4: Research-team ties are more likely between researchers affiliated with institutions of similar prestige.</li>
-</ul></li>
-<li class="fragment"><p><strong>Gendered relational returns to prestige as PI</strong></p>
-<ul>
-<li class="fragment">Hypothesis 5: Female PIs will show a stronger tendency than male PIs to select co-investigators from institutions of similar prestige to their own.</li>
-</ul></li>
-</ul>
-</section>
 <section id="research-design" class="slide level2">
 <h2><span style="color:#548893;"><strong>Research Design</strong></span></h2>
 <ul>
@@ -413,6 +600,8 @@ Matías Montero <a href="https://orcid.org/0000-0003-1610-2477" class="quarto-ti
 Analysis uses data on FONDECYT research teams that were awarded funding. This means that the network excludes research teams that applied but were not funded.</p></li>
 <li class="fragment"><p><strong>Directed network structure</strong><br>
 The network is modelled as a directed graph: PIs nominate co-investigators.</p></li>
+<li class="fragment"><p><strong>Nomination opportunity (<code>can_send</code> / <code>inactive</code>)</strong><br>
+Researchers can still be selected as COIs, but can send new nominations only when they have a PI team-formation opportunity (<code>can_send</code> = 1). Otherwise they are <code>inactive</code> as senders: outgoing change is suppressed, while incoming selection remains possible.</p></li>
 <li class="fragment"><p><strong>Temporal definition of ties</strong><br>
 Collaboration ties are retained for the full duration of each funded project, according to the number of years specified in the grant.</p></li>
 <li class="fragment"><p><strong>Analytical sample</strong><br>
@@ -462,6 +651,122 @@ Both researchers are part of a research project in the same grant assessment pan
 <p><span class="legend-female">Purple = female</span>; <span class="legend-male">dark teal = male</span>.</p>
 </div>
 <div class="ndtv-slide-frame"><iframe src="presentation_files/ndtv/conceptual_network.html" title="Conceptual FONDECYT nomination network"></iframe></div>
+</section>
+<section id="team-formation-by-year" class="slide level2 yearly-slide">
+<h2><span style="color:#548893;"><strong>Team Formation by Year</strong></span></h2>
+<div class="yearly-table-wrap">
+<table class="yearly-table caption-top" style="width:100%;">
+<colgroup>
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th">Year</th>
+<th data-quarto-table-cell-role="th">Observed<br>
+researchers</th>
+<th data-quarto-table-cell-role="th">PIs who can<br>
+form a team</th>
+<th data-quarto-table-cell-role="th">New<br>
+PI→COI ties</th>
+<th data-quarto-table-cell-role="th">Mean<br>
+team size</th>
+<th data-quarto-table-cell-role="th">Female<br>
+PIs (%)</th>
+<th data-quarto-table-cell-role="th">Female<br>
+COIs (%)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td class="yearly-year">2017</td>
+<td>91</td>
+<td>26</td>
+<td>69</td>
+<td>3.8</td>
+<td>57.7</td>
+<td>55.9</td>
+</tr>
+<tr class="even">
+<td class="yearly-year">2018</td>
+<td>161</td>
+<td>21</td>
+<td>58</td>
+<td>3.8</td>
+<td>71.4</td>
+<td>55.3</td>
+</tr>
+<tr class="odd">
+<td class="yearly-year">2019</td>
+<td>261</td>
+<td>31</td>
+<td>99</td>
+<td>4.0</td>
+<td>38.7</td>
+<td>49.3</td>
+</tr>
+<tr class="even">
+<td class="yearly-year">2020</td>
+<td>300</td>
+<td>26</td>
+<td>89</td>
+<td>4.2</td>
+<td>38.5</td>
+<td>52.8</td>
+</tr>
+<tr class="odd">
+<td class="yearly-year">2021</td>
+<td>312</td>
+<td>26</td>
+<td>65</td>
+<td>4.1</td>
+<td>53.8</td>
+<td>50.0</td>
+</tr>
+<tr class="even">
+<td class="yearly-year">2022</td>
+<td>449</td>
+<td>73</td>
+<td>177</td>
+<td>4.2</td>
+<td>46.6</td>
+<td>51.2</td>
+</tr>
+<tr class="odd">
+<td class="yearly-year">2023</td>
+<td>483</td>
+<td>39</td>
+<td>105</td>
+<td>4.1</td>
+<td>43.6</td>
+<td>54.2</td>
+</tr>
+<tr class="even">
+<td class="yearly-year">2024</td>
+<td>502</td>
+<td>37</td>
+<td>102</td>
+<td>4.1</td>
+<td>45.9</td>
+<td>53.5</td>
+</tr>
+<tr class="odd">
+<td class="yearly-year">2025</td>
+<td>551</td>
+<td>43</td>
+<td>123</td>
+<td>4.2</td>
+<td>58.1</td>
+<td>55.8</td>
+</tr>
+</tbody>
+</table>
+<p class="yearly-table-note"><em>Note.</em> Observed researchers are those with at least one PI or COI tie in that year. PIs who can form a team are Education Regular PIs in execution year 1. New PI→COI ties exclude continuing nominations from ongoing projects. Mean team size is the PI plus nominated COIs among PIs with a team that year. Female PI % is among PIs with a team-formation opportunity; female COI % is among researchers receiving at least one nomination.</p></div>
 </section>
 <section>
 <section id="saom-results" class="title-slide slide level1 center">
@@ -581,16 +886,31 @@ Both researchers are part of a research project in the same grant assessment pan
 <section id="discussion" class="slide level2">
 <h2><span style="color:#548893;"><strong>Discussion</strong></span></h2>
 <ul>
-<li class="fragment"><p><strong>From participation to gendered network returns</strong></p>
+<li class="fragment"><strong>Gendered inequality in team formation</strong>
 <ul>
-<li class="fragment">Negative female-ego and non-significant female-alter effects shift attention from participation to team formation under female leadership.</li>
-<li class="fragment">Stronger prestige matching among female PIs is consistent with gender-differentiated network returns.</li>
+<li class="fragment">Among researchers who became PIs, <strong>women formed less extensive teams than men</strong>, contradicting <span style="color:#548893;"><strong>H1</strong></span>: the female-ego effect is negative, so the result runs in the <strong>opposite direction</strong> to the predicted higher PI activity.</li>
+<li class="fragment">Women were <strong>significantly less likely to be selected as COIs</strong>, supporting <span style="color:#548893;"><strong>H2</strong></span> in the expected direction.</li>
+<li class="fragment">Gender inequality thus concerns <strong>who is selected as COI</strong> and <strong>how PI status is converted into collaboration ties</strong>, rather than women’s participation alone.</li>
 </ul></li>
-<li class="fragment"><p><strong>Assortativity as embedded opportunity</strong><br>
-Prestige, sectoral, and territorial similarity, alongside structural effects, may suggest that team formation reflects embedded, institutional opportunity structures.</p></li>
-<li class="fragment"><p><strong>PI-to-CoI formation as a policy site</strong></p>
+<li class="fragment"><strong>Gender clustering within a feminised field</strong>
 <ul>
-<li class="fragment">As PI-to-CoI ties are shaped by gendered organisational processes, funding agencies should monitor research teams and support cross-boundary collaboration.</li>
+<li class="fragment">PIs <strong>disproportionately selected same-gender COIs</strong>, supporting <span style="color:#548893;"><strong>H3</strong></span>.</li>
+<li class="fragment">Numerical feminisation therefore does not eliminate <strong>gendered network boundaries</strong> in team formation (Espinosa et al., 2022; Torre et al., 2025).</li>
+</ul></li>
+<li class="fragment"><strong>Institutionally embedded opportunity structures</strong>
+<ul>
+<li class="fragment">Team ties clustered by <strong>institutional prestige, sector, and territorial profile</strong>, supporting <span style="color:#548893;"><strong>H4</strong></span>.</li>
+<li class="fragment">Collaboration opportunities remain <strong>institutionally bounded</strong> (Feld, 1981; McPherson et al., 2001).</li>
+</ul></li>
+</ul>
+</section>
+<section id="discussion-cont." class="slide level2">
+<h2><span style="color:#548893;"><strong>Discussion (cont.)</strong></span></h2>
+<ul>
+<li class="fragment"><strong>Gendered access across prestige strata</strong>
+<ul>
+<li class="fragment"><strong>Prestige similarity structured female PIs’ selections more strongly than male PIs’</strong>, supporting <span style="color:#548893;"><strong>H5</strong></span>.</li>
+<li class="fragment">This pattern may reflect women’s more <strong>restricted access to cross-prestige collaborators</strong> (Kandiko et al., 2017; Murray et al., 2025).</li>
 </ul></li>
 </ul>
 </section>
@@ -615,6 +935,69 @@ Prestige, sectoral, and territorial similarity, alongside structural effects, ma
 📧 matias.montero@education.ox.ac.uk</p>
 <p>Support from the Economic and Social Research Council (ESRC) [grant number ES/Y001761/1] through the Grand Union Doctoral Training Partnership (GUDTP) and UK Research and Innovation (UKRI) is gratefully acknowledged.</p>
 <p><img data-src="ukri-esrc-square-logo.png" width="120" height="100"></p>
+</section>
+<section id="backup-what-a-tie-is-and-how-it-is-coded" class="slide level2 backup-slide">
+<h2><span style="color:#548893;"><strong>Backup: What a tie is, and how it is coded</strong></span></h2>
+<ul>
+<li>Directed unipartite Education network (FONDECYT Regular), PI → team members, waves 2017–2025.</li>
+<li>A tie <em>i</em> → <em>j</em> in year <em>t</em> is a <strong>project nomination</strong>.</li>
+<li>Free nomination occurs in <strong>execution year 1</strong>; later project years are typically frozen as structural ones.</li>
+</ul>
+<table class="backup-table caption-top">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th">Code</th>
+<th data-quarto-table-cell-role="th">Meaning</th>
+<th data-quarto-table-cell-role="th">In RSiena</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td class="backup-code">1</td>
+<td>Free nomination observed (execution year 1)</td>
+<td>Present; changeable in principle</td>
+</tr>
+<tr class="even">
+<td class="backup-code">0</td>
+<td>Possible but unobserved (includes non-PIs as senders)</td>
+<td>Ordinary absence; may become 1</td>
+</tr>
+<tr class="odd">
+<td class="backup-code">10</td>
+<td>Structural zero (Postdoc/Starter grant senders in restricted years only)</td>
+<td>Impossible dyad; not in the change process</td>
+</tr>
+<tr class="even">
+<td class="backup-code">11</td>
+<td>Structural one (PI→COI in years 2…end of the project)</td>
+<td>Frozen tie; cannot dissolve</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>10</strong> no longer locks entire non-PI sender rows.</li>
+<li>Non-PIs keep ordinary <strong>0</strong>s, so they can still be selected as alters.</li>
+<li>Who may <em>send</em> new nominations is handled in the rate function, not by mass structural zeros.</li>
+</ul>
+</section>
+<section id="backup-who-may-nominate-and-up-only-dynamics" class="slide level2 backup-slide">
+<h2><span style="color:#548893;"><strong>Backup: Who may nominate, and up-only dynamics</strong></span></h2>
+<ul>
+<li><strong>Opportunity: <code>can_send</code> and <code>inactive</code></strong>
+<ul>
+<li>For the interval <em>m</em> → <em>m</em>+1, covariates are taken from wave <em>m</em>.</li>
+<li><strong><code>can_send</code></strong> = 1 if <em>i</em> has a free-nomination window (execution year 1) in <em>m</em>+1. Example: a team starting in 2022 has <code>can_send</code> = 1 in 2021.</li>
+<li><strong><code>inactive</code></strong> = 1 − <code>can_send</code>.</li>
+<li><strong>RateX(<code>inactive</code>) = −100</strong> (fixed, uncentered): if <code>inactive</code> = 1, the outgoing change rate is ≈ 0; if <code>inactive</code> = 0, the period-specific rate applies.</li>
+<li>Inactive researchers remain available as <strong>alters</strong>. Opportunity is in the rate function, not <code>egoX(can_nominate)</code>.</li>
+</ul></li>
+<li><strong>Up-only free dynamics</strong>
+<ul>
+<li>Among free dyads (both ends in {0,1}, no 10/11): ties form (0→1), but there are no free dissolutions (1→0 = 0 in all periods).</li>
+<li>With <code>allowOnly = TRUE</code>, RSiena respects this monotonicity and omits outdegree (density). <code>MaxDegree = 20</code> caps simulated outdegree at the observed maximum.</li>
+<li>The matrix says what is possible or observed; RateX + <code>inactive</code> says who may nominate in each interval; up-only says free-risk ties accumulate rather than cycle through formation and dissolution.</li>
+</ul></li>
+</ul>
 
 </section></section>
     </div>
