@@ -13,6 +13,16 @@ Selected occasions where I have shared work on research funding, academic career
 
 ::: {.talk-list}
 ::: {.talk-item .talk-featured}
+<span class="talk-date">13 August 2026</span><span class="talk-kind">Conference presentation</span>
+
+## Who Gets Picked?
+
+**Gender Disparities and Institutional Prestige in Education Research Funding Networks**
+
+Presented at the 8th European Conference on Social Networks (EUSN 2026), Norrköping, Sweden.
+:::
+
+::: {.talk-item}
 <span class="talk-date">June 2026</span><span class="talk-kind">Research seminar</span>
 
 ## Who Gets Picked?
@@ -21,7 +31,6 @@ Selected occasions where I have shared work on research funding, academic career
 
 Society and Health Research Centre Seminars, Universidad Mayor, Chile.
 
-[View presentation slides](files/slides/ciss-seminar-2026/index.html){.btn .btn-primary target="_blank"}
 :::
 
 ::: {.talk-item}

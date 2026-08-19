@@ -102,9 +102,9 @@ My DPhil investigates the formation and persistence of gender disparities in Lat
 
 ::: {.mini-timeline}
 ::: {.mini-event}
-<span class="mini-date">JUN 2026</span>
+<span class="mini-date">13 AUG 2026</span>
 
-Presented new longitudinal network research on gender and institutional prestige at the CISS Seminar, Universidad de Chile.
+Presented *Who Gets Picked?* at the 8th European Conference on Social Networks (EUSN 2026) in Norrköping, Sweden.
 :::
 
 ::: {.mini-event}

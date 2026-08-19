@@ -13,6 +13,14 @@ This is a chronological view of my recent milestones.
 
 ::: {.news-timeline}
 ::: {.news-item}
+<span class="news-date">13 August 2026</span><span class="news-type">Conference presentation</span>
+
+### Presented *Who Gets Picked?* at EUSN 2026
+
+Presented *Who Gets Picked? Gender Disparities and Institutional Prestige in Education Research Funding Networks* at the 8th European Conference on Social Networks (EUSN 2026) in Norrköping, Sweden.
+:::
+
+::: {.news-item}
 <span class="news-date">July 2026</span><span class="news-type">Research project</span>
 
 ### Extracurricular groups and social status
@@ -27,7 +35,7 @@ Currently working with Diego Palacios on a new project examining how extracurric
 
 ### Presented longitudinal network research at the CISS Seminar
 
-Presented *Who Gets Picked? A Longitudinal Network Analysis of Gender and Institutional Prestige in Education Research Funding* at CIAE, Universidad de Chile. [View the slides](files/slides/ciss-seminar-2026/index.html){target="_blank"}.
+Presented *Who Gets Picked? A Longitudinal Network Analysis of Gender and Institutional Prestige in Education Research Funding* at CIAE, Universidad de Chile.
 :::
 
 ::: {.news-item}
