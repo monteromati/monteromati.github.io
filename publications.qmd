@@ -12,7 +12,7 @@ My publications examine educational inequality across academic careers, gender &
 :::
 
 ::: {.output-summary}
-<div><strong>8</strong><span>Journal articles</span></div>
+<div><strong>9</strong><span>Journal articles</span></div>
 <div><strong>1</strong><span>Book chapter</span></div>
 <div><strong>3</strong><span>Research reports</span></div>
 :::
@@ -26,6 +26,12 @@ My publications examine educational inequality across academic careers, gender &
 :::
 
 ## Journal articles
+
+::: {.publication-item}
+<span class="pub-year">2026</span>
+
+Pilgrim-Brown, J., Chen, L., Kedia, V., Lin, J. C. Y., Ma, Y., Ma, Y., **Montero, M.**, Oancea, A., Shi, A., Wang, X., Xu, X., & Yu, K. Rethinking research-on-research in higher education studies. *Studies in Higher Education*, 1-14. [DOI](https://doi.org/10.1080/03075079.2026.2710343)
+:::
 
 ::: {.publication-item}
 <span class="pub-year">2026</span>

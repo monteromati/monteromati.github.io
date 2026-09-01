@@ -13,6 +13,14 @@ This is a chronological view of my recent milestones.
 
 ::: {.news-timeline}
 ::: {.news-item}
+<span class="news-date">26 August 2026</span><span class="news-type">Publication</span>
+
+### New article on research-on-research in higher education
+
+Published *Rethinking research-on-research in higher education studies* with colleagues in *Studies in Higher Education*. [Read the open-access article](https://doi.org/10.1080/03075079.2026.2710343).
+:::
+
+::: {.news-item}
 <span class="news-date">13 August 2026</span><span class="news-type">Conference presentation</span>
 
 ### Presented *Who Gets Picked?* at EUSN 2026
