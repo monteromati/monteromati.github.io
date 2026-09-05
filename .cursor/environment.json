@@ -1,0 +1,18 @@
+{
+  "name": "Matías Montero — Quarto site",
+  "user": "ubuntu",
+  "install": "bash .cursor/install.sh",
+  "terminals": [
+    {
+      "name": "quarto-preview",
+      "command": "quarto preview --port 4321 --host 0.0.0.0 --no-browser",
+      "description": "Quarto live-preview dev server for the website (http://localhost:4321). Auto-rebuilds pages on change."
+    }
+  ],
+  "ports": [
+    {
+      "name": "quarto-preview",
+      "port": 4321
+    }
+  ]
+}
