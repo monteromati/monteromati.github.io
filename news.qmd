@@ -35,7 +35,7 @@ Presented *Who Gets Picked? Gender Disparities and Institutional Prestige in Edu
 
 Currently working with Diego Palacios on a new project examining how extracurricular groups shape social status and peer-network dynamics.
 
-[Watch the network here](files/networks/popular_networks_combined_interactive.html){target="_blank"}
+[Watch the network here](files/networks/extracurricular_networks_popularity_likeability.html){target="_blank"}
 :::
 
 ::: {.news-item}
@@ -53,7 +53,7 @@ Presented *Who Gets Picked? A Longitudinal Network Analysis of Gender and Instit
 
 Joined the Society and Health Research Centre to collaborate with Diego Palacios on relational opportunity structures, extracurricular contexts, and peer-network dynamics in adolescence.
 
-[Watch the network here](files/networks/popular_networks_combined_interactive.html){target="_blank"}
+[Watch the network here](files/networks/extracurricular_networks_popularity_likeability.html){target="_blank"}
 :::
 
 ::: {.news-item}
