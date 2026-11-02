@@ -11,46 +11,49 @@ title-block-banner: false
 Selected occasions where I have shared work on research funding, academic careers, quantitative methods, and education.
 :::
 
-::: {.talk-list}
-::: {.talk-item .talk-featured}
-<span class="talk-date">13 August 2026</span><span class="talk-kind">Conference presentation</span>
-
-## Who Gets Picked?
+::: {.record-list}
+::: {.record}
+<p class="record-meta"><time datetime="2026-08-13">13 August 2026</time> · Conference presentation</p>
+::: {}
+### Who Gets Picked?
 
 **Gender Disparities and Institutional Prestige in Education Research Funding Networks**
 
 Presented at the 8th European Conference on Social Networks (EUSN 2026), Norrköping, Sweden.
 :::
+:::
 
-::: {.talk-item}
-<span class="talk-date">June 2026</span><span class="talk-kind">Research seminar</span>
-
-## Who Gets Picked?
+::: {.record}
+<p class="record-meta"><time datetime="2026-06">June 2026</time> · Research seminar</p>
+::: {}
+### Who Gets Picked?
 
 **A Longitudinal Network Analysis of Gender and Institutional Prestige in Education Research Funding**
 
 Society and Health Research Centre Seminars, Universidad Mayor, Chile.
-
+:::
 :::
 
-::: {.talk-item}
-<span class="talk-date">March 2026</span><span class="talk-kind">Guest lecture</span>
+::: {.record}
+<p class="record-meta"><time datetime="2026-03">March 2026</time> · Guest lecture</p>
+::: {}
+### Independent research projects
 
-## Independent research projects
-
-Guest lecture for the MA module *Independent Project (MCM999)*, School of Communication & Creativity, City St George's, University of London.
+Guest lecture for the MA module *Independent Project (MCM999)*, School of Communication & Creativity, City St George’s, University of London.
+:::
 :::
 
-::: {.talk-item}
-<span class="talk-date">April 2019</span><span class="talk-kind">Academic poster</span>
-
-## Assessing the Student's t-test assumptions frequently noted in statistics textbooks
+::: {.record}
+<p class="record-meta"><time datetime="2019-04">April 2019</time> · Academic poster</p>
+::: {}
+### Assessing the Student’s t-test assumptions frequently noted in statistics textbooks
 
 Presented at the 1st National Research Techniques and Methods Meeting of the Chilean Association of Methodology, Measurement and Assessment (ACMME). Recipient of the William Gosset Award for best undergraduate academic poster.
 :::
 :::
+:::
 
-::: {.cta-panel}
+::: {.endnote}
 ## Speaking interests
 
 I welcome opportunities to discuss social network analysis, gender inequalities in academic careers, educational transitions, and quantitative research design. [Get in touch](mailto:matias.montero@education.ox.ac.uk).

@@ -1,7 +1,10 @@
 ---
-title: Page Unplugged
+title: "Page not found"
+toc: false
+title-block-banner: false
+page-navigation: false
 ---
 
-The page you requested cannot be found (perhaps it was unplugged).
+The address does not match a page on this site.
 
-You may want to try searching to find the page's new plug.
+[Return to the homepage](index.qmd)

@@ -12,6 +12,7 @@ project:
     - publications.qmd
     - conferences.qmd
     - teaching.qmd
+    - experience.qmd
     - contact.qmd
     - 404.qmd
 
@@ -29,24 +30,31 @@ website:
     left:
       - text: Research
         href: projects.qmd
-      - text: News
-        href: news.qmd
       - text: Publications
         href: publications.qmd
       - text: Talks
         href: conferences.qmd
       - text: Teaching
         href: teaching.qmd
+      - text: Experience
+        href: experience.qmd
+      - text: News
+        href: news.qmd
     right:
+      - text: Contact
+        href: contact.qmd
       - text: CV
         href: files/Montero_CV.pdf
         target: _blank
+        aria-label: "Curriculum vitae (PDF)"
       - icon: github
         href: https://github.com/monteromati
         target: _blank
+        aria-label: GitHub
       - icon: linkedin
         href: https://www.linkedin.com/in/matiasmonteros/
         target: _blank
+        aria-label: LinkedIn
 
   page-navigation: true
   back-to-top-navigation: true
@@ -59,6 +67,7 @@ website:
       - icon: github
         href: https://github.com/monteromati
         target: _blank
+        aria-label: GitHub
 
   search:
     location: navbar
@@ -74,10 +83,10 @@ bibliography: references.bib
 
 format:
   html:
-    theme: cosmo
+    theme: theme.scss
     css: styles.css
-    toc: true
-    toc-location: right
+    toc: false
+    page-layout: full
     anchor-sections: true
     footnotes-hover: true
     code-copy: true
@@ -88,4 +97,5 @@ format:
     link-external-newwindow: true
     email-obfuscation: javascript
     include-in-header: "files/includes/_academic.qmd"
+    include-before-body: "files/includes/skip-link.html"
     include-after-body: "files/includes/network-background.html"
