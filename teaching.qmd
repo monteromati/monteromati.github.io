@@ -10,61 +10,56 @@ title-block-banner: false
 ::: {.page-lede}
 My teaching spans postgraduate and undergraduate courses in quantitative methods, statistics, research design, and sociology of education. I focus on helping students connect methodological choices to meaningful substantive questions.
 :::
-
 ## Current and recent teaching
 
-::: {.record-list}
-::: {.record}
-<p class="record-meta">2025–present</p>
-::: {}
+::: {.teaching-list}
+::: {.teaching-item}
+<span class="teaching-date">2025-present</span>
+
 ### Doctoral Teaching Fellow
 
 **Department of Education, University of Oxford**
 
-- *Introduction to Quantitative Research* — MSc and doctoral students
-- *Intermediate Quantitative Research* — MSc and doctoral students
+- *Introduction to Quantitative Research* - MSc and doctoral students
+- *Intermediate Quantitative Research* - MSc and doctoral students
 - Course lead: Lars-Erik Malmberg
 :::
-:::
 
-::: {.record}
-<p class="record-meta"><time datetime="2026-03">March 2026</time></p>
-::: {}
+::: {.teaching-item}
+<span class="teaching-date">March 2026</span>
+
 ### Guest Lecturer
 
-**City St George’s, University of London**
+**City St George's, University of London**
 
-- *Independent Project (MCM999)* — MA module, School of Communication & Creativity
-:::
+- *Independent Project (MCM999)* - MA module, School of Communication & Creativity
 :::
 
-::: {.record}
-<p class="record-meta">2024</p>
-::: {}
+::: {.teaching-item}
+<span class="teaching-date">2024</span>
+
 ### Teaching Assistant
 
 **Universidad de Chile**
 
-- *Quantitative Research Methodology in Education* — PhD in Education
-- *Quantitative Methodology II* — MSc in Educational Research
-:::
+- *Quantitative Research Methodology in Education* - PhD in Education
+- *Quantitative Methodology II* - MSc in Educational Research
 :::
 
-::: {.record}
-<p class="record-meta">2021–2023</p>
-::: {}
+::: {.teaching-item}
+<span class="teaching-date">2021-2023</span>
+
 ### Teaching Assistant
 
 **Universidad Diego Portales**
 
-- *Basic Statistics* — MSc in Social Research Methods
-- *Advanced Statistical Techniques* — MSc in Social Research Methods
-:::
+- *Basic Statistics* - MSc in Social Research Methods
+- *Advanced Statistical Techniques* - MSc in Social Research Methods
 :::
 
-::: {.record}
-<p class="record-meta">2021</p>
-::: {}
+::: {.teaching-item}
+<span class="teaching-date">2021</span>
+
 ### Teaching Assistant
 
 **Universidad de Chile, Pontificia Universidad Católica de Chile, and Universidad Alberto Hurtado**
@@ -72,24 +67,23 @@ My teaching spans postgraduate and undergraduate courses in quantitative methods
 - *Sociology of Education*, *Social Research Methods*, *Statistics I*, and *Mixed Methods Applied to Social Sciences*
 :::
 :::
-:::
 
 ## Earlier teaching
 
 Between 2017 and 2021, I supported undergraduate courses in psychological measurement, multivariate statistics, quantitative research strategies, descriptive and correlational statistics, and the social and political history of Chile and Latin America.
 
-::: {.approach}
-::: {}
-<p class="kicker">Approach</p>
+::: {.teaching-philosophy}
+::: {.teaching-philosophy-copy}
+<p class="eyebrow light">APPROACH</p>
 
 ## Methods are most useful when students can see the question behind them
 
 I teach quantitative work as a sequence of research decisions: defining a question, understanding the data-generating process, choosing a defensible model, and communicating uncertainty with clarity.
 :::
 
-<dl class="fact-list">
-<div><dt>Concept first</dt><dd>Build intuition before formalism.</dd></div>
-<div><dt>Applied practice</dt><dd>Learn by working through real research problems.</dd></div>
-<div><dt>Transparent choices</dt><dd>Make assumptions and trade-offs visible.</dd></div>
-</dl>
+::: {.teaching-principles}
+<div><strong>Concept first</strong><span>Build intuition before formalism.</span></div>
+<div><strong>Applied practice</strong><span>Learn by working through real research problems.</span></div>
+<div><strong>Transparent choices</strong><span>Make assumptions and trade-offs visible.</span></div>
+:::
 :::

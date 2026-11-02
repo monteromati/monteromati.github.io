@@ -1,33 +1,87 @@
 ---
 title: "Experience"
-subtitle: "Roles, research projects, and a visiting appointment"
-description-meta: "Academic experience of Matías Montero at Oxford and in collaborative research."
 page-navigation: true
 toc: false
-title-block-banner: false
 ---
 
-<div class="bilingual">
-<div class="lang-switch" role="group" aria-label="Language">
-  <input type="radio" name="site-lang" id="lang-en" checked>
-  <label for="lang-en">English</label>
-  <input type="radio" name="site-lang" id="lang-es">
-  <label for="lang-es">Español</label>
+```{=html}
+<div id="language-switcher">
+  <button id="lang-en" onclick="switchLanguage('en')" class="lang-btn active">🇬🇧 EN</button>
+  <button id="lang-es" onclick="switchLanguage('es')" class="lang-btn">🇪🇸 ES</button>
 </div>
 
-<div class="lang-panel lang-en" lang="en">
+<style>
+#language-switcher {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  display: flex;
+  gap: 8px;
+  background: white;
+  padding: 4px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.lang-btn {
+  background: white;
+  border: 2px solid #ddd;
+  padding: 8px 14px;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  font-weight: normal;
+  color: #333;
+}
+
+.lang-btn:hover {
+  background: #f5f5f5;
+  border-color: #999;
+}
+
+.lang-btn.active {
+  background: #0066cc;
+  color: white;
+  border-color: #0066cc;
+  font-weight: bold;
+}
+</style>
+
+<script>
+let currentLang = 'en';
+
+function switchLanguage(lang) {
+  currentLang = lang;
+  document.querySelectorAll('[data-lang]').forEach(el => {
+    if (el.getAttribute('data-lang') === lang) {
+      el.style.display = '';
+    } else {
+      el.style.display = 'none';
+    }
+  });
+  document.getElementById('lang-en').classList.toggle('active', lang === 'en');
+  document.getElementById('lang-es').classList.toggle('active', lang === 'es');
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  switchLanguage('en');
+});
+</script>
+```
+
+<div data-lang="en">
 
 ## Current Roles
 
 **DPhil Student in Education**  
-Department of Education, University of Oxford | Oxford, United Kingdom
-
+Department of Education, University of Oxford | Oxford, United Kingdom  
 - Doctoral research on inequalities in education, social networks, and students’ trajectories in academically selective and stratified systems.
 
 **Doctoral Teaching Fellow**  
-Department of Education, University of Oxford | Oct 2025 – Current
-
-- Co-teaches Introduction to Quantitative Research and Intermediate Quantitative Research in the PhD and MSc in Education programmes.
+Department of Education, University of Oxford | Oct 2025 – Current  
+- Co-teaches Introduction to Quantitative Research and Intermediate Quantitative Research in the PhD and MSc in Education programmes.  
 - Supports postgraduate students in the design and implementation of quantitative research in education.
 
 ## Selected Research Projects (Last 3 Years)
@@ -68,25 +122,22 @@ PI: Lorena Ortega (CIAE, Institute for Advanced Studies in Education, Universida
 
 **Visiting Doctoral Student**  
 Institute of Sociology, Pontificia Universidad Católica de Chile  
-Academic Host: Dr Alejandro Espinosa Rada.
-
+Academic Host: Dr Alejandro Espinosa Rada.  
 - Collaborated on the FONDECYT Postdoctoral Grant 3250037: *Isolation and Social Groups in a University Community*.
 
 </div>
 
-<div class="lang-panel lang-es" lang="es">
+<div data-lang="es" style="display: none;">
 
 ## Roles Actuales
 
 **Estudiante de Doctorado en Educación (DPhil)**  
-Department of Education, University of Oxford | Oxford, Reino Unido
-
+Department of Education, University of Oxford | Oxford, Reino Unido  
 - Investigación doctoral sobre desigualdades educativas, redes sociales y trayectorias estudiantiles en sistemas académicamente selectivos y estratificados.
 
 **Fellow de Docencia Doctoral**  
-Department of Education, University of Oxford | Oct 2025 – Actualidad
-
-- Co-dicta Introduction to Quantitative Research e Intermediate Quantitative Research en los programas de PhD y MSc en Educación.
+Department of Education, University of Oxford | Oct 2025 – Actualidad  
+- Co-dicta Introduction to Quantitative Research e Intermediate Quantitative Research en los programas de PhD y MSc en Educación.  
 - Apoya a estudiantes de postgrado en el diseño e implementación de investigación cuantitativa en educación.
 
 ## Proyectos de Investigación Seleccionados (Últimos 3 Años)
@@ -127,10 +178,8 @@ PI: Lorena Ortega (CIAE, Instituto de Estudios Avanzados en Educación, Universi
 
 **Estudiante de Doctorado Visitante**  
 Instituto de Sociología, Pontificia Universidad Católica de Chile  
-Anfitrión académico: Dr Alejandro Espinosa Rada.
-
+Anfitrión académico: Dr Alejandro Espinosa Rada.  
 - Colaboración en el FONDECYT Postdoctoral 3250037: *Isolation and Social Groups in a University Community*.
 
-</div>
 </div>
 

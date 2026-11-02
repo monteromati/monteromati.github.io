@@ -6,19 +6,16 @@
 <meta name="color-scheme" content="light">
 <meta name="description" content="Explore popularity and likeability nomination networks across six extracurricular activity groups and two observation waves.">
 <title>Extracurricular Networks | Popularity &amp; Likeability</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400..800;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
 <style>
 :root {
-  --page: #f3f0e8; --paper: #faf8f4; --paper-warm: #f3f0e8;
-  --ink: #1a1814; --ink-soft: #3a342c; --muted: #5c564c; --faint: #8a8378;
-  --line: #ddd6c8; --line-strong: #c9c1b2;
-  --navy: #1a1814; --accent: #6f2c2c; --accent-light: #f3e8e2;
-  --node: #08519c; --stable: #1a1814; --formed: #1f7a32; --dissolved: #9b2c2c;
-  --radius: 2px; --shadow: none;
-  --sans: "Source Sans 3", "Segoe UI", sans-serif;
-  --serif: "Source Serif 4", "Iowan Old Style", Palatino, Georgia, serif;
+  --page: #f5f7f6; --paper: #ffffff; --paper-warm: #fcfdfc;
+  --ink: #142d34; --ink-soft: #344950; --muted: #6b7e82; --faint: #9aa9ad;
+  --line: #dce5e5; --line-strong: #bdcbce;
+  --navy: #173e46; --accent: #2b6670; --accent-light: #e4eeee;
+  --node: #08519c; --stable: #172f33; --formed: #008000; --dissolved: #cc0000;
+  --radius: 13px; --shadow: 0 6px 24px rgba(21,45,52,.035);
+  --sans: 'Avenir Next','Segoe UI',ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,sans-serif;
+  --serif: 'Iowan Old Style','Baskerville','Palatino Linotype',Georgia,serif;
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
@@ -277,35 +274,13 @@ body:has(.focus-dialog[open]){overflow:hidden}
  .network-grid[data-dimension=both]{grid-template-columns:1fr}
  .network-card.is-dual{break-inside:avoid}
 }
-
-.topbar{background:var(--page);color:var(--ink);border-bottom:1px solid var(--line);height:64px}
-.brand-mark{border-color:var(--line-strong);color:var(--ink)}
-.brand-divider{background:var(--line-strong)}
-.brand-section,.topbar-right{color:var(--muted);letter-spacing:0;text-transform:none;font-size:13px;font-weight:500}
-.brand-home{color:var(--accent);text-decoration:underline;text-underline-offset:.16em;font-weight:500;font-size:14px}
-.brand-home:hover{color:var(--ink)}
-.status-dot{display:none}
-.eyebrow,.label-compact,.legend-title,.card-type,.note-tag,.focus-back,.sidebar-label{letter-spacing:0;text-transform:none;font-weight:500}
-.eyebrow{font-size:14px;color:var(--muted)}
-.eyebrow::before{display:none}
-h1{letter-spacing:-.02em;font-weight:500}
-.label-compact,.legend-title,.card-type,.note-tag,.sidebar-label,.focus-back{font-size:12px}
-.network-card,.control-surface,.focus-dialog{box-shadow:none}
-.network-card:hover,.network-card.is-dual:hover{transform:none;box-shadow:none}
-.icon-btn,.expand-btn,.relation-switch,.relation-btn,.view-btn,.wave-btn,.panel-expand,.card-actions,.focus-type-switch,.node-tooltip,.plot-wrap,.relation-panel{border-radius:2px}
-.relation-btn[aria-pressed=true],.icon-btn.strong{background:var(--ink);color:var(--paper);border-color:var(--ink)}
-.relation-switch,.card-actions,.focus-type-switch{background:var(--page)}
-.focus-dialog::backdrop{background:rgba(26,24,20,.46);backdrop-filter:none}
-button:focus-visible,input:focus-visible,a:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
 </style>
 </head>
 <body>
 <a class="skip-link" href="#networks">Skip to network visualizations</a>
 <header class="topbar">
   <div class="brand">
-    <a class="brand-home" href="../../index.html">Matías Montero</a>
-    <span class="brand-divider" aria-hidden="true"></span>
-    <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 22 22" fill="none"><path d="M5 16L10 5L18 13L5 16Z" stroke="currentColor" stroke-width="1.1"/><circle cx="5" cy="16" r="2.2" fill="currentColor"/><circle cx="10" cy="5" r="2.2" fill="#6f2c2c"/><circle cx="18" cy="13" r="2.2" fill="currentColor"/></svg></span>
+    <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 22 22" fill="none"><path d="M5 16L10 5L18 13L5 16Z" stroke="white" stroke-width="1.1" opacity=".8"/><circle cx="5" cy="16" r="2.2" fill="white"/><circle cx="10" cy="5" r="2.2" fill="#9bc6ca"/><circle cx="18" cy="13" r="2.2" fill="white"/></svg></span>
     <span class="brand-name">Extracurricular Networks</span>
     <span class="brand-divider" aria-hidden="true"></span>
     <span class="brand-section">Research visualization</span>

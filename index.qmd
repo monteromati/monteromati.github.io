@@ -9,121 +9,136 @@ page-layout: full
 title-block-banner: false
 ---
 
-::: {.opening}
-::: {.opening-copy}
-<p class="kicker">Sociology of education · Social network analysis</p>
+```{=html}
+<style>.quarto-title-block { display: none; }</style>
+```
 
-# Matías Montero
+::: {.hero-shell}
+::: {.hero-copy}
+<p class="eyebrow">SOCIOLOGY OF EDUCATION · SOCIAL NETWORK ANALYSIS</p>
 
-<p class="standfirst">How relationships and institutions shape educational opportunity</p>
+# How relationships and institutions shape educational opportunity
 
-I am a **DPhil researcher in Education at the University of Oxford**, funded by the UK’s Economic and Social Research Council. My work examines how gender, institutional prestige, and social ties shape academic careers and educational trajectories.
+I am a **DPhil researcher in Education at the University of Oxford**, funded by the UK's Economic and Social Research Council. My work examines how gender, institutional prestige, and social ties shape academic careers and educational trajectories.
 
-<p class="opening-links">
-[Research](projects.qmd){.action}
-[Curriculum vitae](files/Montero_CV.pdf){target="_blank"}
-[Email](mailto:matias.montero@education.ox.ac.uk)
-</p>
-
-<p class="topics">Educational inequality, social networks, gender, and quantitative methods.</p>
+::: {.hero-actions}
+[Explore my research](projects.qmd){.btn .btn-primary .btn-lg}
+[Download CV](files/Montero_CV.pdf){.btn .btn-outline-primary .btn-lg target="_blank"}
 :::
 
-<figure class="portrait">
-<img src="files/images/matias-montero-profile.jpg" alt="Portrait of Matías Montero">
-<figcaption>ESRC Grand Union DTP<br>Department of Education, Oxford</figcaption>
-</figure>
+::: {.research-tags}
+<span>Educational inequality</span><span>Social networks</span><span>Gender</span><span>Quantitative methods</span>
+:::
 :::
 
-::: {.agenda}
+::: {.hero-portrait}
+![](files/images/matias-montero-profile.jpg){fig-alt="Portrait of Matías Montero"}
+
+::: {.portrait-note}
+**Matías Montero**<br>
+DPhil in Education · University of Oxford<br>
+ESRC Grand Union DTP Scholar
+:::
+:::
+:::
+
+::: {.section-intro}
+<p class="eyebrow">RESEARCH AGENDA</p>
+
 ## Connecting structures, relationships, and outcomes
 
-My research moves across higher education, schools, and classrooms, using longitudinal and relational methods to understand when institutions reproduce inequality — and when they create room for change.
-
-<ol class="index-list">
-<li>
-<span class="index-num">01</span>
-<div>
-<h3>Academic careers</h3>
-<p>How gender and institutional prestige influence collaboration, research funding, leadership, and attrition across education researchers’ careers.</p>
-</div>
-</li>
-<li>
-<span class="index-num">02</span>
-<div>
-<h3>Educational transitions</h3>
-<p>How stratified systems shape course choices, higher-education access, and the trajectories of migrant and international students.</p>
-</div>
-</li>
-<li>
-<span class="index-num">03</span>
-<div>
-<h3>Relational methods</h3>
-<p>How social network analysis and quantitative research can reveal the mechanisms linking opportunity structures to educational outcomes.</p>
-</div>
-</li>
-</ol>
+My research moves across higher education, schools, and classrooms, using longitudinal and relational methods to understand when institutions reproduce inequality - and when they create room for change.
 :::
 
-::: {.spread}
-::: {}
-<p class="kicker">Current doctoral work</p>
+::: {.research-grid}
+::: {.research-card}
+<span class="card-number">01</span>
+
+### Academic careers
+
+How gender and institutional prestige influence collaboration, research funding, leadership, and attrition across education researchers' careers.
+:::
+
+::: {.research-card}
+<span class="card-number">02</span>
+
+### Educational transitions
+
+How stratified systems shape course choices, higher-education access, and the trajectories of migrant and international students.
+:::
+
+::: {.research-card}
+<span class="card-number">03</span>
+
+### Relational methods
+
+How social network analysis and quantitative research can reveal the mechanisms linking opportunity structures to educational outcomes.
+:::
+:::
+
+::: {.home-band}
+::: {.home-band-copy}
+<p class="eyebrow light">CURRENT DOCTORAL WORK</p>
 
 ## Networks and gender disparities across academic careers
 
 My DPhil investigates the formation and persistence of gender disparities in Latin American education research. I model co-authorship and funding networks over time to examine how individual careers and institutional contexts interact.
 
-<p class="more-link">[View research projects](projects.qmd)</p>
+[View research projects →](projects.qmd){.band-link}
 :::
 
-<dl class="fact-list">
-<div><dt>Oxford</dt><dd>Department of Education</dd></div>
-<div><dt>Longitudinal</dt><dd>Network perspective</dd></div>
-<div><dt>Latin America</dt><dd>Regional focus</dd></div>
-</dl>
+::: {.home-band-facts}
+<div><strong>Oxford</strong><span>Department of Education</span></div>
+<div><strong>Longitudinal</strong><span>Network perspective</span></div>
+<div><strong>Latin America</strong><span>Regional focus</span></div>
+:::
 :::
 
-::: {.home-split}
-::: {}
+::: {.home-columns}
+::: {.home-latest}
+<p class="eyebrow">LATEST</p>
+
 ## Recent activity
 
-<div class="record-list">
-<article class="record">
-<p class="record-meta"><time datetime="2026-08-13">13 August 2026</time></p>
-<div><p>Presented <em>Who Gets Picked?</em> at the 8th European Conference on Social Networks (EUSN 2026) in Norrköping, Sweden.</p></div>
-</article>
-<article class="record">
-<p class="record-meta">April–June 2026</p>
-<div><p>Visiting Doctoral Researcher at Universidad Mayor’s Society and Health Research Centre.</p></div>
-</article>
-<article class="record">
-<p class="record-meta"><time datetime="2026-03">March 2026</time></p>
-<div><p>Published a comparative PISA study of pathways to gender equity in mathematics in <em>Studies in Educational Evaluation</em>.</p></div>
-</article>
-</div>
+::: {.mini-timeline}
+::: {.mini-event}
+<span class="mini-date">13 AUG 2026</span>
 
-<p class="more-link">[See the full timeline](news.qmd)</p>
+Presented *Who Gets Picked?* at the 8th European Conference on Social Networks (EUSN 2026) in Norrköping, Sweden.
 :::
 
-::: {}
-<p class="kicker">Featured publication</p>
+::: {.mini-event}
+<span class="mini-date">APR-JUN 2026</span>
+
+Visiting Doctoral Researcher at Universidad Mayor's Society and Health Research Centre.
+:::
+
+::: {.mini-event}
+<span class="mini-date">MAR 2026</span>
+
+Published a comparative PISA study of pathways to gender equity in mathematics in *Studies in Educational Evaluation*.
+:::
+:::
+
+[See the full timeline →](news.qmd)
+:::
+
+::: {.home-output}
+<p class="eyebrow">FEATURED OUTPUT</p>
 
 ## Gender segregation in secondary-school course choices
 
-This <em>American Educational Research Journal</em> article examines socioeconomic gradients and the protective role of school gender culture in Chile.
+This *American Educational Research Journal* article examines socioeconomic gradients and the protective role of school gender culture in Chile.
 
-<p><strong>Ortega, Montero, Canals &amp; Mizala (2025)</strong></p>
-
-<p class="more-link"><a href="https://doi.org/10.3102/00028312241308537">Read the article</a></p>
+**Ortega, Montero, Canals & Mizala (2025)**<br>
+[Read the article](https://doi.org/10.3102/00028312241308537){.btn .btn-sm .btn-outline-primary}
 :::
 :::
 
-::: {.correspondence}
+::: {.contact-strip}
+<p class="eyebrow">CONNECT</p>
+
 ## Interested in education, networks, or quantitative methods?
 
-<p class="link-row">
-<a href="mailto:matias.montero@education.ox.ac.uk">Email</a>
-<a href="https://orcid.org/0000-0003-1610-2477">ORCID</a>
-<a href="https://scholar.google.com/citations?user=Bsr3stIAAAAJ&hl=en">Google Scholar</a>
-<a href="https://github.com/monteromati">GitHub</a>
-</p>
+[Email me](mailto:matias.montero@education.ox.ac.uk) · [ORCID](https://orcid.org/0000-0003-1610-2477) · [Google Scholar](https://scholar.google.com/citations?user=Bsr3stIAAAAJ&hl=en) · [GitHub](https://github.com/monteromati)
 :::

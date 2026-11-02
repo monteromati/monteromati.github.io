@@ -2,7 +2,7 @@
 title: "News"
 subtitle: "Research, publications, visits, and teaching"
 description-meta: "A timeline of recent research activity by Matías Montero."
-page-layout: full
+page-layout: article
 toc: false
 title-block-banner: false
 ---
@@ -11,116 +11,104 @@ title-block-banner: false
 This is a chronological view of my recent milestones.
 :::
 
-::: {.record-list}
-::: {.record}
-<p class="record-meta"><time datetime="2026-08-26">26 August 2026</time> · Publication</p>
-::: {}
+::: {.news-timeline}
+::: {.news-item}
+<span class="news-date">26 August 2026</span><span class="news-type">Publication</span>
+
 ### New article on research-on-research in higher education
 
 Published *Rethinking research-on-research in higher education studies* with colleagues in *Studies in Higher Education*. [Read the open-access article](https://doi.org/10.1080/03075079.2026.2710343).
 :::
-:::
 
-::: {.record}
-<p class="record-meta"><time datetime="2026-08-13">13 August 2026</time> · Conference presentation</p>
-::: {}
+::: {.news-item}
+<span class="news-date">13 August 2026</span><span class="news-type">Conference presentation</span>
+
 ### Presented *Who Gets Picked?* at EUSN 2026
 
 Presented *Who Gets Picked? Gender Disparities and Institutional Prestige in Education Research Funding Networks* at the 8th European Conference on Social Networks (EUSN 2026) in Norrköping, Sweden.
 :::
-:::
 
-::: {.record}
-<p class="record-meta"><time datetime="2026-07">July 2026</time> · Research project</p>
-::: {}
+::: {.news-item}
+<span class="news-date">July 2026</span><span class="news-type">Research project</span>
+
 ### Extracurricular groups and social status
 
 Currently working with Diego Palacios on a new project examining how extracurricular groups shape social status and peer-network dynamics.
 
 [Watch the network here](files/networks/extracurricular_networks_popularity_likeability.html){target="_blank"}
 :::
-:::
 
-::: {.record}
-<p class="record-meta"><time datetime="2026-06">June 2026</time> · Talk</p>
-::: {}
+::: {.news-item}
+<span class="news-date">June 2026</span><span class="news-type">Talk</span>
+
 ### Presented longitudinal network research at the CISS Seminar
 
 Presented *Who Gets Picked? A Longitudinal Network Analysis of Gender and Institutional Prestige in Education Research Funding* at CIAE, Universidad de Chile.
 :::
-:::
 
-::: {.record}
-<p class="record-meta">April–June 2026 · Research visit</p>
-::: {}
+::: {.news-item}
+<span class="news-date">April-June 2026</span><span class="news-type">Research visit</span>
+
 ### Visiting Doctoral Researcher at Universidad Mayor
 
 Joined the Society and Health Research Centre to collaborate with Diego Palacios on relational opportunity structures, extracurricular contexts, and peer-network dynamics in adolescence.
 
 [Watch the network here](files/networks/extracurricular_networks_popularity_likeability.html){target="_blank"}
 :::
-:::
 
-::: {.record}
-<p class="record-meta"><time datetime="2026-03">March 2026</time> · Publication</p>
-::: {}
+::: {.news-item}
+<span class="news-date">March 2026</span><span class="news-type">Publication</span>
+
 ### New comparative study of mathematics gender gaps
 
 Published *Pathways to Gender Equity in Latin America and the Caribbean* with Lorena Ortega, Andrés Romero, Catalina Canals, and Alejandra Mizala in *Studies in Educational Evaluation*. [Read the article](https://doi.org/10.1016/j.stueduc.2026.101579).
 :::
-:::
 
-::: {.record}
-<p class="record-meta"><time datetime="2026-03">March 2026</time> · Teaching</p>
-::: {}
-### Guest lecture at City St George’s, University of London
+::: {.news-item}
+<span class="news-date">March 2026</span><span class="news-type">Teaching</span>
+
+### Guest lecture at City St George's, University of London
 
 Delivered a session for the MA module *Independent Project* at the School of Communication & Creativity.
 :::
-:::
 
-::: {.record}
-<p class="record-meta"><time datetime="2026-02">February 2026</time> · Project</p>
-::: {}
+::: {.news-item}
+<span class="news-date">February 2026</span><span class="news-type">Project</span>
+
 ### Joined a British Academy international-student collaboration
 
 Contributed to *Making Europe a Global Magnet for International Students*, a Pump Priming collaboration led by Rachel Brooks at the University of Oxford.
 :::
-:::
 
-::: {.record}
-<p class="record-meta"><time datetime="2025-12">December 2025</time> · Publication</p>
-::: {}
-### Article on foreign students’ transitions to higher education
+::: {.news-item}
+<span class="news-date">December 2025</span><span class="news-type">Publication</span>
+
+### Article on foreign students' transitions to higher education
 
 Published *The Unfulfilled “Chilean Dream”?* with Catalina Zelada and Lorena Ortega in *Education Policy Analysis Archives*. [Read the article](https://doi.org/10.14507/epaa.33.8520).
 :::
-:::
 
-::: {.record}
-<p class="record-meta"><time datetime="2025-10">October 2025</time> · Teaching</p>
-::: {}
+::: {.news-item}
+<span class="news-date">October 2025</span><span class="news-type">Teaching</span>
+
 ### Began as a Doctoral Teaching Fellow at Oxford
 
 Joined the quantitative research methods teaching team for MSc and doctoral students in the Department of Education.
 :::
-:::
 
-::: {.record}
-<p class="record-meta">June–October 2025 · Research visit</p>
-::: {}
+::: {.news-item}
+<span class="news-date">June-October 2025</span><span class="news-type">Research visit</span>
+
 ### Visiting Doctoral Researcher at Pontificia Universidad Católica de Chile
 
 Collaborated with Alejandro Espinosa Rada on the FONDECYT project *Isolation and Social Groups in a University Community*.
 :::
-:::
 
-::: {.record}
-<p class="record-meta"><time datetime="2024-07">July 2024</time> · Award</p>
-::: {}
+::: {.news-item}
+<span class="news-date">July 2024</span><span class="news-type">Award</span>
+
 ### Awarded an ESRC Grand Union DTP Studentship
 
 Received doctoral funding from the Economic and Social Research Council through the Grand Union Doctoral Training Partnership.
-:::
 :::
 :::
